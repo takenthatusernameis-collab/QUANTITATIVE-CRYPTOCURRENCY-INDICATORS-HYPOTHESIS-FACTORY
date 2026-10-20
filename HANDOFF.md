@@ -317,11 +317,20 @@ Conduct the **twenty-first research cycle**. Follow the continuous iteration loo
 - **Artefact consistency fixes:** RANKED_SHORTLIST.md table updated to reflect current scores (CRYPTO-EDGE-003 → 55/100, CRYPTO-EDGE-004 → 48/100); IDEA_LEDGER.md version headers synced (CRYPTO-EDGE-001 → v1.10, CRYPTO-EDGE-002 → v1.6); IDEA_LEDGER.md item 16 for CRYPTO-EDGE-004 updated to reflect free-data accessibility 4/5 → 12 (total 48).
 - No empirical validation, backtests, performance statistics, or strategy optimisation performed. All changes are research documentation only.
 
-## Next Task — initial message for the next agent (twenty-second cycle)
+## Twenty-second Research Cycle (2026-10-20) — Summary
+
+- **Re-derived totals:** All four totals confirmed from dimension contributions (CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 rejected, CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48). No score moves; rank order unchanged (001 > 003 > 004, margins 3 and 7 points). Three recorded disagreements carried and upheld.
+- **CRYPTO-EDGE-001:** Regime gap remains binding (permanent/supply-side at publisher). Transport from prospective ~5h liquidation source requires pre-registered falsifiable assumptions. Rescope to measurable window remains a live option. Proxy decomposition retained (12.1% of OI reduction explained on cascade days). Carried falsifiability disagreement (regime gap) remains.
+- **CRYPTO-EDGE-003:** Specification applied as written (Binance USDⓈ-M vs OKX USDT-margined swap, 2022-01-01–2025-09-05). Negative control as pre-registered prior, liquidity-filter substitute declared, coverage limit stated (funding ends 2025-09-05). Thresholded vs unthresholded patient carry test with pre-committed redundancy null not yet run. Evidence quality remains 1/5.
+- **CRYPTO-EDGE-004:** Size-stratum specification applied on free Coin Metrics panel. Small stratum composition differs from reference; base effect sign-fragile by stratum/population.
+- **Adversarial:** Carried disagreements upheld; rejected forced-unwind cross-sectional variant retained on coincident-label/cost grounds; six candidate families examined, none cleared bar (event count binding). No hypothesis added. No empirical validation performed.
+- **Artefact state:** No changes required — all artefact totals, version headers and table entries were already consistent from the twenty-first cycle.
+
+## Next Task — initial message for the next agent (twenty-third cycle)
 
 You are the research-theory agent for this quantitative cryptocurrency indicators hypothesis factory. Mission and scope are defined in SYSTEMATIC_CRYPTO_EDGE_HYPOTHESIS_RESEARCH_PROMPT.txt (research only: no live trading, free and open data only; no backtests, no performance statistics, no strategy optimisation in this repository; every claim must carry a source with a URL, a date, an access classification, and a statement of what it does and does not establish). Read that file, then read this handoff and all five files in `research/` (IDEA_LEDGER.md, RANKED_SHORTLIST.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md, SOURCE_NOTES.md) before doing anything.
 
-Conduct the **twenty-second research cycle**. Follow the continuous iteration loop in the prompt. Priorities:
+Conduct the **twenty-third research cycle**. Follow the continuous iteration loop in the prompt. Priorities:
 
 1. **Re-derive every total from its seven dimension contributions** (score / 5 x weight, summing to 100) and check the `RANKED_SHORTLIST.md` table against `IDEA_LEDGER.md` before publishing anything. Current state: **CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48**, all confidence low, rank order 001 > 003 > 004 by 3 and 7 points. Expect no scoring change unless new evidence bears on a **registered prediction** directly — evidence about measurement, construction, cost, data access or a base effect does not move a score. Three recorded disagreements are carried; argue and record if you disagree.
 
@@ -333,6 +342,6 @@ Conduct the **twenty-second research cycle**. Follow the continuous iteration lo
 
 5. **Adversarial checks**: Re-test carried disagreements (especially 001 falsifiability placement), confirm select-versus-harvest prior with cross-sectional leg holds, verify no re-spins of rejected families (event count binding). Search for new hypotheses only if substantive value; prefer folding into existing entries' specifications.
 
-6. **Update all artefacts** (IDEA_LEDGER.md, RANKED_SHORTLIST.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md, SOURCE_NOTES.md) and produce HANDOFF.md with twenty-second cycle summary and initial task for twenty-third. If no artefacts change, say so explicitly in the artefact set.
+6. **Update all artefacts** (IDEA_LEDGER.md, RANKED_SHORTLIST.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md, SOURCE_NOTES.md) and produce HANDOFF.md with twenty-third cycle summary and initial task for twenty-fourth. If no artefacts change, say so explicitly in the artefact set.
 
 **Constraints:** research only; no backtests, performance statistics, strategy optimisation; free and open data only; every source free, dated, access-classified; score changes only if evidence bears on registered prediction; no re-specification to dodge failed tests; supersede determinations in place, don't delete; report distribution/description only when measuring.
