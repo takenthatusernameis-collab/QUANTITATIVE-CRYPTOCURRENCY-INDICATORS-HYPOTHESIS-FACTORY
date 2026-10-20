@@ -66,3 +66,10 @@ view, and this catalogue has no volatility-instrument entry to host it.
 
 - **Forced-unwind ranking variable** re-tested against linear record with improved coverage (median 95.32% live universe). Three of five original rejection grounds did not reproduce (no longer a pure size proxy in overall rank, coverage much better, event count richer: 16 days ≥1% median vs inverse's handful). However, rejection **retained** on two grounds that persist: contemporaneous unwind-intensity is a coincident label of the common factor (select-versus-harvest/cost prior), and cost leg applies with unusual force (selection must exit smallest/thinnest contracts on liquidation days). Grounds corrected in place conceptually.
 - **Six candidate families examined** (forced-unwind ranking, signed forced-flow imbalance, price concession forced liquidators pay, funding-settlement clustering, cascade-arrival hypothesis, and generalised unwind-intensity variants) — none cleared bar. Core failure: "what in the state variable is not already a proxy for the common factor" not answered, plus event count binding constraint for liquidation-based families. Each recorded as rejected without adding new entries.
+
+
+## Nineteenth research cycle (2026-10-20)
+
+- No new hypotheses added. Six candidate families examined (forced-unwind ranking variable/re-sign, price concession/market impact, funding-settlement clustering, cascade-arrival/distributional, others), none cleared bar.
+- Rejected forced-unwind cross-sectional variant retained on coincident-label/cost grounds (select-versus-harvest prior) despite improved coverage on linear record; coverage/event-count/size-proxy grounds do not reproduce on linear record but rejection stands on other grounds.
+- Carried disagreements upheld. No empirical validation performed.

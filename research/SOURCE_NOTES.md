@@ -214,3 +214,12 @@ All checks performed 2026-10-20. Access classification as above: 1 = confirmed f
 - **CRYPTO-EDGE-003 specification sources (reconfirmed):** second centralised venue's static archive (monthly funding 2021-01–2025-09, daily funding to 2025-09-05, daily candles 2022-01–present), access 1 keyless. Negative control (centralised pair centred near zero, coin-flip stability) and cost findings (threshold loses 9–15% annualized; patient harvest +2.7–+5.4%) from prior sources carried forward.
 - **CRYPTO-EDGE-004 panel:** Coin Metrics community API `CapMrktCurUSD` for 135 assets; at 2026-10-19 104 priced, reaches below reference bottom quintile but small stratum composition differs (deprecated tokens + stablecoins, boundary divergences up to ~90x). Applied specification clauses as recorded.
 - **Adversarial:** select-versus-harvest/cost prior reinforced; rejected re-spin families recorded. No new mechanisms cleared bar.
+
+
+## Nineteenth research cycle check (2026-10-20)
+
+- Scope: Review carried disagreements and totals. No new sources added; existing sources confirmed. No empirical validation.
+- Totals confirmed: CRYPTO-EDGE-001 = 58, 002 = 46 (rejected), 003 = 55, 004 = 48.
+- 001: Regime gap permanent/supply-side; prospective ~5h liquidation route (second centralised venue) requires pre-registered transport assumptions (not retrospective). Proxy decomposition (12.1% of OI reduction) remains explicit.
+- 003: Pair constructible as specified (Binance USDⓈ-M vs OKX USDT-margined swap, 2022-01-01–2025-09-05); negative control, liquidity-filter substitute with asymmetry, coverage limit (funding ends 2025-09-05) declared.
+- 004: Size-stratum specification applied with stablecoin exclusion, liveness rule, composition vs reference per date, boundary cross-check, unconditional spread on same population, within-stratum size-matched control.
