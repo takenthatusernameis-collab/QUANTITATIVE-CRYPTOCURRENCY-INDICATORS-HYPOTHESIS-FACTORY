@@ -2,7 +2,9 @@
 
 Current top priorities (research value and prior credibility). No backtest metrics are reported.
 
-## This cycle (first research cycle)
+## This cycle (second research cycle)
+
+Audit of cycle-1 shortlist: no duplication between CRYPTO-EDGE-001 (basis level) and CRYPTO-EDGE-002 (funding flow extremes) — distinct mechanisms; causal links hold; contrary evidence reviewed (BIS sample ends Jan 2022; Garcia Seuma: no single-variable early warning is event-invariant; funding extremes can persist through trends). Scores unchanged: 001 67/100 (rank 1), 002 53/100 (rank 2). No new hypotheses added (none of substantive value). No rejections. Free-data feasibility unchanged; post-2022 validity and incremental funding-value remain open.
 
 Two candidate hypotheses were developed, scored with the standard rubric (weighted total out of 100), and ranked. No hypothesis was rejected or deferred.
 
