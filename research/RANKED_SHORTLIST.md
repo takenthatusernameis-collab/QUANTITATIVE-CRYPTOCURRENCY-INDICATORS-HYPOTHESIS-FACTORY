@@ -36,6 +36,18 @@ Scoring rubric (weighted): causal mechanism 20%, evidence 15%, robustness 15%, f
 - **CRYPTO-EDGE-004 downgraded 56 -> 45 and deferred**, confidence low. Evidence quality 3/5 -> 2/5, robustness 2/5 -> 1/5, free-data accessibility 3/5 -> 2/5, originality 3/5 -> 2/5. Deferred rather than rejected because its registered prediction has not been tested and failed.
 - **The catalogue is left with no active non-derivatives member.** That is a stated loss of diversification, not a rounding error, and it is the clearest single argument for the next cycle's work.
 
+## This cycle (eighth research cycle)
+
+Scoring audit confirmed: all four catalogue totals re-derived from the seven dimension contributions (score / 5 x weight) and checked against IDEA_LEDGER.md; every total is correct — CRYPTO-EDGE-001 = 61 (16+9+3+15+6+8+4), CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55 (12+6+6+12+3+8+8), CRYPTO-EDGE-004 = 45 (12+6+3+6+6+8+4, deferred) — and the rank order is unchanged. No hypothesis added, re-scored, promoted or demoted.
+
+- **Binary data question resolved (determination, not opinion):** NO free, dated, point-in-time source of historical circulating supply, historical market capitalisation, market-cap rank, or a dated delisting record for tokens delisted by a major venue was confirmed. Checked directly: CoinGecko free tier rejects historical queries (HTTP 401, error_code 10012, 365-day limit); CoinLore is current-only (chart endpoint 404); DefiLlama free tier gives current per-token supply and aggregate stablecoin history but per-token historical supply and vesting schedules require a Pro key; CoinMarketCap keyless tier is current-only with historical listings paywalled; the Binance public archive supplies delisted-symbol prices but no dated delisting record. CRYPTO-EDGE-004 and the token-dilution family therefore remain deferred on a data-access ground; the catalogue has no active non-derivatives member.
+
+- **Third non-derivatives family:** searched; no candidate cleared the free-data bar (staking/liquid-staking basis, token burns, credit spreads, on-chain reserves, stablecoin flows surveyed — each lacks free point-in-time inputs or is already covered/deferred/rejected). No new hypothesis added; none of substantive value.
+
+- **Open questions carried forward:** CRYPTO-EDGE-001 crash conditionality on retail perps post-July-2024 (untested externally); CRYPTO-EDGE-003 sign on a slow clock (two-sided, contested); conditional funding-extreme split (Shek 2026 deferred, independent replication open); single-source risk partially discharged (CoinGecko limit confirmed by direct fetch).
+
+No empirical strategy validation was performed in this cycle; no strategy executed; no return, Sharpe or drawdown figure computed.
+
 ## Previous cycle (sixth research cycle)
 
 One hypothesis rejected, two downgraded, one new non-derivatives entry. The cycle's dominant finding is a sign reversal that reorganises the catalogue.
