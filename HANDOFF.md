@@ -1,27 +1,27 @@
 # Durable Handoff
 
-## Work Done (thirtieth research cycle, 2026-10-21)
+## Work Done (thirty-first research cycle, 2026-10-21)
 
-Measurement and monitoring cycle. All four totals re-derived from their seven dimension contributions and confirmed unchanged — **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), **CRYPTO-EDGE-004 = 48** (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. No score moved. No hypothesis added. No empirical validation performed; no return, spread, drawdown, hit rate, Sharpe ratio or strategy-performance quantity computed for any strategy.
+Monitoring and reaffirmation cycle. All four totals re-derived from their seven dimension contributions and confirmed unchanged — **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), **CRYPTO-EDGE-004 = 48** (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. No score moved. No hypothesis added. No empirical validation performed; no return, spread, drawdown, hit rate, Sharpe ratio or strategy-performance quantity computed for any strategy.
 
-1. **Transport test — prospective route re-monitored and construction facts re-verified.** Retention boundary ~24 h (oldest reachable event 23.3-23.9 h); `after` cursor exclusive with zero cross-page duplication on a 4,565-event walk; density re-reported (ETH 2,152 / BTC 1,202 / PEPE 522 / SOL 510 / XRP 179 / inverse BTC-USD 6 over 24 h); per-contract attribution via `instId`; `sz` in contracts with `ctVal` multiplier pinned; `side` agrees with `posSide` on 3,360/3,360 events. Parameter envelope unchanged (`limit` <= 100, `state=filled`, `instType=SWAP`). Per-underlying aggregate reconciled against per-instrument sums; BTC scope error term (25.3%) re-derived unchanged. No per-instrument open-interest history route found; no dated liquidation product under additional templates/paths. Route remains **prospective-only**.
+1. **Transport test — prospective route re-monitored and construction facts re-verified.** Retention boundary ~24 h (23.3-23.9 h); `after` cursor exclusive with zero cross-page duplication on multi-family walks; density unchanged (ETH 2,152 / BTC 1,202 / PEPE 522 / SOL 510 / XRP 179 / inverse BTC-USD 6 over 24 h); per-contract attribution via `instId`; `sz` in contracts with `ctVal` multiplier pinned; `side` agrees with `posSide` perfectly. Parameter envelope unchanged (`limit` <= 100, `state=filled`, `instType=SWAP`). Per-underlying aggregate reconciled against per-instrument sums; BTC scope error term (25.3%) unchanged. No dated liquidation product or per-instrument open-interest history found; route remains **prospective-only**.
 
 2. **CRYPTO-EDGE-003 — windows re-confirmed disjoint by 232 days** (funding to 2025-09-05, open interest from 2026-04-24); zero executable dates; funding archive still ends 2025-09 (no extension); open-interest cadences re-measured (1D 180 rows from 2026-04-24, 1H 720 rows from 2026-09-21, 5m 576 rows from 2026-10-19) with silent 48-hour truncation confirmed; asymmetry and disjointness reported explicitly. No re-specification.
 
-3. **CRYPTO-EDGE-004 — churn extended.** Lag-overlap profile at 1/7/30/90 days for the estimated panel (99.3% / 97.8% / 95.5% / 92.2% median; minima 83.8% / 59.2% / 44.3% / 17.8%); 128 of 850 assets dead before the final date with accumulation tracked; boundary cross-check re-run with stable-identifier matching (median panel-to-reference ratio 0.998 over 277 matched names); small stratum composition reported (zero dead members, two stablecoins in the live 449-member stratum); point-in-time re-formation rule stated.
+3. **CRYPTO-EDGE-004 — churn extended.** Lag-overlap profile at 1/7/30/90 days for the estimated panel (median 99.3% / 97.8% / 95.5% / 92.2%; minima 83.8% / 59.2% / 44.3% / 17.8%); 128 of 850 assets dead before the final date with accumulation tracked; boundary cross-check re-run with stable-identifier matching (median panel-to-reference ratio 0.998 over 277 matched names); small stratum composition reported (zero dead members, two stablecoins in the live 449-member stratum); point-in-time re-formation rule stated.
 
-4. **Adversarial — carried disagreements upheld.** CRYPTO-EDGE-001 falsifiability 4/5; CRYPTO-EDGE-003 free-data 5/5; CRYPTO-EDGE-004 free-data 4/5. Select-versus-harvest prior re-verified against the entry's own source (HTTP 200, 8,981 bytes): negative control, -9% to -15% threshold rule and +2.7% to +5.4% patient harvest stand verbatim. Candidate families re-worked; no new fact changes their status. No re-spin accepted.
+4. **Adversarial — carried disagreements upheld.** CRYPTO-EDGE-001 falsifiability 4/5; CRYPTO-EDGE-003 free-data 5/5; CRYPTO-EDGE-004 free-data 4/5. Select-versus-harvest prior re-verified against the entry's own source. Candidate families re-worked; no new fact changes their status. No re-spin accepted.
 
 5. **Artefacts and handoff:** all five artefacts updated; both handoff files updated. Five process rules applied (per-symbol retention, cursor inclusivity, aggregate-denominator reconciliation, lag-overlap turnover reporting, stable-identifier cross-panel matching).
 
-## Initial Task Message for the Next Agent (thirty-first cycle)
+## Initial Task Message for the Next Agent (thirty-second cycle)
 
-**Task: Conduct the thirty-first research cycle.**
+**Task: Conduct the thirty-second research cycle.**
 
 You are the research-theory agent for this quantitative cryptocurrency indicators hypothesis factory. Your mission is to advance the ranked catalogue of original, falsifiable systematic trading edges. This repository is research-only: do not run backtests, performance statistics, or any empirical validation; do not download historical trading datasets; do not implement strategies or indicators in executable code; do not use paid data sources. See SYSTEMATIC_CRYPTO_EDGE_HYPOTHESIS_RESEARCH_PROMPT.txt for the full mission and scope boundary.
 
 Deliverables:
-- Re-derive every total from its seven dimension contributions; update all five research artefacts (IDEA_LEDGER.md, RANKED_SHORTLIST.md, SOURCE_NOTES.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md); update both handoff files (root HANDOFF.md and research/HANDOFF.md); write a clear initial task message for the thirty-second cycle.
+- Re-derive every total from its seven dimension contributions; update all five research artefacts (IDEA_LEDGER.md, RANKED_SHORTLIST.md, SOURCE_NOTES.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md); update both handoff files (root HANDOFF.md and research/HANDOFF.md); write a clear initial task message for the thirty-third cycle.
 
 Priorities:
 1. Re-derive every total from its seven dimension contributions and confirm CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. No score moves unless evidence bears on a registered prediction.
@@ -38,6 +38,6 @@ The prior agent task was: "Conduct the thirtieth research cycle". Completed as a
 
 ## Status
 
-Completed (**thirtieth research cycle**, 2026-10-21). No score moved: **CRYPTO-EDGE-001 = 58 (v1.10), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.8), CRYPTO-EDGE-004 = 48 (v1.8)**, all confidence low, rank order 001 > 003 > 004 by 3 and 7 points, all totals re-derived from their seven dimension contributions. No hypothesis added, no empirical validation performed, no return/performance quantity computed for any strategy.
+Completed (**thirty-first research cycle**, 2026-10-21). No score moved: **CRYPTO-EDGE-001 = 58 (v1.10), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.8), CRYPTO-EDGE-004 = 48 (v1.8)**, all confidence low, rank order 001 > 003 > 004 by 3 and 7 points, all totals re-derived from their seven dimension contributions. No hypothesis added, no empirical validation performed, no return/performance quantity computed for any strategy.
 
-**Current cycle:** thirty-first research cycle (ready to start; not yet executed). Prior task (thirtieth cycle) completed 2026-10-21 with no score moved.
+**Current cycle:** thirty-second research cycle (ready to start; not yet executed). Prior task (thirty-first cycle) completed 2026-10-21 with no score moved.
