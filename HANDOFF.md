@@ -18,7 +18,21 @@ Measurement and specification cycle. All four totals re-derived from their seven
 
 Audit cycle: all four totals re-derived from their seven dimension contributions and confirmed unchanged — **CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48**; rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. No score moved. Scope discipline enforced: no returns, spreads, drawdowns, hit rates, Sharpe ratios, or strategy performance computed. Measurement items (transport test for the second centralised venue's per-event route, one-sided prospective liquidity filter trigger-state count, estimated-market-cap stratum churn) carried forward to the twenty-sixth cycle as the next measurement work; adversarial re-test of carried disagreements upheld.
 
-## Next Task — initial message for the next agent (twenty-seventh cycle)
+## Next Task — initial message for the next agent (twenty-eighth cycle)
+
+Conduct the **twenty-eighth research cycle**. Priorities:
+
+1. Re-derive every total from its seven dimension contributions and check `RANKED_SHORTLIST.md` against `IDEA_LEDGER.md`; confirm **CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48**, rank order 001 > 003 > 004 by 3 and 7 points. No score moves unless new evidence bears on a registered prediction.
+
+2. Transport test — continue OKX `liquidation-orders` monitoring (prospective-only, ~24h retention); report coverage/retention and per-symbol stability.
+
+3. One-sided prospective liquidity filter (CRYPTO-EDGE-003): re-confirm disjoint funding (2021-01 → 2025-09-05) and open-interest (2026-04-24 → present) windows; zero executable dates; asymmetry explicit.
+
+4. Estimated-market-cap stratum churn (CRYPTO-EDGE-004): expand sample; report churn per date with membership/current-only constraints; boundary cross-check.
+
+5. Adversarial: re-test carried disagreements (001 falsifiability 4/5; 003 free-data 5/5; 004 free-data 4/5); confirm select-versus-harvest prior; no re-spins.
+
+6. Update all five artefacts and both handoff files. Research only; no performance statistics.
 
 Conduct the **twenty-seventh research cycle**. Priorities:
 
@@ -36,7 +50,7 @@ Conduct the **twenty-seventh research cycle**. Priorities:
 
 ## Prior Task
 
-The prior agent task was: "Conduct the twenty-sixth research cycle" — the initial task message carried in the twenty-fifth cycle's handoff, which the twenty-sixth agent executed. (The compact copy in `research/HANDOFF.md` is regenerated every cycle so that the two files cannot drift.)
+The prior agent task was: "Conduct the twenty-seventh research cycle" — the initial task message carried in the twenty-sixth cycle's handoff. Completed as a measurement/specification cycle: totals re-derived and unchanged (CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 rejected, CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48); OKX liquidation-orders route extended to full ~24h retention via paginated `after` walk with per-symbol stability checked; CRYPTO-EDGE-003 disjoint windows re-confirmed (zero executable dates); CRYPTO-EDGE-004 stratum churn expanded and reported; carried disagreements re-tested and upheld; all five artefacts and both handoffs updated. No score moved; no performance statistic computed.
 
 ## Status
 Completed (**twenty-sixth research cycle**, 2026-10-21). No score moved: **CRYPTO-EDGE-001 = 58 (v1.10), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.8), CRYPTO-EDGE-004 = 48 (v1.8)**, all confidence low, rank order 001 > 003 > 004 by 3 and 7 points, all totals re-derived from their seven dimension contributions. No hypothesis added, no empirical validation performed, no return/performance quantity computed for any strategy. The cycle was a measurement and specification cycle: the OKX `liquidation-orders` per-event route was re-verified and paginates correctly via `after` retaining about 24 hours; the second venue's funding and open-interest windows were confirmed disjoint (symmetric liquidity filter executable on no date; filter declared one-sided and prospective); the Coin Metrics community panel was re-verified at 901 assets with small-stratum churn reported per date. All carried disagreements upheld; no score moved.
