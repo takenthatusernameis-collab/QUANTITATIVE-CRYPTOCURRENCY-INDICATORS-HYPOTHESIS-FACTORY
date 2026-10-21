@@ -1,6 +1,6 @@
 # Durable Handoff
 
-## Work Done (forty-third research cycle, 2026-10-21)
+## Work Done (forty-fourth research cycle, 2026-10-21)
 
 A **scoring audit, specification confirmation and adversarial re-test cycle.** All four totals re-derived from their seven dimension contributions and confirmed unchanged - **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), **CRYPTO-EDGE-004 = 48** (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. Item 16 audited in all three places (contribution list, versioned narratives, unversioned rationale prose) with no stale scores remaining: 001 clean; 002 clean; 003's contribution list corrected to the seventeenth cycle's decomposition in the twenty-third cycle; 004's rationale prose version-stamped as v1.1 in the thirty-second cycle with current state stated alongside. No stale score appeared in this cycle or the previous one.
 
@@ -16,12 +16,12 @@ All three carried disagreements re-tested and upheld (001 falsifiability 4/5; 00
 
 ## Initial Task Message for the Next Agent (forty-fifth cycle)
 
-**Task: Conduct the forty-fourth research cycle.**
+**Task: Conduct the forty-fifth research cycle.**
 
 You are the research-theory agent for this quantitative cryptocurrency indicators hypothesis factory. Your mission is to advance the ranked catalogue of original, falsifiable systematic trading edges. This repository is research-only: do not run backtests, performance statistics, or any empirical validation; do not download historical trading datasets; do not implement strategies or indicators in executable code; do not use paid data sources. See SYSTEMATIC_CRYPTO_EDGE_HYPOTHESIS_RESEARCH_PROMPT.txt for the full mission and scope boundary.
 
 Deliverables:
-- Re-derive every total from its seven dimension contributions; update all five research artefacts (IDEA_LEDGER.md, RANKED_SHORTLIST.md, SOURCE_NOTES.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md); update both handoff files (root HANDOFF.md and research/HANDOFF.md); write a clear initial task message for the forty-fourth cycle.
+- Re-derive every total from its seven dimension contributions; update all five research artefacts (IDEA_LEDGER.md, RANKED_SHORTLIST.md, SOURCE_NOTES.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md); update both handoff files (root HANDOFF.md and research/HANDOFF.md); write a clear initial task message for the forty-fifth cycle.
 
 Priorities:
 1. **Re-derive totals and audit prose.** Confirm CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. Audit every entry's item 16 in all three places (contribution list, versioned narratives, unversioned rationale prose) for stale scores; require version stamps on any prose. Confirm no new staleness appeared in this cycle or the previous one.
@@ -37,7 +37,7 @@ Constraints: research only; no backtests/performance/statistics/optimisation; fr
 You are the research-theory agent for this quantitative cryptocurrency indicators hypothesis factory. Your mission is to advance the ranked catalogue of original, falsifiable systematic trading edges. This repository is research-only: do not run backtests, performance statistics, or any empirical validation; do not download historical trading datasets; do not implement strategies or indicators in executable code; do not use paid data sources. See SYSTEMATIC_CRYPTO_EDGE_HYPOTHESIS_RESEARCH_PROMPT.txt for the full mission and scope boundary.
 
 Deliverables:
-- Re-derive every total from its seven dimension contributions; update all five research artefacts (IDEA_LEDGER.md, RANKED_SHORTLIST.md, SOURCE_NOTES.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md); update both handoff files (root HANDOFF.md and research/HANDOFF.md); write a clear initial task message for the forty-fourth cycle.
+- Re-derive every total from its seven dimension contributions; update all five research artefacts (IDEA_LEDGER.md, RANKED_SHORTLIST.md, SOURCE_NOTES.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md); update both handoff files (root HANDOFF.md and research/HANDOFF.md); write a clear initial task message for the forty-fifth cycle.
 
 Priorities:
 1. **Re-derive totals and audit prose.** Confirm CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. Audit every entry's item 16 in all three places (contribution list, versioned narratives, unversioned rationale prose) for stale scores; require version stamps on any prose. Confirm no new staleness appeared in this cycle or the previous one.
@@ -50,7 +50,7 @@ Constraints: research only; no backtests/performance/statistics/optimisation; fr
 
 ## Prior Task
 
-The prior agent task was: "Conduct the forty-third research cycle". Completed as above.
+The prior agent task was: "Conduct the forty-fourth research cycle". Completed as above.
 
 ## Status
 
