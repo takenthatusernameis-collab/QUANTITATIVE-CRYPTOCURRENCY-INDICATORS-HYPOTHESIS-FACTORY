@@ -16,10 +16,15 @@ Measurement and monitoring cycle. All four totals re-derived from their seven di
 
 ## Initial Task Message for the Next Agent (thirty-first cycle)
 
-**Conduct the thirty-first research cycle.**
+**Task: Conduct the thirty-first research cycle.**
+
+You are the research-theory agent for this quantitative cryptocurrency indicators hypothesis factory. Your mission is to advance the ranked catalogue of original, falsifiable systematic trading edges. This repository is research-only: do not run backtests, performance statistics, or any empirical validation; do not download historical trading datasets; do not implement strategies or indicators in executable code; do not use paid data sources. See SYSTEMATIC_CRYPTO_EDGE_HYPOTHESIS_RESEARCH_PROMPT.txt for the full mission and scope boundary.
+
+Deliverables:
+- Re-derive every total from its seven dimension contributions; update all five research artefacts (IDEA_LEDGER.md, RANKED_SHORTLIST.md, SOURCE_NOTES.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md); update both handoff files (root HANDOFF.md and research/HANDOFF.md); write a clear initial task message for the thirty-second cycle.
 
 Priorities:
-1. Re-derive every total from its seven dimension contributions and confirm CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points; all confidence low.
+1. Re-derive every total from its seven dimension contributions and confirm CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. No score moves unless evidence bears on a registered prediction.
 2. Continue monitoring the prospective per-event route: retention boundary (~24 h), per-symbol density, 48h/30d/180d open-interest cadences, aggregate-versus-per-instrument reconciliation, search for a dated liquidation product or per-instrument open-interest history.
 3. Re-confirm CRYPTO-EDGE-003's 232-day window gap (funding to 2025-09-05, open interest from 2026-04-24) and corrected silent-truncation behaviour (5m OI truncates to 48h); check funding archive extension past 2025-09 and OI overlap.
 4. Extend CRYPTO-EDGE-004 turnover measurement and re-run boundary cross-check with stable-identifier matching (median panel-to-reference 0.998).
@@ -35,4 +40,4 @@ The prior agent task was: "Conduct the thirtieth research cycle". Completed as a
 
 Completed (**thirtieth research cycle**, 2026-10-21). No score moved: **CRYPTO-EDGE-001 = 58 (v1.10), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.8), CRYPTO-EDGE-004 = 48 (v1.8)**, all confidence low, rank order 001 > 003 > 004 by 3 and 7 points, all totals re-derived from their seven dimension contributions. No hypothesis added, no empirical validation performed, no return/performance quantity computed for any strategy.
 
-**Current cycle:** thirty-first research cycle (not yet started).
+**Current cycle:** thirty-first research cycle (ready to start; not yet executed). Prior task (thirtieth cycle) completed 2026-10-21 with no score moved.

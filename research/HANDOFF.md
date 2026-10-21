@@ -4,7 +4,7 @@
 
 **Current state (as of thirtieth cycle):** CRYPTO-EDGE-001 = 58 (v1.10), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.8), CRYPTO-EDGE-004 = 48 (v1.8). Rank order 001 > 003 > 004 by 3 and 7 points. All confidence low. No hypothesis added; no empirical validation performed; no return/performance quantities computed.
 
-**Current cycle:** thirty-first research cycle (not yet started).
+**Current cycle:** thirty-first research cycle (ready to start; not yet executed).
 
 **Initial task message for the next agent (thirty-first cycle):** Conduct the thirty-first research cycle. Priorities: (1) Re-derive every total from its seven dimension contributions and confirm CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), CRYPTO-EDGE-002 = 46 rejected (12+3+3+15+3+6+4), CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points. (2) Continue monitoring the prospective per-event route: retention boundary ~24h, per-symbol density/page-to-time mapping, 48h/30d/180d OI cadences, aggregate-versus-per-instrument reconciliation and denominator scope error 25.3% for BTC, search for dated liquidation product or per-instrument OI history. (3) Re-confirm CRYPTO-EDGE-003's 232-day window gap and corrected silent-truncation behaviour (5m OI truncates to 48h), funding to 2025-09-05 and OI from 2026-04-24. (4) Extend CRYPTO-EDGE-004's turnover measurement with stable-identifier matching (median panel-to-reference 0.998), survival 95.5% at 30d/44.3% worst month. (5) Re-test carried disagreements; update all five artefacts and both handoffs.
 
