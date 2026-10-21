@@ -457,3 +457,36 @@ Conduct the **twenty-fifth research cycle**. Follow the continuous iteration loo
 7. **Update all artefacts** (IDEA_LEDGER.md, RANKED_SHORTLIST.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md, SOURCE_NOTES.md), append twenty-fifth cycle summary and twenty-sixth cycle task to root `HANDOFF.md`, and **rewrite** `research/HANDOFF.md` as compact pointer for twenty-sixth cycle.
 
 **Constraints:** research only; no backtests/performance/statistics/optimisation; free and open data only; every source free, dated, access-classified; score changes only if evidence bears on registered prediction; no re-specification to dodge failed tests; supersede in place; report distribution/description only when measuring.
+
+## Work Done (twenty-seventh research cycle, 2026-10-21)
+
+Measurement and specification cycle. All four totals re-derived from their seven dimension contributions and confirmed unchanged — **CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48**; rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. No score moved. No hypothesis added. No empirical validation performed; no return, spread, drawdown, hit rate, Sharpe ratio or strategy performance quantity computed for any strategy.
+
+1. **Transport test — OKX `liquidation-orders` full retention walk:** Paginated `after` walk completed to the ~24h retention boundary: 900 events across 9 pages, no gaps, no empty page, oldest reachable 2026-10-20 13:49:58 UTC; empty array only when timestamp outside retention window. Second symbol (ETH-USDT) tested and per-symbol stability confirmed. Route remains prospective-only from 2026-10-21 forward; not retrospective.
+
+2. **One-sided prospective liquidity filter (CRYPTO-EDGE-003):** Disjoint funding (2021-01 → 2025-09-05) and open-interest (2026-04-24 → present) windows re-confirmed; symmetric filter executable on no date; trigger-state count zero executable dates with asymmetry explicit. No re-specification.
+
+3. **Estimated-market-cap stratum churn (CRYPTO-EDGE-004):** Coin Metrics `CapMrktEstUSD` sample expanded; churn reported per date with membership/current-only constraints explicit; free screen's small-stratum composition reported against reference screen with boundary cross-check.
+
+4. **Adversarial re-test:** Carried disagreements upheld (001 falsifiability 4/5; 003 free-data 5/5; 004 free-data 4/5); select-versus-harvest prior confirmed; no re-spins accepted. No score moved.
+
+5. **Artefacts and handoff:** All five research artefacts reviewed; no dimension moved, so no artefact content changed. Both handoff files updated.
+
+## Next Task — initial message for the next agent (twenty-eighth cycle)
+
+Conduct the **twenty-eighth research cycle**. Priorities:
+
+1. Re-derive every total from its seven dimension contributions and check `RANKED_SHORTLIST.md` against `IDEA_LEDGER.md`; confirm **CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48**, rank order 001 > 003 > 004 by 3 and 7 points. No score moves unless new evidence bears on a registered prediction.
+
+2. Transport test — extend OKX `liquidation-orders` coverage monitoring; report per-symbol stability over time; keep route prospective-only.
+
+3. One-sided prospective liquidity filter (CRYPTO-EDGE-003): re-confirm disjoint windows; trigger-state count zero executable dates.
+
+4. Estimated-market-cap stratum churn (CRYPTO-EDGE-004): expand sample; report churn per date with membership/current-only constraints.
+
+5. Adversarial: re-test carried disagreements; confirm select-versus-harvest prior; verify no re-spins. Apply process rules.
+
+6. Update all five artefacts and both handoff files. Research only; no performance statistics.
+
+## Status
+Completed (**twenty-seventh research cycle**, 2026-10-21). No score moved: **CRYPTO-EDGE-001 = 58 (v1.10), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.8), CRYPTO-EDGE-004 = 48 (v1.8)**, all confidence low, rank order 001 > 003 > 004 by 3 and 7 points.
