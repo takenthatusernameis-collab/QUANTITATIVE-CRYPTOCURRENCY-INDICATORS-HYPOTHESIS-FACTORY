@@ -1,33 +1,9 @@
-# HANDOFF - Twenty-ninth Research Cycle
+# Handoff (compact pointer)
 
-> **This file is a regenerated compact pointer, rewritten at the end of every cycle. It is never appended to.**
-> The durable, append-only handoff is the repository-root `HANDOFF.md`; it carries the full history, the last cycle's summary and the next cycle's initial task message. If the two ever disagree, the root file is the record of truth and this file is stale.
+**Durable log:** `../HANDOFF.md` (root). This file is regenerated every cycle; do not append here.
 
-## Mission
+**Current state (as of twenty-ninth cycle):** CRYPTO-EDGE-001 = 58 (v1.10), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.8), CRYPTO-EDGE-004 = 48 (v1.8). Rank order 001 > 003 > 004 by 3 and 7 points. All confidence low. No hypothesis added; no empirical validation performed; no return/performance quantities computed.
 
-You are the research-theory agent for this quantitative cryptocurrency indicators hypothesis factory. Mission and scope are defined in SYSTEMATIC_CRYPTO_EDGE_HYPOTHESIS_RESEARCH_PROMPT.txt (research only: no live trading, free and open data only; no backtests, no performance statistics, no strategy optimisation in this repository; every claim must carry a source with a URL, a date, an access classification, and a statement of what it does and does not establish). Read that file, then read the root `HANDOFF.md` and all five files in `research/` (IDEA_LEDGER.md, RANKED_SHORTLIST.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md, SOURCE_NOTES.md) before doing anything.
+**Focus for thirtieth cycle:** Re-derive totals; continue OKX liquidation-orders monitoring (prospective-only, ~24h); confirm CRYPTO-EDGE-003 disjoint windows / zero executable dates; monitor CRYPTO-EDGE-004 estimated-market-cap stratum churn; re-test carried disagreements; update all five artefacts and both handoffs.
 
-Conduct the **twenty-ninth research cycle**. Follow the continuous iteration loop in the prompt.
-
-## Where the catalogue stands (2026-10-21, after the twenty-eighth cycle)
-
-Totals, re-derived from their seven dimension contributions: **CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48**; all confidence low; rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added after first three cycles; no score moved in recent cycles. Return statistics remain forbidden in this repository.
-
-## Next Priorities (twenty-ninth cycle)
-
-1. **Re-derive every total from its seven dimension contributions**, check `RANKED_SHORTLIST.md` against `IDEA_LEDGER.md`, and check each item's contribution list against the cycle record that moved the dimension.
-2. **Enforce scope discipline** — do not compute forward returns, spreads, drawdowns, hit rates, Sharpe ratios, or strategy performance.
-3. **CRYPTO-EDGE-001:** Extend OKX `liquidation-orders` coverage monitoring via pagination; report per-symbol stability over time; keep route prospective-only (~24h). Track retention boundary behavior.
-4. **CRYPTO-EDGE-003:** Re-confirm disjoint funding and open-interest windows; symmetric filter executable on no date; trigger-state count zero executable dates with asymmetry explicit.
-5. **CRYPTO-EDGE-004:** Expand Coin Metrics `CapMrktEstUSD` sample; report churn per date with membership/current-only constraints explicit; boundary cross-check vs reference.
-6. **Adversarial:** Re-test carried disagreements, confirm select-versus-harvest prior, verify no re-spins. Apply process rules.
-7. **Update all five artefacts**, append cycle summary and thirtieth cycle task to root `HANDOFF.md`, and **rewrite this file** as the compact pointer for thirtieth cycle.
-
-## Constraints
-
-- Research only; no backtests, performance statistics, strategy optimisation, or any computation of forward return/drawdown/severity/spread statistics
-- Free and open data only; every source free, dated, access-classified
-- Score changes only if evidence bears on registered prediction
-- No re-specification to dodge failed tests
-- Supersede determinations in place, don't delete
-- Report distribution/description only when measuring
+**Constraints:** research only; no backtests/performance/statistics/optimisation; free and open data only; every source free, dated, access-classified; score changes only if evidence bears on registered prediction; no re-specification to dodge failed tests; supersede in place; report distribution/description only when measuring.
