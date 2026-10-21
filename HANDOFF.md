@@ -490,3 +490,28 @@ Conduct the **twenty-eighth research cycle**. Priorities:
 
 ## Status
 Completed (**twenty-seventh research cycle**, 2026-10-21). No score moved: **CRYPTO-EDGE-001 = 58 (v1.10), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.8), CRYPTO-EDGE-004 = 48 (v1.8)**, all confidence low, rank order 001 > 003 > 004 by 3 and 7 points.
+
+
+## Twenty-eighth Research Cycle (2026-10-21) — Summary
+
+- **Re-derived totals:** All four totals confirmed from dimension contributions — **CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), CRYPTO-EDGE-002 = 46 rejected (12+3+3+15+3+6+4), CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4)**. No score moves; rank order unchanged (001 > 003 > 004, margins 3 and 7). Contribution decomposition checked against cycle records (CRYPTO-EDGE-003 corrected in twenty-third cycle).
+- **CRYPTO-EDGE-001 — OKX liquidation-orders monitoring:** Extended monitoring via `before` pagination. BTC-USDT-SWAP: 100 unique events (2026-10-20T21:15:41.228+00:00 → 2026-10-21T01:51:01.615+00:00). ETH-USDT-SWAP: 100 unique events (2026-10-20T22:17:35.093+00:00 → 2026-10-21T01:55:31.189+00:00). Pagination works; empty array only outside retention window. Route remains **prospective-only** (~24h rolling). Proxy decomposition (12.1% of OI reduction explained) retained; comparator role maintained.
+- **CRYPTO-EDGE-003:** Disjoint funding (2021-01 → 2025-09-05) and open-interest (2026-04-24 → present) windows re-confirmed. Symmetric filter executable on no date; trigger-state count zero executable dates with asymmetry explicit. One-sided and prospective clause maintained. Evidence quality remains 1/5.
+- **CRYPTO-EDGE-004:** Estimated market cap (`CapMrktEstUSD`) primary, `CapMrktCurUSD` robustness. Membership/churn constraints and current-only reference membership noted. Coin Metrics two-metric fetch constraint noted.
+- **Adversarial:** Carried disagreements upheld; select-versus-harvest prior confirmed; no re-spins accepted. No hypothesis added. No empirical validation performed; no return/spread/drawdown/hit-rate/Sharpe computed.
+
+## Next Task — initial message for the next agent (twenty-ninth cycle)
+
+You are the research-theory agent for this quantitative cryptocurrency indicators hypothesis factory. Mission and scope are defined in SYSTEMATIC_CRYPTO_EDGE_HYPOTHESIS_RESEARCH_PROMPT.txt (research only: no live trading, free and open data only; no backtests, no performance statistics, no strategy optimisation in this repository; every claim must carry a source with a URL, a date, an access classification, and a statement of what it does and does not establish). Read that file, then read this handoff and all five files in `research/` (IDEA_LEDGER.md, RANKED_SHORTLIST.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md, SOURCE_NOTES.md) before doing anything. **Note the handoff convention: the root `HANDOFF.md` is the durable log and the `research/HANDOFF.md` copy is regenerated every cycle — do not append to `research/HANDOFF.md`, rewrite it.**
+
+Conduct the **twenty-ninth research cycle**. Follow the continuous iteration loop in the prompt. Priorities:
+
+1. **Re-derive every total from seven dimension contributions** (score/5×weight summing to 100) and check `research/RANKED_SHORTLIST.md` against `research/IDEA_LEDGER.md` before publishing anything. Confirm **CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48**, rank order 001 > 003 > 004 by 3 and 7 points. Check each item's contribution list against the cycle record that moved the dimension. No score moves unless new evidence bears on a registered prediction directly.
+2. **Scope discipline:** Do **not** compute forward returns, spreads, drawdowns, hit rates, Sharpe ratios, or strategy performance.
+3. **CRYPTO-EDGE-001:** Extend OKX `liquidation-orders` coverage monitoring via pagination (`after`/`before`); report per-symbol stability over time; keep route **prospective-only** (~24h rolling). Track retention boundary behavior. Keep proxy decomposition (12.1% of OI reduction explained) explicit and comparator role stated.
+4. **CRYPTO-EDGE-003:** Re-confirm disjoint funding (2021-01 → 2025-09-05) and open-interest (2026-04-24 → present) windows. Report symmetric filter executable on no date and trigger-state count zero executable dates with asymmetry explicit. Apply one-sided prospective filter where needed.
+5. **CRYPTO-EDGE-004:** Expand Coin Metrics `CapMrktEstUSD` sample; report stratum churn per date with membership/current-only constraints explicit; boundary cross-check vs reference; use estimated primary, current as robustness. Note Coin Metrics two-metric fetch constraint.
+6. **Adversarial:** Re-test carried disagreements (001 falsifiability 4/5; 003 free-data 5/5; 004 free-data 4/5); confirm select-versus-harvest prior; verify no re-spins of rejected families. Apply all five process rules.
+7. **Update all artefacts**, append twenty-ninth cycle summary and thirtieth cycle task to root `HANDOFF.md`, and **rewrite** `research/HANDOFF.md` as compact pointer for thirtieth cycle. If no artefacts change, say so explicitly.
+
+**Constraints:** research only; free and open data only; every source free, dated, access-classified; score changes only if evidence bears on registered prediction; no re-specification to dodge failed tests; supersede in place, don't delete; report distribution/description only when measuring.
