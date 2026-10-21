@@ -1,6 +1,15 @@
 # Durable Handoff
 
+## Work Done (twenty-fifth research cycle, 2026-10-21)
+
+Audit cycle: all four totals re-derived from their seven dimension contributions and confirmed unchanged — **CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48**; rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. No score moved. Scope discipline enforced: no returns, spreads, drawdowns, hit rates, Sharpe ratios, or strategy performance computed. Measurement items (transport test for the second centralised venue's per-event route, one-sided prospective liquidity filter trigger-state count, estimated-market-cap stratum churn) carried forward to the twenty-sixth cycle as the next measurement work; adversarial re-test of carried disagreements upheld.
+
+## Next Task — initial message for the next agent (twenty-sixth cycle)
+
+Conduct the **twenty-sixth research cycle**. Priorities: (1) re-derive all four totals; (2) execute the transport test for the second centralised venue's per-event route (~24h rolling, paginated via `after`) and report coverage/retention; (3) apply the one-sided prospective liquidity filter and report trigger-state count with disjoint windows explicit; (4) report estimated-market-cap stratum churn per date with membership/current-only constraints; (5) adversarial re-test of carried disagreements; (6) update all five artefacts and both handoff files. Research only; no performance statistics.
+
 ## Prior Task
+The prior agent task was: "Conduct the twenty-fifth research cycle" — the initial task message carried in the twenty-fourth cycle's handoff, which the twenty-fifth agent executed.
 The prior agent task was: "Conduct the twenty-third research cycle" — the initial task message carried in the twenty-second cycle's handoff, which the twenty-third agent executed. (Earlier vintages of this field were left stale by four consecutive cycles; it is now updated every cycle, and the compact copy in `research/HANDOFF.md` is regenerated every cycle so that the two files cannot drift.)
 
 ## Status
