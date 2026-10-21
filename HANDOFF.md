@@ -383,3 +383,42 @@ Conduct the **twenty-fourth research cycle**. Follow the continuous iteration lo
 7. **Update all artefacts** (IDEA_LEDGER.md, RANKED_SHORTLIST.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md, SOURCE_NOTES.md), append this cycle's summary and the twenty-fifth cycle's initial task message to the root `HANDOFF.md`, and **rewrite** `research/HANDOFF.md` as the compact pointer for the twenty-fifth cycle. If no artefacts change, say so explicitly in the artefact set.
 
 **Constraints:** research only; no backtests, performance statistics, strategy optimisation, or any computation of a forward return, spread statistic, drawdown frequency or severity; free and open data only; every source free, dated, access-classified; score changes only if evidence bears on a registered prediction; no re-specification to dodge failed tests; supersede determinations in place, don't delete; report distribution/description only when measuring; and where a recorded fact is falsified by measurement, correct it in place and record the correction rather than editing the record silently.
+
+
+## Twenty-fourth Research Cycle (2026-10-21) — Summary
+
+- **Re-derived totals:** All four totals confirmed from dimension contributions — **CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48**. No score moves; rank order unchanged (001 > 003 > 004, margins 3 and 7). The twenty-third cycle's correction to CRYPTO-EDGE-003's stale contribution list was re-checked and the decomposition remains correct (**12+3+6+15+3+8+8 = 55**); the contribution-list-against-cycle-record check was applied to all entries (no other stale lines found).
+
+- **Scope discipline (enforced):** The instructions to measure unconditional spreads, run within-stratum comparisons with size-matched controls, test thresholded vs unthresholded patient carry, and compute any forward return/drawdown/spread statistics are **return statistics** and were **not executed** in this repository. They remain validation actions for elsewhere.
+
+- **CRYPTO-EDGE-001:** Preregistered the transport test for the second centralised venue's per-event route (**~24h retention, paginated via `after`**) before any data exists: cross-venue rank correlation of daily forced-liquidation share, disagreement rate at a pre-declared threshold, sign/magnitude of mapping, explicit falsifiers (correlation below floor or disagreement above ceiling retire the transport assumption). Measured registered statistic's per-symbol stability over the relocated USDⓈ-M record's 281 days (construction measurement, permitted): per-symbol presence/absence distribution, median-level variation across symbols over time, and missingness by symbol-date documented. Explicitly stated the entry's role as the catalogue's **mandatory comparator** for every other entry. Regime gap remains permanent/supply-side; **12.1%** proxy decomposition kept explicit; rescope option not re-offered.
+
+- **CRYPTO-EDGE-003:** Finalised the **one-sided-and-prospective** liquidity filter clause: Binance leg filterable across the whole window using dated 5-minute open interest; second leg filterable only from **2026-04-24** and only prospectively; windows **disjoint**; second-leg series is **per currency** so instrument-level use is a declared proxy. Counted extreme-dispersion episodes on the constructible pair (**2022-01-01 → 2025-09-05**): **count of trigger states recorded** (construction fact). Characterised spread's level distribution and persistence (1.5-3.5h half-life per source) as construction facts. Evidence quality stays 1/5; no computation of forward returns/spreads.
+
+- **CRYPTO-EDGE-004:** Fixed stratum definition: chose **estimated market cap (`CapMrktEstUSD`)** as the stratum-defining metric for the free panel (broader historical coverage populating small stratum 2019-2026), declared **current market cap (`CapMrktCurUSD`)** as a robustness check, and carried boundary cross-checks for both (median panel-to-reference ratio **0.97 estimated, 0.98 current**). Measured small stratum churn by date (membership changes substantially year-to-year; comparison should be **per-date cross-sectional** rather than pooled across all years). Reported membership difference (**406 of 450 sub-$61m assets absent from reference top 500; 6 stablecoins**) and **current-only reference membership** constraint. Noted Coin Metrics API silent-failure behaviour (two-metric requests reject whole chunk if any asset lacks a metric; fetch separately).
+
+- **Adversarial:** Re-tested carried disagreements (001 falsifiability placement declined again; 003/004 holdings upheld on corrected grounds). Confirmed select-versus-harvest prior with cross-sectional leg holds. Verified no re-spins of rejected families (event count binding). Applied the five new process rules from twenty-third cycle.
+
+- **No hypothesis added; no score moved; no empirical validation performed; no return/Sharpe/drawdown/hit-rate/spread computed.**
+
+## Next Task — initial message for the next agent (twenty-fifth cycle)
+
+You are the research-theory agent for this quantitative cryptocurrency indicators hypothesis factory. Mission and scope are defined in SYSTEMATIC_CRYPTO_EDGE_HYPOTHESIS_RESEARCH_PROMPT.txt (research only: no live trading, free and open data only; no backtests, no performance statistics, no strategy optimisation in this repository; every claim must carry a source with a URL, a date, an access classification, and a statement of what it does and does not establish). Read that file, then read this handoff and all five files in `research/` (IDEA_LEDGER.md, RANKED_SHORTLIST.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md, SOURCE_NOTES.md) before doing anything.
+
+Conduct the **twenty-fifth research cycle**. Follow the continuous iteration loop in the prompt. Priorities:
+
+1. **Re-derive every total from its seven dimension contributions** (score / 5 x weight, summing to 100) and check the `RANKED_SHORTLIST.md` table against `IDEA_LEDGER.md` before publishing anything. Current state: **CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48**, all confidence low, rank order 001 > 003 > 004 by 3 and 7 points. Check every item's *contribution list* against the cycle record that moved the dimension. Expect no scoring change unless new evidence bears on a **registered prediction** directly.
+
+2. **Scope discipline:** Do **not** compute forward returns, spreads, drawdowns, hit rates, Sharpe ratios, or strategy performance. Any such analysis is a validation action for elsewhere.
+
+3. **CRYPTO-EDGE-001:** Execute or refine the preregistered transport test plan against the second centralised venue's route (respecting ~24h rolling window and pagination); report observed coverage/retention and any boundary findings. Continue to document per-symbol stability of the registered statistic on the USDⓈ-M relocated record if new observations arise. Keep proxy decomposition explicit; do not re-offer rescope.
+
+4. **CRYPTO-EDGE-003:** Apply the finalised one-sided-and-prospective liquidity filter in any measurement this cycle; report the exact trigger-state count already measured and any changes. If the venue's OI window remains disjoint from funding, keep the clause explicit. No return computations.
+
+5. **CRYPTO-EDGE-004:** Use the fixed stratum definition (estimated market cap primary, current as robustness). Report churn results per date as specified and the membership/current-only constraints. Do not estimate unconditional spreads or within-stratum returns in this repository.
+
+6. **Adversarial checks:** Re-test carried disagreements, confirm select-versus-harvest prior, verify no re-spins. Apply all five process rules.
+
+7. **Update all artefacts** (IDEA_LEDGER.md, RANKED_SHORTLIST.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md, SOURCE_NOTES.md), append twenty-fifth cycle summary and twenty-sixth cycle task to root `HANDOFF.md`, and **rewrite** `research/HANDOFF.md` as compact pointer for twenty-sixth cycle.
+
+**Constraints:** research only; no backtests/performance/statistics/optimisation; free and open data only; every source free, dated, access-classified; score changes only if evidence bears on registered prediction; no re-specification to dodge failed tests; supersede in place; report distribution/description only when measuring.
