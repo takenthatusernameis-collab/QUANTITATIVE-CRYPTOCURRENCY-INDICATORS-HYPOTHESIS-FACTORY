@@ -40,14 +40,30 @@ CRYPTO-EDGE-004's metric-choice and substituted-screens sensitivity confirmed as
 
 All three carried disagreements re-tested and upheld (001 falsifiability 4/5; 003 free-data 5/5; 004 free-data 4/5). No re-spin accepted; no hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, Sharpe ratio or strategy-performance quantity computed for any strategy.
 
-## Initial Task Message for the Next Agent (thirty-ninth cycle)
+## Work Done (thirty-ninth research cycle, 2026-10-21)
 
-**Task: Conduct the thirty-ninth research cycle.**
+A **scoring audit, specification confirmation and adversarial re-test cycle.** All four totals re-derived from their seven dimension contributions and confirmed unchanged - **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), **CRYPTO-EDGE-004 = 48** (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. Item 16 audited in all three places (contribution list, versioned narratives, unversioned rationale prose) with no stale scores remaining: 001 clean; 002 clean; 003's contribution list corrected to the seventeenth cycle's decomposition (corrected in the twenty-third cycle) and its eleventh-cycle prose remains corrected in the thirty-third; 004's rationale prose remains version-stamped as of v1.1 (thirty-second cycle) with the current state stated alongside. No stale score remains in any entry. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, Sharpe ratio or strategy-performance quantity computed for any strategy.
+
+1. **Totals and audit.** All four totals re-derived from seven dimension contributions and confirmed unchanged (16+6+3+15+6+8+4 = 58; 12+3+3+15+3+6+4 = 46 rejected; 12+3+6+15+3+8+8 = 55; 12+6+3+12+3+8+4 = 48). Rank order unchanged. Item 16 audited in all three places with no stale scores remaining and version stamps required on any prose.
+
+2. **CRYPTO-EDGE-001 - transport pre-registration confirmed.** Cross-venue rank correlation of the daily forced-liquidation-share statistic between the entry's specified instrument and the second centralised venue's per-contract per-event record; disagreement rate at a pre-declared threshold on that statistic; sign and magnitude of the venue mapping; falsifier that a rank correlation below a pre-declared floor or a disagreement rate above a pre-declared ceiling retires the transport assumption. The 199-day inverse arm (2023-06-25 to 2024-10-14 on COIN-M) is the matched-sample leg against the linear arm's p10-p90 band (p10 2.73%, p90 57.41%). Construction facts reported only - distributions, counts, coverage intervals - no return statistics.
+
+3. **CRYPTO-EDGE-003 - validation-plan terms confirmed.** Binding clauses in item 14: independent-window count at each registered horizon (180 at 5 days, 58 at 20 days instantaneous; 36 on the slow clock); bootstrap block structure (blocks sized to the dispersion level's one-to-three-hour half-life on the instant construction and the slow clock's weekly cadence); minimum detectable effect implied by 36 slow-clock windows and 58 instantaneous windows; whether the registered null is publishable without a pre-registered minimum detectable effect. Item 6 confirmed restated as venue-v rate minus the other venue's rate (pair difference, not a median), with factor-of-two level difference declared and trigger threshold rescaled accordingly.
+
+4. **CRYPTO-EDGE-004 - metric-choice and substituted-screens sensitivity confirmed.** CapMrktEstUSD pre-registered as market-cap definition with CapMrktCurUSD as robustness check; boundary cross-check statistic reported for each metric separately (0.97 estimated, 0.98 current for correctly matched names); substituted screens' own size composition declared (listing-age 90-day minimum, top 40 by trailing 30-day quote volume reselected every 90 days, exit at top-60) alongside every within-stratum comparison. The unconditional momentum spread and within-stratum comparison remain return statistics and were not computed.
+
+5. **Adversarial.** All three carried disagreements re-tested and upheld (001 falsifiability 4/5; 003 free-data 5/5; 004 free-data 4/5). Guarded against re-spins disguised as data improvements - data improvements require specification changes with explicit falsifiers. No new hypothesis added; none of substantive value.
+
+6. **Artefacts updated.** All five research artefacts (IDEA_LEDGER, RANKED_SHORTLIST, SOURCE_NOTES, PROCESS_CHANGELOG, REJECTED_AND_DEFERRED) and both handoff files updated. Research only; no performance statistics computed.
+
+## Initial Task Message for the Next Agent (fortieth cycle)
+
+**Task: Conduct the fortieth research cycle.**
 
 You are the research-theory agent for this quantitative cryptocurrency indicators hypothesis factory. Your mission is to advance the ranked catalogue of original, falsifiable systematic trading edges. This repository is research-only: do not run backtests, performance statistics, or any empirical validation; do not download historical trading datasets; do not implement strategies or indicators in executable code; do not use paid data sources. See SYSTEMATIC_CRYPTO_EDGE_HYPOTHESIS_RESEARCH_PROMPT.txt for the full mission and scope boundary.
 
 Deliverables:
-- Re-derive every total from its seven dimension contributions; update all five research artefacts (IDEA_LEDGER.md, RANKED_SHORTLIST.md, SOURCE_NOTES.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md); update both handoff files (root HANDOFF.md and research/HANDOFF.md); write a clear initial task message for the fortieth cycle.
+- Re-derive every total from its seven dimension contributions; update all five research artefacts (IDEA_LEDGER.md, RANKED_SHORTLIST.md, SOURCE_NOTES.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md); update both handoff files (root HANDOFF.md and research/HANDOFF.md); write a clear initial task message for the forty-first cycle.
 
 Priorities:
 1. **Re-derive totals and audit prose.** Confirm CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. Audit every entry's item 16 in all three places (contribution list, versioned narratives, unversioned rationale prose) for stale scores; require version stamps on any prose. Confirm no new staleness appeared in this cycle or the previous one.
@@ -60,10 +76,10 @@ Constraints: research only; no backtests/performance/statistics/optimisation; fr
 
 ## Prior Task
 
-The prior agent task was: "Conduct the thirty-eighth research cycle". Completed as above.
+The prior agent task was: "Conduct the thirty-ninth research cycle". Completed as above.
 
 ## Status
 
-Completed (**thirty-eighth research cycle**, 2026-10-21). No score moved: **CRYPTO-EDGE-001 = 58 (v1.10), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.8), CRYPTO-EDGE-004 = 48 (v1.8)**, all confidence low, rank order 001 > 003 > 004 by 3 and 7 points, all totals re-derived from their seven dimension contributions. Thirty-eighth cycle: item 16 audited in all three places with no stale scores; CRYPTO-EDGE-001's transport pre-registration confirmed on the full inverse-arm sample (199 days, p10 2.73% p90 57.41%); CRYPTO-EDGE-003's effective-sample bound confirmed as first-class validation-plan term (180 at 5 days, 58 at 20 days instantaneous, 36 on the slow clock) and its two-venue median resolved (restated as venue-v minus the other venue's rate, factor-of-two level difference declared); CRYPTO-EDGE-004's market-cap definition confirmed as CapMrktEstUSD with CapMrktCurUSD as robustness check and substituted screens' composition declared (90-day listing age, top 40 by trailing 30-day quote volume, exit at top-60); carried disagreements re-tested and upheld; no score moved; no hypothesis added; no empirical validation performed.
+Completed (**thirty-ninth research cycle**, 2026-10-21). No score moved: **CRYPTO-EDGE-001 = 58 (v1.10), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.8), CRYPTO-EDGE-004 = 48 (v1.8)**, all confidence low, rank order 001 > 003 > 004 by 3 and 7 points, all totals re-derived from their seven dimension contributions. Thirty-ninth cycle: item 16 audited in all three places with no stale scores; CRYPTO-EDGE-001's transport pre-registration confirmed on the full inverse-arm sample (199 days, p10 2.73% p90 57.41%); CRYPTO-EDGE-003's effective-sample bound confirmed as first-class validation-plan term (180 at 5 days, 58 at 20 days instantaneous, 36 on the slow clock) and its two-venue median resolved (restated as venue-v minus the other venue's rate, factor-of-two level difference declared); CRYPTO-EDGE-004's market-cap definition confirmed as CapMrktEstUSD with CapMrktCurUSD as robustness check and substituted screens' composition declared (90-day listing age, top 40 by trailing 30-day quote volume, exit at top-60); carried disagreements re-tested and upheld; no score moved; no hypothesis added; no empirical validation performed.
 
-**Current cycle:** thirty-ninth research cycle (ready to start).
+**Current cycle:** fortieth research cycle (ready to start).
