@@ -631,3 +631,38 @@ Conduct the **thirty-second research cycle**. Follow the continuous iteration lo
 7. **Update all artefacts** (IDEA_LEDGER.md, RANKED_SHORTLIST.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md, SOURCE_NOTES.md), append thirty-second cycle summary and thirty-third cycle task to root `HANDOFF.md`, and **rewrite** `research/HANDOFF.md` as compact pointer for thirty-third cycle. If no artefacts change, say so explicitly in the artefact set.
 
 **Constraints:** research only; no backtests/performance/statistics/optimisation; free and open data only; every source free, dated, access-classified; score changes only if evidence bears on registered prediction; no re-specification to dodge failed tests; supersede in place; report distribution/description only when measuring.
+
+
+## Work Done (thirty-second research cycle, 2026-10-21)
+
+Measurement and monitoring cycle. All four totals re-derived from their seven dimension contributions and confirmed unchanged — **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), **CRYPTO-EDGE-004 = 48** (12+6+3+12+3+8+4); rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. No score moved. No hypothesis added. No empirical validation performed; no return, spread, drawdown, hit rate, Sharpe ratio or strategy-performance quantity computed for any strategy.
+
+1. **Transport test — OKX `liquidation-orders` coverage monitoring:** Extended monitoring via `after`/`before` pagination; retention boundary confirmed at ~24h rolling window, `after` cursor exclusive with zero cross-page duplication. Per-symbol density tracked (ETH 2,152, BTC 1,202 events over 24h window); page-to-time mapping confirmed per-symbol. Route remains **prospective-only** (from 2026-10-21 forward); no dated liquidation product located. Aggregate-versus-per-instrument reconciliation unchanged; denominator scope error (25.3% mismatch for BTC) remains explicit.
+
+2. **One-sided prospective liquidity filter (CRYPTO-EDGE-003):** Re-confirmed disjoint windows — funding archive (2021-01 → 2025-09-05) and open-interest series (2026-04-24 → present), gap quantified as **232 days**. Five-minute open-interest cadence confirmed to silently truncate to most recent 48 hours (correcting earlier recorded error). Symmetric filter executable on no date; trigger-state count remains **zero executable dates** with asymmetry and disjointness explicitly declared.
+
+3. **Estimated-market-cap stratum churn (CRYPTO-EDGE-004):** Expanded Coin Metrics `CapMrktEstUSD` sample. Boundary cross-check re-run with stable-identifier matching; median panel-to-reference ratio **0.998** over 277 matched names (correcting earlier artefact where symbol-matching produced apparent divergences). Small stratum churn measured: 95.5% survival at 30 days, 44.3% in worst month; median 1 member lost per day. Membership constraints quantified (128 of 850 assets ended before 2026-10-20; 123 former stratum members). Stratum definition (estimated primary, current as robustness) maintained.
+
+4. **Adversarial re-test of carried disagreements:** All carried disagreements re-tested and upheld. CRYPTO-EDGE-001 falsifiability held at 4/5; CRYPTO-EDGE-003 free-data remains 5/5; CRYPTO-EDGE-004 free-data remains 4/5. Select-versus-harvest prior re-verified; no re-spins accepted.
+
+5. **Artefacts and handoff:** All five research artefacts reviewed and updated with cycle 32 summary; root `HANDOFF.md` updated; `research/HANDOFF.md` rewritten as compact pointer for cycle 33.
+
+## Next Task — initial message for the next agent (thirty-third cycle)
+
+Conduct the **thirty-third research cycle**. Follow the continuous iteration loop in the prompt. Priorities:
+
+1. **Re-derive every total from its seven dimension contributions** (score / 5 x weight, summing to 100) and check `research/RANKED_SHORTLIST.md` against `research/IDEA_LEDGER.md` before publishing anything. Current state: **CRYPTO-EDGE-001 = 58, CRYPTO-EDGE-002 = 46 (rejected), CRYPTO-EDGE-003 = 55, CRYPTO-EDGE-004 = 48**, all confidence low, rank order 001 > 003 > 004 by 3 and 7 points. Check each item's *contribution list* against the cycle record that moved the dimension. No score moves unless new evidence bears on a **registered prediction** directly.
+
+2. **Scope discipline:** Do **not** compute forward returns, spreads, drawdowns, hit rates, Sharpe ratios, or strategy performance. Any such analysis is a validation action for elsewhere.
+
+3. **CRYPTO-EDGE-001:** Continue OKX `liquidation-orders` coverage monitoring via pagination (`after`/`before`); report per-symbol stability over time; keep route **prospective-only** (~24h rolling). Track retention boundary behavior, page-to-time mapping, and denominator scope error (25.3% mismatch for BTC). Continue search for dated liquidation product or per-instrument open-interest history.
+
+4. **CRYPTO-EDGE-003:** Re-confirm disjoint funding (2021-01 → 2025-09-05) and open-interest (2026-04-24 → present) windows, gap 232 days. Note five-minute OI silently truncates to 48h. Report symmetric filter executable on no date and trigger-state count zero executable dates.
+
+5. **CRYPTO-EDGE-004:** Expand Coin Metrics `CapMrktEstUSD` sample; report stratum churn per date (survival 95.5% at 30d, 44.3% worst month). Maintain boundary cross-check with stable-identifier matching; membership/current-only constraints.
+
+6. **Adversarial checks:** Re-test carried disagreements (001 falsifiability 4/5; 003 free-data 5/5; 004 free-data 4/5); confirm select-versus-harvest prior; verify no re-spins. Apply all five process rules.
+
+7. **Update all artefacts** (IDEA_LEDGER.md, RANKED_SHORTLIST.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md, SOURCE_NOTES.md), append thirty-third cycle summary and thirty-fourth cycle task to root `HANDOFF.md`, and **rewrite** `research/HANDOFF.md` as compact pointer for thirty-fourth cycle. If no artefacts change, say so explicitly.
+
+**Constraints:** research only; no backtests/performance/statistics/optimisation; free and open data only; every source free, dated, access-classified; score changes only if evidence bears on registered prediction; no re-specification to dodge failed tests; supersede in place; report distribution/description only when measuring.
