@@ -6,9 +6,11 @@
 
 **Current cycle:** seventy-third research cycle (completed, 2026-10-22). Prior agent task "Conduct the seventy-third research cycle" is complete.
 
-**Current cycle (next):** seventy-fourth research cycle (task message issued in root `../HANDOFF.md`, ready to start).
+**Current cycle (next):** seventy-fifth research cycle (task message issued, ready to start).
 
-**Initial task message for the next agent (seventy-fourth cycle):** Conduct the seventy-fourth research cycle. Full message in root `../HANDOFF.md`. Its priorities in one line: re-derive trigger counts with daily cross-section coverage reported beside every count at all three widths for CRYPTO-EDGE-001; re-derive CRYPTO-EDGE-003's declared window on a fresh pull and re-test the extension's condition with a dated check; re-verify CRYPTO-EDGE-004's free market-capitalisation route coverage and revisability as dated access facts and quantify the free screen's size composition; run the audit, adversarial review and claim-side follow-ups; zero new hypothesis unless it adds substantive value.
+## Initial Task Message (seventy-fifth cycle)
+
+**Task: Conduct the seventy-fifth research cycle.** Priorities: (1) CRYPTO-EDGE-001 - re-derive trigger counts with daily cross-section coverage reported beside every count at all three widths, flagging below-median-coverage days, with the alternative treatment (exclude below-median-coverage days) as a declared sensitivity; (2) CRYPTO-EDGE-003 - re-derive the declared window on a fresh pull, re-test the extension's condition with a dated check, and tighten the matching-rule, independent-window and slow-clock conventions; (3) CRYPTO-EDGE-004 - re-verify the free market-capitalisation route's coverage and revisability as dated access facts and quantify the free screen's size composition against the reference screen; (4) audit, adversarial review and claim-side follow-ups; (5) zero new hypothesis unless it adds substantive value. Re-derive every total; update all five research artefacts and both handoff files; write a clear initial task message for the seventy-sixth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities. Full message in root `../HANDOFF.md`.
 
 (End of file - total 9 lines)
 
