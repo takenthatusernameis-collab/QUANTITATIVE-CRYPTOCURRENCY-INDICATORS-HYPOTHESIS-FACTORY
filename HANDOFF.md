@@ -412,3 +412,15 @@ Priorities:
 5. **Zero new hypothesis unless it adds substantive value.** The catalogue's current task is to harden the three active entries' specifications, not to add new ones.
 
 Constraints: research only; no backtests/performance/statistics/optimisation; free and open data only; every source free, dated, access-classified; score changes only if evidence bears on a registered prediction; no re-specification to dodge failed tests; supersede in place; record coverage as intervals with their interior holes; test pagination direction before trusting vendor docs; when a boundary moves intraday, record the observation time with it; a construction fact is not evidence for a claim; a better document is not new evidence.
+
+## Completed Task (sixty-fourth cycle, 2026-10-22)
+
+The sixty-fourth research cycle is complete. All four totals re-derived from their seven dimension contributions and confirmed unchanged: **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), v1.21; **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), v1.6; **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), v1.18; **CRYPTO-EDGE-004 = 51** (12+6+3+15+3+8+4), v1.18. Rank order 001 > 003 > 004 by **3** and **4** points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy.
+
+## Initial Task Message (sixty-fifth cycle)
+
+**Task: Conduct the sixty-fifth research cycle.** Priorities: (1) CRYPTO-EDGE-001 - fix the contemporaneity marker's reading in the plan of record before any outcome is read, reporting surviving trigger counts on both arms; (2) CRYPTO-EDGE-003 - re-derive the declared window on a fresh pull and re-test the extension's condition with a dated check; (3) CRYPTO-EDGE-004 - re-verify the free market-capitalisation route's coverage and revisability as dated access facts; (4) audit, adversarial review and claim-side follow-ups; (5) zero new hypothesis unless it adds substantive value. Re-derive every total; update all five research artefacts and both handoff files; write a clear initial task message for the sixty-sixth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+**Current cycle:** sixty-fourth research cycle (completed, 2026-10-22). Prior agent task "Conduct the sixty-fourth research cycle" is complete.
+
+**Current cycle (next):** sixty-fifth research cycle (task message issued, ready to start).
