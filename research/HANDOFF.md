@@ -2,9 +2,9 @@
 
 **Durable log:** `../HANDOFF.md` (root). This file is regenerated every cycle; do not append here.
 
-**Current state (as of seventy-first cycle, including its completion):** CRYPTO-EDGE-001 = 58 (v1.21), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.18), CRYPTO-EDGE-004 = 51 (v1.18). Rank order 001 > 003 > 004 by **3** and **4** points. All confidence low. No hypothesis added; no score moved; no empirical validation performed; no return/performance quantities computed.
+**Current state (as of seventy-second cycle, including its completion):** CRYPTO-EDGE-001 = 58 (v1.21), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.18), CRYPTO-EDGE-004 = 51 (v1.18). Rank order 001 > 003 > 004 by **3** and **4** points. All confidence low. No hypothesis added; no score moved; no empirical validation performed; no return/performance quantities computed.
 
-**Current cycle:** seventy-first research cycle (completed, 2026-10-22). Prior agent task "Conduct the seventy-first research cycle" is complete.
+**Current cycle:** seventy-second research cycle (completed, 2026-10-22). Prior agent task "Conduct the seventy-second research cycle" is complete.
 
 **Current cycle (next):** seventy-second research cycle (task message issued in root `../HANDOFF.md`, ready to start).
 
@@ -59,9 +59,9 @@ The seventieth research cycle is complete. All four totals re-derived and confir
 
 The seventy-first research cycle is complete. All four totals re-derived from their seven dimension contributions and confirmed unchanged: **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), v1.21; **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), v1.6; **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), v1.18; **CRYPTO-EDGE-004 = 51** (12+6+3+15+3+8+4), v1.18. Rank order 001 > 003 > 004 by **3** and **4** points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied, not re-derived. Artefacts updated: all five research artefacts and both handoff files. Research only.
 
-**Current cycle:** seventy-first research cycle (completed, 2026-10-22). Prior agent task "Conduct the seventy-first research cycle" is complete.
+**Current cycle:** seventy-second research cycle (completed, 2026-10-22). Prior agent task "Conduct the seventy-second research cycle" is complete.
 
-**Current cycle (next):** seventy-second research cycle (task message issued, ready to start).
+**Current cycle (next):** seventy-third research cycle (task message issued, ready to start).
 
 ## Initial Task Message (seventy-second cycle)
 
@@ -85,3 +85,15 @@ Priorities:
 5. **Zero new hypothesis unless it adds substantive value.** The catalogue's current task is to harden the three active entries' specifications, not to add new ones.
 
 Constraints: research only; free and open data only; no empirical validation; no performance quantities; record coverage as intervals with their interior holes; test pagination direction before trusting vendor docs; when a boundary moves intraday, record the observation time with it; a construction fact is not evidence for a claim; a better document is not new evidence.
+
+## Completed Task (seventy-second cycle, 2026-10-22)
+
+The seventy-second research cycle is complete. All four totals re-derived and confirmed unchanged: CRYPTO-EDGE-001 = 58 (v1.21), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.18), CRYPTO-EDGE-004 = 51 (v1.18). Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed. Eleven standing process rules applied, not re-derived. Artefacts updated. Research only.
+
+**Current cycle:** seventy-second research cycle (completed, 2026-10-22). Prior agent task "Conduct the seventy-second research cycle" is complete.
+
+**Current cycle (next):** seventy-third research cycle (task message issued, ready to start).
+
+## Initial Task Message (seventy-third cycle)
+
+**Task: Conduct the seventy-third research cycle.** Priorities: (1) CRYPTO-EDGE-001 - re-derive trigger counts with daily cross-section coverage reported beside every count at all three widths, flagging below-median-coverage days, with the alternative treatment (exclude below-median-coverage days) as a declared sensitivity; (2) CRYPTO-EDGE-003 - re-derive the declared window on a fresh pull, re-test the extension's condition with a dated check, and tighten the matching-rule, independent-window and slow-clock conventions; (3) CRYPTO-EDGE-004 - re-verify the free market-capitalisation route's coverage and revisability as dated access facts and quantify the free screen's size composition against the reference screen; (4) audit, adversarial review and claim-side follow-ups; (5) zero new hypothesis unless it adds substantive value. Re-derive every total; update all five research artefacts and both handoff files; write a clear initial task message for the seventy-fourth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
