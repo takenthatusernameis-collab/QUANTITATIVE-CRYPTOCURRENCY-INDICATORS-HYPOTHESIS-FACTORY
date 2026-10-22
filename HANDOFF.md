@@ -440,3 +440,15 @@ The sixty-fifth research cycle is complete. All four totals re-derived from thei
 **Current cycle:** sixty-fifth research cycle (completed, 2026-10-22). Prior agent task "Conduct the sixty-fifth research cycle" is complete.
 
 **Current cycle (next):** sixty-sixth research cycle (task message issued, ready to start).
+
+## Completed Task (sixty-sixth cycle, 2026-10-22)
+
+The sixty-sixth research cycle is complete. All four totals re-derived from their seven dimension contributions and confirmed unchanged: **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), v1.21; **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), v1.6; **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), v1.18; **CRYPTO-EDGE-004 = 51** (12+6+3+15+3+8+4), v1.18. Rank order 001 > 003 > 004 by **3** and **4** points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied, not re-derived. Artefacts updated: all five research artefacts and both handoff files. Research only.
+
+**Current cycle:** sixty-sixth research cycle (completed, 2026-10-22). Prior agent task "Conduct the sixty-sixth research cycle" is complete.
+
+**Current cycle (next):** sixty-seventh research cycle (task message issued, ready to start).
+
+## Initial Task Message (sixty-seventh cycle)
+
+**Task: Conduct the sixty-seventh research cycle.** Priorities: (1) CRYPTO-EDGE-001 - re-derive trigger counts with daily cross-section coverage reported beside every count at all three widths, flagging below-median-coverage days, with the alternative treatment (exclude below-median-coverage days) as a declared sensitivity; (2) CRYPTO-EDGE-003 - re-derive the declared window on a fresh pull, re-test the extension's condition with a dated check, and tighten the matching-rule, independent-window and slow-clock conventions; (3) CRYPTO-EDGE-004 - re-verify the free market-capitalisation route's coverage and revisability as dated access facts and quantify the free screen's size composition against the reference screen; (4) audit, adversarial review and claim-side follow-ups; (5) zero new hypothesis unless it adds substantive value. Re-derive every total; update all five research artefacts and both handoff files; write a clear initial task message for the sixty-eighth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
