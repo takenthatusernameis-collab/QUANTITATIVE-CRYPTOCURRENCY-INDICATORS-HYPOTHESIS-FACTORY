@@ -776,3 +776,32 @@ CRYPTO-EDGE-001's trigger counts re-derived with daily cross-section coverage re
 ## Initial Task Message (eighty-second cycle)
 
 **Task: Conduct the eighty-second research cycle.** Priorities: (1) CRYPTO-EDGE-001 - re-derive trigger counts with daily cross-section coverage reported beside every count at all three widths, flagging below-median-coverage days, with the alternative treatment (exclude below-median-coverage days) as a declared sensitivity; (2) CRYPTO-EDGE-003 - re-derive the declared window on a fresh pull, re-test the extension's condition with a dated check, and tighten the matching-rule, independent-window and slow-clock conventions; (3) CRYPTO-EDGE-004 - re-verify the free market-capitalisation route's coverage and revisability as dated access facts and quantify the free screen's size composition against the reference screen; (4) audit, adversarial review and claim-side follow-ups; (5) zero new hypothesis unless it adds substantive value. Re-derive every total; update all five research artefacts and both handoff files; write a clear initial task message for the eighty-third cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+## Completed Task (eighty-second cycle, 2026-10-22)
+
+The eighty-second research cycle is complete. All four totals re-derived from their seven dimension contributions and confirmed unchanged: **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), v1.21; **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), v1.6; **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), v1.18; **CRYPTO-EDGE-004 = 51** (12+6+3+15+3+8+4), v1.18. Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied, not re-derived. Artefacts updated: all five research artefacts and both handoff files. Research only.
+
+**Status:** Completed (eighty-second research cycle, 2026-10-22). Prior agent task "Conduct the eighty-second research cycle" is complete.
+
+## Initial Task Message (eighty-third cycle)
+
+**Task: Conduct the eighty-third research cycle.**
+
+You are the research-theory agent for this quantitative cryptocurrency indicators hypothesis factory. Your mission is to advance the ranked catalogue of original, falsifiable systematic trading edges. This repository is research-only: do not run backtests, performance statistics, or any empirical validation; do not download historical trading datasets for the purpose of calculating strategy results; do not implement strategies or indicators in executable code; do not use paid data sources. See SYSTEMATIC_CRYPTO_EDGE_HYPOTHESIS_RESEARCH_PROMPT.txt for the full mission and scope boundary.
+
+Context: the eighty-second cycle completed all five priorities with no score moved. All four totals re-derived: **CRYPTO-EDGE-001 = 58 (v1.21), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.18), CRYPTO-EDGE-004 = 51 (v1.18)**; rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no empirical validation performed; no return/performance quantities computed.
+
+Deliverables:
+- Re-derive every total from its seven dimension contributions; update all five research artefacts (IDEA_LEDGER.md, RANKED_SHORTLIST.md, SOURCE_NOTES.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md); update both handoff files (root HANDOFF.md and research/HANDOFF.md); write a clear initial task message for the eighty-fourth cycle.
+- Every confirmation executed must be written into the item-14 plan of record of the entry it governs, in the same cycle, with the write's location recorded, and the entry heading moved with the stamp (the item-14 stamp is authoritative).
+- Every entry's item-3 status block must state its current total, confidence, version stamp and cycle label, and the current ranking table - with each entry's next research step - must be written into the top section of RANKED_SHORTLIST.md.
+- The eleven standing process rules must be applied, not re-derived.
+
+Priorities:
+1. CRYPTO-EDGE-001 - re-derive trigger counts with daily cross-section coverage reported beside every count at all three widths, flagging below-median-coverage days, with the alternative treatment (exclude below-median-coverage days) as a declared sensitivity.
+2. CRYPTO-EDGE-003 - re-derive the declared window on a fresh pull, re-test the extension's condition with a dated check, and tighten the matching-rule, independent-window and slow-clock conventions.
+3. CRYPTO-EDGE-004 - re-verify the free market-capitalisation route's coverage and revisability as dated access facts and quantify the free screen's size composition against the reference screen.
+4. Audit, adversarial review and claim-side follow-ups.
+5. Zero new hypothesis unless it adds substantive value.
+
+Constraints: research only; free and open data only; no empirical validation; no performance quantities.
