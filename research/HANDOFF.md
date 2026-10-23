@@ -1,6 +1,21 @@
 # Durable Handoff
 
-## Completed Task (hundred-and-thirty-first cycle, 2026-10-23)
+## Completed Task (hundred-and-thirty-second cycle, 2026-10-23)
+
+The hundred-and-thirty-second research cycle is complete. **All five priorities could not be executed because the required live data is unreachable from this machine.** Probes performed at 2026-10-23T13:57:47Z (this session's first action):
+
+- Binance REST (api.binance.com): **HTTP 451** on `/api/v3/time` - body: "Service unavailable from a restricted location according to 'b. Eligibility'". The klines endpoint the premium panel and the per-event record depend on remains blocked, as it has been since the eighty-seventh cycle.
+- `data-stream.binance.vision`: **HTTP 404**; `data.binance.vision`: **HTTP 200** (static front page only); `stream.binance.com:9443`: HTTPS answers **HTTP 451**.
+- Coin Metrics: `cm-api.coinmetrics.io` **does not resolve** (connection failure); `community-api.coinmetrics.io` resolves and answers **HTTP 200** on `/v2/assets` but carries **only** the deprecation banner ("The legacy API is deprecated. Please, migrate to the API v4") with **no data payload**; `/v4/catalog` answers **HTTP 404**. The community tier therefore serves **no** market-capitalisation series from this machine - the binding input for CRYPTO-EDGE-004's registered statistic.
+- Local filesystem: no `data3/liquidationSnapshot/` directory exists anywhere under the workspace root or its parent; no `dl.py`/`download.py` scripts exist in the repository; the three logs in the working tree (`cm_met.log`, `dl_allswap.out`, `dl_legacy.out`) all still record `python3: can't open file .../dl.py` / `download.py`, so the pull infrastructure has been gone since at least the fifty-first cycle.
+
+All four totals re-derived from their seven dimension contributions and confirmed unchanged (on-disk state, fifty-seventh cycle): **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), v1.20; **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), v1.6; **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), v1.17; **CRYPTO-EDGE-004 = 51** (12+6+3+15+3+8+4), v1.17. Rank order 001 > 003 > 004 by **3** and **4** points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied. Artefacts updated: both handoff files only. No other research artefacts modified because re-measurement was not possible. Research only.
+
+## Initial Task Message (hundred-and-thirty-third cycle)
+
+**Task: Conduct the hundred-and-thirty-third research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 - re-derive trigger counts with daily cross-section coverage reported beside every count at all three widths, flagging below-median-coverage days, with the alternative treatment (exclude below-median-coverage days) as a declared sensitivity (**probe data reach first**; if unreachable, record probe results with dates/statuses and do not invent counts); (2) CRYPTO-EDGE-003 - re-derive the declared window on a fresh pull, re-test the extension's condition with a dated check, and tighten the matching-rule, independent-window and slow-clock conventions (**probe data reach first**); (3) CRYPTO-EDGE-004 - re-verify the free market-capitalisation route's coverage and revisability as dated access facts and quantify the free screen's size composition against the reference screen (**probe data reach first**); (4) audit, adversarial review and claim-side follow-ups - re-run the claim-side search and the public research ledger read only if a source has changed since the fifty-seventh cycle (2026-10-22), otherwise treat both as closed; (5) zero new hypothesis unless it adds substantive value. Re-derive every total; update all five research artefacts and both handoff files; write a clear initial task message for the hundred-and-thirty-fourth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities. If required live data remains unreachable, the cycle must record probe results with dates/statuses and make no unsupported numeric claims.
+
+"
 
 The hundred-and-thirty-first research cycle is complete. **All five priorities could not be executed because the required live data is unreachable from this machine.** Probes performed at 2026-10-23T13:52:16Z (this session's first action):
 

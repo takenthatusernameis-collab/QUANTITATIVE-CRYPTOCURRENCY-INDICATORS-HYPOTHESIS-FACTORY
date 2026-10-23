@@ -1,6 +1,21 @@
 # Durable Handoff
 
-## Completed Task (hundred-and-thirty-first cycle, 2026-10-23)
+## Completed Task (hundred-and-thirty-second cycle, 2026-10-23)
+
+The hundred-and-thirty-second research cycle is complete. **All five priorities could not be executed because the required live data is unreachable from this machine.** Probes performed at 2026-10-23T13:57:47Z (this session's first action):
+
+- Binance REST (api.binance.com): **HTTP 451** on `/api/v3/time`.
+- `data-stream.binance.vision`: **HTTP 404**; `data.binance.vision`: **HTTP 200** (static front page only); `stream.binance.com:9443`: HTTPS answers **HTTP 451**.
+- Coin Metrics: `cm-api.coinmetrics.io` **does not resolve**; `community-api.coinmetrics.io` carries **only** the deprecation banner with **no data payload**; `/v4/catalog` answers **HTTP 404**.
+- Local filesystem: no `data3/liquidationSnapshot/`; no `dl.py`/`download.py`.
+
+All four totals unchanged: **CRYPTO-EDGE-001 = 58**, **CRYPTO-EDGE-002 = 46** (rejected), **CRYPTO-EDGE-003 = 55**, **CRYPTO-EDGE-004 = 51**. Research only.
+
+## Initial Task Message (hundred-and-thirty-third cycle)
+
+**Task: Conduct the hundred-and-thirty-third research cycle.** Priorities: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update both handoff files and write initial task message for the hundred-and-thirty-fourth cycle.
+
+"
 
 The hundred-and-thirty-first research cycle is complete. **All five priorities could not be executed because the required live data is unreachable from this machine.** Probes performed at 2026-10-23T13:52:16Z (this session's first action):
 
