@@ -1,6 +1,8 @@
 # Durable Handoff
 
-## Work Done (fifty-seventh research cycle, 2026-10-22)
+## Completed Task (eighty-sixth cycle, 2026-10-23)
+
+The eighty-sixth research cycle is complete. Totals re-derived and unchanged: **CRYPTO-EDGE-001 = 58 (v1.21), CRYPTO-EDGE-002 = 46 (v1.6, rejected), CRYPTO-EDGE-003 = 55 (v1.18), CRYPTO-EDGE-004 = 51 (v1.18)**; rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return/performance quantities computed. Handoff updated; initial task message for the eighty-seventh cycle issued.
 
 A **construction-and-decision cycle that moves one score.** The cycle's five priorities were executed. All four totals were re-derived from their seven dimension contributions: **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), **CRYPTO-EDGE-004 = 51** (12+6+3+**15**+3+8+4); rank order 001 > 003 > 004 by **3** and **4** points; all confidence low. No hypothesis added; **one score moved** - CRYPTO-EDGE-004's free-data accessibility, 4/5 to 5/5, on a measured access fact rather than on an argument; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. The plan of record was amended for three entries, so the versions move: **001 v1.19 → v1.20, 003 v1.16 → v1.17, 004 v1.16 → v1.17**; 002 stays at v1.6 (rejected, no plan of record).
 
