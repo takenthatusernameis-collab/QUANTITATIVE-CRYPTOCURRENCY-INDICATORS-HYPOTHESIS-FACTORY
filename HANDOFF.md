@@ -486,3 +486,13 @@ All four totals unchanged: **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), v1.20; **
 ## Initial Task Message (hundred-and-sixty-ninth cycle)
 
 **Task: Conduct the hundred-and-sixty-ninth research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update both handoff files and write initial task message for the hundred-and-seventieth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+## Hundred-and-sixty-ninth research cycle (completed 2026-10-23) — a data-reach cycle
+
+Probes performed 2026-10-23T18:02Z: Binance REST `api.binance.com/api/v3/time` → **HTTP 451**; `data-stream.binance.vision` → **HTTP 404**; `data.binance.vision` → **HTTP 200** (static front page only); `stream.binance.com:9443` → **HTTP 451**; Coin Metrics `community-api.coinmetrics.io/v2/assets` → **HTTP 200** with deprecation banner and no data payload; `cm-api.coinmetrics.io` does not resolve; no `data3/liquidationSnapshot/` directory; no `dl.py`/`download.py`. All five priorities unreachable; no hypothesis added; no score moved; no empirical validation; no performance quantities.
+
+All four totals unchanged: **CRYPTO-EDGE-001 = 58** (16+6+3+15+6+8+4), v1.20; **CRYPTO-EDGE-002 = 46** (rejected; 12+3+3+15+3+6+4), v1.6; **CRYPTO-EDGE-003 = 55** (12+3+6+15+3+8+8), v1.17; **CRYPTO-EDGE-004 = 51** (12+6+3+15+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. Artefacts updated: both handoff files only. Research only.
+
+## Initial Task Message (hundred-and-seventieth cycle)
+
+**Task: Conduct the hundred-and-seventieth research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update both handoff files and write initial task message for the hundred-and-seventy-first cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
