@@ -1621,3 +1621,8 @@ All four totals re-derived from their seven dimension contributions and confirme
 ## Initial Task Message (hundred-and-ninety-fifth cycle)
 
 **Task: Conduct the hundred-and-ninety-fifth research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the hundred-and-ninety-sixth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+
+## Initial Task Message (hundred-and-ninety-third cycle)
+
+**Task: Conduct the hundred-and-ninety-third research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update both handoff files and write initial task message for the hundred-and-ninety-fourth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
