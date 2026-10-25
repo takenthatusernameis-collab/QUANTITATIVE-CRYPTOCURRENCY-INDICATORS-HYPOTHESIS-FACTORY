@@ -3494,3 +3494,11 @@ All four totals re-derived from their seven dimension contributions and confirme
 ## Initial Task Message (two-hundred-and-fortieth cycle)
 
 **Task: Conduct the two-hundred-and-fortieth research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-forty-first cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+## Completed Task (two-hundred-and-thirty-sixth research cycle, 2026-10-25T16:13:52Z)
+
+The two-hundred-and-thirty-sixth research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-25T16:13:52Z: Binance REST HTTP 451; data-stream 404; Coin Metrics community tier deprecation only; no local data3. All four totals unchanged (001=58, 002=46 rejected, 003=55, 004=51). Rank order 001 > 003 > 004. No hypothesis added; no score moved. Research only.
+
+## Initial Task Message (two-hundred-and-thirty-seventh cycle)
+
+**Task: Conduct the two-hundred-and-thirty-seventh research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-thirty-eighth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
