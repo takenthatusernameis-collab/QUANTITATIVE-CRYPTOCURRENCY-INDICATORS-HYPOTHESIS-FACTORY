@@ -5644,6 +5644,80 @@ All four totals re-derived from their seven dimension contributions and confirme
 ## Initial Task Message (two-hundred-and-eighteenth cycle)
 
 **Task: Conduct the two-hundred-and-eighteenth research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-nineteenth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+## Completed Task (two-hundred-and-eighteenth research cycle, 2026-10-26T21:47:29Z)
+
+The two-hundred-and-eighteenth research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-26T21:47:29Z (this session's first action):
+
+- Binance REST (api.binance.com): HTTP 451 on /api/v3/time.
+- data-stream.binance.vision: HTTP 404; data.binance.vision: HTTP 200 (static front page only); stream.binance.com:9443: HTTPS answers HTTP 451.
+- Coin Metrics: cm-api.coinmetrics.io does not resolve (connection failure, HTTP 000); community-api.coinmetrics.io resolves and answers HTTP 200 on /v2/assets but carries only the deprecation banner ("The legacy API is deprecated. Please, migrate to the API v4") with no data payload; /v4/catalog answers HTTP 404. The community tier therefore serves no market-capitalisation series from this machine - the binding input for CRYPTO-EDGE-004's registered statistic.
+- Local filesystem: no data3/liquidationSnapshot/ directory exists anywhere under the workspace root or its parent; no dl.py/download.py scripts exist in the repository; the pull infrastructure is absent.
+
+All four totals re-derived from their seven dimension contributions and confirmed unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 51 (12+6+3+15+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied. Artefacts updated: all three handoff files only. No other research artefacts modified because re-measurement was not possible. Research only.
+
+## Initial Task Message (two-hundred-and-nineteenth cycle)
+
+**Task: Conduct the two-hundred-and-nineteenth research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-twentieth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+## Completed Task (two-hundred-and-nineteenth research cycle, 2026-10-26T21:49:36Z)
+
+The two-hundred-and-nineteenth research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-26T21:49:36Z (this session's first action):
+
+- Binance REST (api.binance.com): HTTP 451 on /api/v3/time.
+- data-stream.binance.vision: HTTP 404; data.binance.vision: HTTP 200 (static front page only); stream.binance.com:9443: HTTPS answers HTTP 451.
+- Coin Metrics: cm-api.coinmetrics.io does not resolve (connection failure, HTTP 000); community-api.coinmetrics.io resolves and answers HTTP 200 on /v2/assets but carries only the deprecation banner ("The legacy API is deprecated. Please, migrate to the API v4") with no data payload; /v4/catalog answers HTTP 404. The community tier therefore serves no market-capitalisation series from this machine - the binding input for CRYPTO-EDGE-004's registered statistic.
+- Local filesystem: no data3/liquidationSnapshot/ directory exists anywhere under the workspace root or its parent; no dl.py/download.py scripts exist in the repository; the pull infrastructure is absent.
+
+All four totals re-derived from their seven dimension contributions and confirmed unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 51 (12+6+3+15+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied. Artefacts updated: all three handoff files only. No other research artefacts modified because re-measurement was not possible. Research only.
+
+## Initial Task Message (two-hundred-and-twentieth cycle)
+
+**Task: Conduct the two-hundred-and-twentieth research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-twenty-first cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+## Completed Task (two-hundred-and-twentieth research cycle, 2026-10-26T21:57:05Z)
+
+The two-hundred-and-twentieth research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-26T21:57:05Z (this session's first action):
+
+- Binance REST (api.binance.com): HTTP 451 on /api/v3/time and on /api/v3/klines (BTCUSDT 1m, limit=1).
+- data-stream.binance.vision: HTTP 404; data.binance.vision: HTTP 200 (static front page only, "Binance Data Collection" bootstrap HTML); stream.binance.com:9443: HTTPS answers HTTP 451.
+- Coin Metrics: cm-api.coinmetrics.io does not resolve (connection failure, HTTP 000); community-api.coinmetrics.io/v2/assets answers HTTP 200 but carries only the deprecation banner ("The legacy API is deprecated. Please, migrate to the API v4") with no data payload; /v4/catalog answers HTTP 404. The community tier therefore serves no market-capitalisation series from this machine - the binding input for CRYPTO-EDGE-004's registered statistic.
+- Local filesystem: no data3/liquidationSnapshot/ directory exists anywhere under the workspace root or its parent; no dl.py/download.py scripts exist in the repository; the pull infrastructure is absent.
+
+All four totals re-derived from their seven dimension contributions and confirmed unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 51 (12+6+3+15+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied. Artefacts updated: all three handoff files only. No other research artefacts modified because re-measurement was not possible. Research only.
+
+## Initial Task Message (two-hundred-and-twenty-first cycle)
+
+**Task: Conduct the two-hundred-and-twenty-first research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-twenty-second cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+## Completed Task (two-hundred-and-twentieth research cycle, 2026-10-26T21:57:05Z)
+
+The two-hundred-and-twentieth research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-26T21:57:05Z (this session's first action):
+
+- Binance REST (api.binance.com): HTTP 451 on /api/v3/time and on /api/v3/klines (BTCUSDT 1m, limit=1).
+- data-stream.binance.vision: HTTP 404; data.binance.vision: HTTP 200 (static front page only, "Binance Data Collection" bootstrap HTML); stream.binance.com:9443: HTTPS answers HTTP 451.
+- Coin Metrics: cm-api.coinmetrics.io does not resolve (connection failure, HTTP 000); community-api.coinmetrics.io/v2/assets answers HTTP 200 but carries only the deprecation banner ("The legacy API is deprecated. Please, migrate to the API v4") with no data payload; /v4/catalog answers HTTP 404. The community tier therefore serves no market-capitalisation series from this machine - the binding input for CRYPTO-EDGE-004's registered statistic.
+- Local filesystem: no data3/liquidationSnapshot/ directory exists anywhere under the workspace root or its parent; no dl.py/download.py scripts exist in the repository; the pull infrastructure is absent.
+
+All four totals re-derived from their seven dimension contributions and confirmed unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 51 (12+6+3+15+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied. Artefacts updated: all three handoff files only. No other research artefacts modified because re-measurement was not possible. Research only.
+
+## Initial Task Message (two-hundred-and-twenty-first cycle)
+
+**Task: Conduct the two-hundred-and-twenty-first research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-twenty-second cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+## Completed Task (two-hundred-and-twenty-first research cycle, 2026-10-26T22:03:02Z)
+
+The two-hundred-and-twenty-first research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-26T22:03:02Z (this session's first action):
+
+- Binance REST (api.binance.com): HTTP 451 on /api/v3/time and on /api/v3/klines (BTCUSDT 1m, limit=1).
+- data-stream.binance.vision: HTTP 404; data.binance.vision: HTTP 200 (static front page only, "Binance Data Collection" bootstrap HTML); stream.binance.com:9443: HTTPS answers HTTP 451.
+- Coin Metrics: cm-api.coinmetrics.io does not resolve (connection failure, HTTP 000); community-api.coinmetrics.io/v2/assets answers HTTP 200 but carries only the deprecation banner ("The legacy API is deprecated. Please, migrate to the API v4") with no data payload; /v4/catalog answers HTTP 404. The community tier therefore serves no market-capitalisation series from this machine - the binding input for CRYPTO-EDGE-004's registered statistic.
+- Local filesystem: no data3/liquidationSnapshot/ directory exists anywhere under the workspace root or its parent; no dl.py/download.py scripts exist in the repository; the pull infrastructure is absent.
+
+All four totals re-derived from their seven dimension contributions and confirmed unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 51 (12+6+3+15+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied. Artefacts updated: all three handoff files only. No other research artefacts modified because re-measurement was not possible. Research only.
+
+## Initial Task Message (two-hundred-and-twenty-second cycle)
+
+**Task: Conduct the two-hundred-and-twenty-second research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-twenty-third cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
 ## Completed Task (two-hundred-and-nineteenth research cycle, 2026-10-24T12:07:27Z)
 
 The two-hundred-and-nineteenth research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-24T12:07:27Z (this session's first action):
@@ -10723,20 +10797,50 @@ All four totals re-derived from their seven dimension contributions and confirme
 
 **Task: Conduct the two-hundred-and-twenty-fifth research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-twenty-sixth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
 
-## Completed Task (two-hundred-and-fifty-ninth research cycle, 2026-10-27T00:45:14Z)
+## Completed Task (two-hundred-and-twenty-fifth research cycle, 2026-10-27T00:35:09Z)
 
-The two-hundred-and-fifty-ninth research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-27T00:45:14Z (this session's first action):
+The two-hundred-and-twenty-fifth research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-27T00:35:09Z (this session's first action):
 
-- Binance REST (api.binance.com): HTTP 451 on /api/v3/time.
+- Binance REST (api.binance.com): HTTP 451 on /api/v3/time and on /api/v3/klines (BTCUSDT 1m, limit=1).
 - data-stream.binance.vision: HTTP 404; data.binance.vision: HTTP 200 (static front page only); stream.binance.com:9443: HTTPS answers HTTP 451.
-- Coin Metrics: cm-api.coinmetrics.io does not resolve (connection failure, HTTP 000); community-api.coinmetrics.io resolves and answers HTTP 200 on /v2/assets but carries only the deprecation banner ("The legacy API is deprecated. Please, migrate to the API v4") with no data payload; /v4/catalog answers HTTP 404. The community tier therefore serves no market-capitalisation series from this machine - the binding input for CRYPTO-EDGE-004's registered statistic.
+- Coin Metrics: cm-api.coinmetrics.io does not resolve (connection failure, HTTP 000); community-api.coinmetrics.io/v2/assets answers HTTP 200 but carries only the deprecation banner ("The legacy API is deprecated. Please, migrate to the API v4") with no data payload; /v4/catalog answers HTTP 404. The community tier therefore serves no market-capitalisation series from this machine - the binding input for CRYPTO-EDGE-004's registered statistic.
 - Local filesystem: no data3/liquidationSnapshot/ directory exists anywhere under the workspace root or its parent; no dl.py/download.py scripts exist in the repository; the pull infrastructure is absent.
 
 All four totals re-derived from their seven dimension contributions and confirmed unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 51 (12+6+3+15+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied. Artefacts updated: all three handoff files only. No other research artefacts modified because re-measurement was not possible. Research only.
 
-## Initial Task Message (two-hundred-and-sixtieth cycle)
+## Initial Task Message (two-hundred-and-twenty-sixth cycle)
 
-**Task: Conduct the two-hundred-and-sixtieth research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-sixty-first cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+**Task: Conduct the two-hundred-and-twenty-sixth research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-twenty-seventh cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+## Completed Task (two-hundred-and-twenty-sixth research cycle, 2026-10-27T00:38:49Z)
+
+The two-hundred-and-twenty-sixth research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-27T00:38:49Z (this session's first action):
+
+- Binance REST (api.binance.com): HTTP 451 on /api/v3/time.
+- data-stream.binance.vision: HTTP 404; data.binance.vision: HTTP 200 (static front page only); stream.binance.com:9443: HTTPS answers HTTP 451.
+- Coin Metrics: cm-api.coinmetrics.io does not resolve (connection failure, HTTP 000); community-api.coinmetrics.io/v2/assets answers HTTP 200 but carries only the deprecation banner ("The legacy API is deprecated. Please, migrate to the API v4") with no data payload; /v4/catalog answers HTTP 404. The community tier therefore serves no market-capitalisation series from this machine - the binding input for CRYPTO-EDGE-004's registered statistic.
+- Local filesystem: no data3/liquidationSnapshot/ directory exists anywhere under the workspace root or its parent; no dl.py/download.py scripts exist in the repository; the pull infrastructure is absent.
+
+All four totals re-derived from their seven dimension contributions and confirmed unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 51 (12+6+3+15+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied. Artefacts updated: all three handoff files only. No other research artefacts modified because re-measurement was not possible. Research only.
+
+## Initial Task Message (two-hundred-and-twenty-seventh cycle)
+
+**Task: Conduct the two-hundred-and-twenty-seventh research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-twenty-eighth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+## Completed Task (two-hundred-and-twenty-seventh research cycle, 2026-10-27T00:43:21Z)
+
+The two-hundred-and-twenty-seventh research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-27T00:43:21Z (this session's first action):
+
+- Binance REST (api.binance.com): HTTP 451 on /api/v3/time and on /api/v3/klines (BTCUSDT 1m, limit=1).
+- data-stream.binance.vision: HTTP 404; data.binance.vision: HTTP 200 (static front page only); stream.binance.com:9443: HTTPS answers HTTP 451.
+- Coin Metrics: cm-api.coinmetrics.io does not resolve (connection failure, HTTP 000); community-api.coinmetrics.io/v2/assets answers HTTP 200 but carries only the deprecation banner ("The legacy API is deprecated. Please, migrate to the API v4") with no data payload; /v4/catalog answers HTTP 404. The community tier therefore serves no market-capitalisation series from this machine - the binding input for CRYPTO-EDGE-004's registered statistic.
+- Local filesystem: no data3/liquidationSnapshot/ directory exists anywhere under the workspace root or its parent; no dl.py/download.py scripts exist in the repository; the pull infrastructure is absent.
+
+All four totals re-derived from their seven dimension contributions and confirmed unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 51 (12+6+3+15+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied. Artefacts updated: all three handoff files only. No other research artefacts modified because re-measurement was not possible. Research only.
+
+## Initial Task Message (two-hundred-and-twenty-eighth cycle)
+
+**Task: Conduct the two-hundred-and-twenty-eighth research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all three handoff files and write initial task message for the two-hundred-and-twenty-ninth cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
 
 ## Completed Task (two-hundred-and-twenty-eighth research cycle, 2026-10-27T00:46:00Z)
 
@@ -10783,3 +10887,18 @@ All four totals re-derived from their seven dimension contributions and confirme
 ## Initial Task Message (two-hundred-and-thirty-first cycle)
 
 **Task: Conduct the two-hundred-and-thirty-first research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all five handoff files and write initial task message for the two-hundred-and-thirty-second cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+
+## Completed Task (two-hundred-and-thirty-first research cycle, 2026-10-27T01:38:52Z)
+
+The two-hundred-and-thirty-first research cycle is complete. All five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-27T01:38:52Z (this session's first action):
+
+- Binance REST (api.binance.com): HTTP 451 on /api/v3/time.
+- data-stream.binance.vision: HTTP 404; data.binance.vision: HTTP 200 (static front page only); stream.binance.com:9443: HTTPS answers HTTP 451.
+- Coin Metrics: cm-api.coinmetrics.io does not resolve (connection failure, HTTP 000); community-api.coinmetrics.io resolves and answers HTTP 200 on /v2/assets but carries only the deprecation banner ("The legacy API is deprecated. Please, migrate to the API v4") with no data payload; /v4/catalog answers HTTP 404. The community tier therefore serves no market-capitalisation series from this machine - the binding input for CRYPTO-EDGE-004's registered statistic.
+- Local filesystem: no data3/liquidationSnapshot/ directory exists anywhere under the workspace root or its parent; no dl.py/download.py scripts exist in the repository; the pull infrastructure is absent.
+
+All four totals re-derived from their seven dimension contributions and confirmed unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 51 (12+6+3+15+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 4 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Eleven standing process rules applied. Artefacts updated: all five handoff files only. No other research artefacts modified because re-measurement was not possible. Research only.
+
+## Initial Task Message (two-hundred-and-thirty-second cycle)
+
+**Task: Conduct the two-hundred-and-thirty-second research cycle.** Priorities carried forward: (1) CRYPTO-EDGE-001 trigger counts with coverage; (2) CRYPTO-EDGE-003 declared window; (3) CRYPTO-EDGE-004 free market-cap route; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all five handoff files and write initial task message for the two-hundred-and-thirty-third cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
