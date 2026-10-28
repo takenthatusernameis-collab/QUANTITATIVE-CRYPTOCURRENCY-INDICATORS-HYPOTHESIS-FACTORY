@@ -1,6 +1,6 @@
-## Completed Task (two-hundred-and-seventy-eighth research cycle, 2026-10-28T16:47:25Z)
+## Completed Task (two-hundred-and-seventy-ninth research cycle, 2026-10-28T16:48:00Z)
 
-The two-hundred-and-seventy-eighth research cycle is complete. All five priorities could not be fully executed because the required live data is unreachable from this machine. Probes performed at 2026-10-28T16:47:25Z:
+The two-hundred-and-seventy-ninth research cycle is complete. All five priorities could not be fully executed because the required live data is unreachable from this machine. Probes performed at 2026-10-28T16:48:00Z:
 - Binance REST (api.binance.com): HTTP 451 on /api/v3/time (consistent with prior cycles).
 - Binance archive (data.binance.vision): HTTP 200 on bucket root; directory listing returns the static front page only, no usable market data trees accessible (consistent with prior cycles).
 - data-stream.binance.vision: HTTP 404 (consistent with prior cycles).
@@ -17,6 +17,6 @@ Priority work (without live data):
 
 All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 51, v1.17. Rank order 001 > 003 > 004 by 3 and 4 points. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed. Artefacts updated: all five handoff files.
 
-## Initial Task Message (two-hundred-and-seventy-ninth cycle)
+## Initial Task Message (two-hundred-and-eightieth cycle)
 
-**Task: Conduct the two-hundred-and-seventy-ninth research cycle.** Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all five handoff files and write an initial task message for the next cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
+**Task: Conduct the two-hundred-and-eightieth research cycle.** Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all five handoff files and write an initial task message for the next cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
