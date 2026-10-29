@@ -587,3 +587,5 @@ Every route below was re-probed live on 2026-10-21 between 23:03 and 23:20 UTC, 
 Cycle 363 (2026-10-29T04:43:25Z): data-reach cycle; no score changes; all totals unchanged; audit clean.
 
 - Cycle 375 (2026-10-29T06:21:45Z): Probed data reach — Binance REST 451, data.binance.vision 200 (static only, /data/ 404), data-stream 404, stream.binance.com:9443 451; Coin Metrics v2 200 (legacy deprecation, no data), v4/catalog 404. No local data3/; cm_met.log/dl_allswap.out/dl_legacy.out show missing dl.py/download.py. No usable free/open data reachable; no empirical validation performed.
+
+- **Three Hundred And Ninety-First research cycle (2026-10-29T08:25:14Z): data-reach probe — Binance HTTP 451/404, Coin Metrics deprecation/no data, no local data3/; all scores unchanged, no empirical validation performed; artefacts updated.**
