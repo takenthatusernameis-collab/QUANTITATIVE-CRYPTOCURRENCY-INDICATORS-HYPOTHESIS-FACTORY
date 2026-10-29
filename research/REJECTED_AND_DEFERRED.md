@@ -1,3 +1,5 @@
+Three Hundred And Sixty-Seventh research cycle (2026-10-29): data-reach probe — Binance HTTP 451/404, Coin Metrics deprecation/no data, no local data3/; all scores unchanged, no empirical validation performed; artefacts updated.
+
 Three Hundred And Sixty-Sixth research cycle (2026-10-29): data-reach probe — Binance HTTP 451/404, Coin Metrics deprecation/no data, no local data3/; all scores unchanged, no empirical validation performed; artefacts updated.
 
 Three Hundred And Sixty-Fourth research cycle (2026-10-29): data-reach probe — Binance HTTP 451/404, Coin Metrics deprecation/no data, no local data3/; all scores unchanged, no empirical validation performed; artefacts updated.
