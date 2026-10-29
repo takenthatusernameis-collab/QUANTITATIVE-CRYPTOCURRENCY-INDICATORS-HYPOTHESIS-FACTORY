@@ -1,3 +1,5 @@
+**Three Hundred And Fifty Fifth research cycle (2026-10-29) — a data-reach cycle.** All five priorities could not be executed; probes show data unreachable (Binance HTTP 451/404, Coin Metrics deprecation banner/no data, no local data3/). Totals unchanged (001=58 v1.20, 002=46 rejected v1.6, 003=55 v1.17, 004=51 v1.17), rank 001>003>004 by 3 and 4. No hypothesis/score changes, no empirical validation. All five handoff files and five research artefacts updated.
+
 # RANKED SHORTLIST
 
 Current top priorities (research value and prior credibility). No backtest metrics are reported.

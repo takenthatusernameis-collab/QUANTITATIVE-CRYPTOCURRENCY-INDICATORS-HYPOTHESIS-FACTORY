@@ -1,3 +1,5 @@
+**Three Hundred And Fifty Fifth (2026-10-29, data-reach):** probes at 2026-10-29T03:47:07Z confirm Binance/Coin Metrics reach blocked as before; no new free/open sources accessed. No claim-side updates; public ledger state unchanged as previously recorded.
+
 # SOURCE NOTES
 
 Important public sources consulted, access classification, dates checked, and what they do/do not establish. All sources must be freely accessible.

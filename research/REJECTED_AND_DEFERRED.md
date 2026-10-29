@@ -1,3 +1,5 @@
+**Three Hundred And Fifty Fifth (2026-10-29):** no new hypotheses considered viable under unreachable data; CRYPTO-EDGE-002 remains rejected (46, v1.6). No changes to deferrals.
+
 # REJECTED AND DEFERRED
 
 Rationale for rejects, duplicates, and ideas awaiting material missing input.
