@@ -1,3 +1,5 @@
+Four-hundred-and-second research cycle (2026-10-29): data-reach probe — Binance REST HTTP 451, data-stream HTTP 404, data.binance.vision HTTP 200 (static front page only, no traversable datasets), stream.binance.com:9443 not re-probed (HTTP 451 previously), Coin Metrics v2 HTTP 200 (deprecation banner, no data payload), v4/catalog HTTP 404, no local data3/; all scores unchanged, no empirical validation performed; artefacts updated.
+
 Three Hundred And Ninety-Eighth research cycle (2026-10-29): data-reach probe — Binance REST HTTP 451, data-stream HTTP 404, data.binance.vision HTTP 200 (static front page only, no traversable datasets), stream.binance.com:9443 not re-probed (HTTP 451 previously), Coin Metrics v2 HTTP 200 (deprecation banner, no data payload), v4/catalog HTTP 404, no local data3/; all scores unchanged, no empirical validation performed; artefacts updated.
 
 Three Hundred And Eighty-Ninth research cycle (2026-10-29): data-reach probe — Binance HTTP 451/404, Coin Metrics deprecation/no data, no local data3/; all scores unchanged, no empirical validation performed; artefacts updated.
