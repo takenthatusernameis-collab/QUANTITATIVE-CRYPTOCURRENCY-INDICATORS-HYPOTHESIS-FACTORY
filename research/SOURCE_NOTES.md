@@ -1,3 +1,5 @@
+Three Hundred And Fifty Eighth research cycle (2026-10-29): data-reach probe — Binance HTTP 451/404, Coin Metrics deprecation/no data, no local data3/; all scores unchanged, no empirical validation performed; artefacts updated.
+
 Three Hundred And Fifty Seventh research cycle (2026-10-29): data-reach probe — Binance HTTP 451/404, Coin Metrics deprecation/no data, no local data3/; all scores unchanged, no empirical validation performed; artefacts updated.
 
 **Three Hundred And Fifty Fifth (2026-10-29, data-reach):** probes at 2026-10-29T03:47:07Z confirm Binance/Coin Metrics reach blocked as before; no new free/open sources accessed. No claim-side updates; public ledger state unchanged as previously recorded.
