@@ -1,3 +1,34 @@
+=== Four hundred and thirty-second research cycle (2026-10-29T16:06:39Z) ===
+
+A **data-reach cycle.** All five priorities could not be executed because the required live data is unreachable from this machine.
+
+Probes performed at 2026-10-29T16:06:39Z (this session's first action):
+- Binance REST `api.binance.com/api/v3/time` → **HTTP 451**
+- Binance archive `data.binance.vision` → **HTTP 200** (static front page only — "Binance Data Collection" HTML shell; `/data/` returns HTTP 404, no traversable usable datasets)
+- `data-stream.binance.vision` → **HTTP 404**
+- `stream.binance.com:9443` → **HTTP 451**
+- Coin Metrics `community-api.coinmetrics.io/v2/assets` → **HTTP 200** (legacy deprecation banner, no data payload)
+- `/v4/catalog` → **HTTP 404**
+- Local filesystem: no `data3/` directory exists under workspace root or parent; pull infrastructure absent (`cm_met.log`, `dl_allswap.out`, `dl_legacy.out` record `python3: can't open file .../dl.py` / `download.py`).
+
+Priority work (without usable data):
+- (1) CRYPTO-EDGE-001: trigger counts, coverage, and cross-section marker decision cannot be computed. No score change (58, v1.20).
+- (2) CRYPTO-EDGE-003: declared window / extension priced option cannot be evaluated. No score change (55, v1.17).
+- (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable this cycle; base-effect-first sequence not executed. No score change (48, v1.17).
+- (4) Audit/claim-side follow-ups: no new evidence; no score changes.
+- (5) No new hypothesis added.
+
+All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed.
+
+**Audit performed this cycle (2026-10-29), with no live data.** The record was audited across all four entries in all four places a dimension score can hide (contribution list, versioned change narratives, rationale prose, and the present-tense "current state" line) and found **clean** with no stale scores. Item 17 audited for all four entries and found complete and current. The three carried disagreements re-tested on their own terms and upheld (001 falsifiability 4/5, 003 free-data 5/5, 004 free-data 4/5). Claim-side search and public research ledger not re-run (exhausted in fifty-seventh cycle; repetition not discovery under fifty-sixth-cycle rule). No empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or forward relationship computed for any strategy or registered prediction.
+
+### New this cycle
+- **No change to the ranking, the scores, or the record.** The cycle's output is a data-reach probe with dated statuses and an offline audit; it produced no measurement, no decision and no specification change. The five priorities remain exactly as they were at the end of the four-hundred-and-thirty-first cycle, and the four-hundred-and-third cycle inherits them unchanged.
+- **The record was audited and found clean.** Every total re-derives from its seven dimension contributions; every item-16 contribution matches its entry's change narrative; every version stamp matches its plan-of-record heading; every item-3 status block states the current total, confidence and version stamp; the three carried disagreements are re-tested and upheld. There is no stale score, no mismatched count and no uncorrected defect anywhere in the five artefacts.
+- **No hypothesis was added, and no outcome statistic was computed.** The cycle's output is access statuses, dates, and an audit result; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or forward relationship was computed for any strategy or any registered prediction.
+- **Note on the record's state:** the four-hundred-and-thirty-first cycle was the most recent artefact write before this one, so every artefact in this file was last *changed* in the four-hundred-and-thirty-first cycle except where this cycle's new section supersedes it.
+
+
 === Four hundred and twenty-eighth research cycle (2026-10-29T15:12:48Z) ===
 
 A **data-reach cycle.** All five priorities could not be executed because the required live data is unreachable from this machine.
