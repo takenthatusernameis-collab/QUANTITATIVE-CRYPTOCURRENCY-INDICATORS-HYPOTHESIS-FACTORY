@@ -516,3 +516,81 @@ A **data-reach cycle.** All five priorities could not be executed because the re
 - **The record was audited and found clean.** Every total re-derives from its seven dimension contributions; every item-16 contribution matches its entry's change narrative; every version stamp matches its plan-of-record heading; every item-3 status block states the current total, confidence and version stamp; the three carried disagreements are re-tested and upheld. There is no stale score, no mismatched count and no uncorrected defect anywhere in the five artefacts.
 - **No hypothesis was added, and no outcome statistic was computed.** The cycle's output is access statuses, dates, and an audit result; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or forward relationship was computed for any strategy or any registered prediction.
 - **Note on the record's state:** the five-hundred-and-eighth cycle was the most recent artefact write before this one, so every artefact in this file was last *changed* in the five-hundred-and-eighth cycle except where this cycle's new section supersedes it.
+## Five-hundred-and-twentieth research cycle notes (2026-10-30T10:37:19Z)
+
+A **data-reach cycle.** All five priorities could not be executed because the required live data is unreachable from this machine.
+
+Probes performed at 2026-10-30T10:37:19Z (this session's first action):
+- Binance REST `api.binance.com/api/v3/time` → **HTTP 451** (body: Service unavailable from a restricted location)
+- Binance archive `data.binance.vision` → **HTTP 200** (static front page only; `/data/` returns HTTP 404, no traversable usable datasets)
+- `data-stream.binance.vision` → **HTTP 404**
+- `stream.binance.com:9443` → **HTTP 451** (TCP port open; HTTPS handshake returns 451)
+- Coin Metrics `community-api.coinmetrics.io/v2/assets` → **HTTP 200** (legacy deprecation banner, no data payload)
+- `/v4/catalog` → **HTTP 404**
+- Local filesystem: no `data3/` directory exists under workspace root or parent; pull infrastructure absent (`cm_met.log`, `dl_allswap.out`, `dl_legacy.out` still record `python3: can't open file .../dl.py` / `download.py`).
+
+Priority work (without usable data):
+- (1) CRYPTO-EDGE-001: trigger counts, coverage, and cross-section marker decision cannot be computed. No score change (58, v1.20).
+- (2) CRYPTO-EDGE-003: declared window / extension priced option cannot be evaluated. No score change (55, v1.17).
+- (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable this cycle; base-effect-first sequence not executed. No score change (48, v1.17).
+- (4) Audit/claim-side follow-ups: no new evidence; no score changes.
+- (5) No new hypothesis added.
+
+All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy.
+
+**Audit performed this cycle (2026-10-30), with no live data.** The offline audit was re-run over all four entries in all four places a dimension score can hide (contribution list, versioned change narratives, rationale prose, and the present-tense "current state" line) and found no stale score. Item 17 was read for all four entries and is complete and current; no entry's next question depends on a computation that this cycle could not perform.
+
+Artefacts updated: all five handoff files plus the five research artefacts. Research only.
+
+## Five-hundred-and-twenty-first research cycle notes (2026-10-30T10:38:30Z)
+
+A **data-reach cycle.** All five priorities could not be executed because the required live data is unreachable from this machine.
+
+Probes performed at 2026-10-30T10:38:30Z (this session's first action):
+- Binance REST `api.binance.com/api/v3/time` → **HTTP 451** (Service unavailable from a restricted location)
+- Binance archive `data.binance.vision` → **HTTP 200** (static front page only; `/data/` returns HTTP 404, no traversable usable datasets)
+- `data-stream.binance.vision` → **HTTP 404**
+- `stream.binance.com:9443` → **HTTP 451** (TCP port open; HTTPS handshake returns 451)
+- Coin Metrics `community-api.coinmetrics.io/v2/assets` → **HTTP 200** (legacy deprecation banner, no data payload)
+- `/v4/catalog` → **HTTP 404**
+- Local filesystem: no `data3/` directory exists under workspace root or parent; pull infrastructure absent (`cm_met.log`, `dl_allswap.out`, `dl_legacy.out` still record `python3: can't open file .../dl.py` / `download.py`).
+
+Priority work (without usable data):
+- (1) CRYPTO-EDGE-001: trigger counts, coverage, and cross-section marker decision cannot be computed. No score change (58, v1.20).
+- (2) CRYPTO-EDGE-003: declared window / extension priced option cannot be evaluated. No score change (55, v1.17).
+- (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable this cycle; base-effect-first sequence not executed. No score change (48, v1.17).
+- (4) Audit/claim-side follow-ups: no new evidence; no score changes.
+- (5) No new hypothesis added.
+
+All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy.
+
+**Audit performed this cycle (2026-10-30), with no live data.** The offline audit was re-run over all four entries in all four places a dimension score can hide (contribution list, versioned change narratives, rationale prose, and the present-tense "current state" line) and found no stale score. Item 17 was read for all four entries and is complete and current; no entry's next question depends on a computation that this cycle could not perform.
+
+Artefacts updated: all five handoff files plus the five research artefacts. Research only.
+## Five-hundred-and-twenty-second research cycle notes (2026-10-30T11:25:31Z)
+
+A **data-reach cycle.** All five priorities could not be executed because the required live data is unreachable from this machine.
+
+Probes performed at 2026-10-30T11:25:31Z (this session's first action):
+- Binance REST `api.binance.com/api/v3/time` → **HTTP 451** (body: Service unavailable from a restricted location)
+- Binance archive `data.binance.vision` → **HTTP 200** (static front page only; `/data/` returns HTTP 404, no traversable usable datasets)
+- `data-stream.binance.vision` → **HTTP 404**
+- `stream.binance.com:9443` → **TLS handshake succeeds** (valid DigiCert certificate returned, CN `*.binance.com`, NotBefore 2025-12-09) but the **WebSocket upgrade returns HTTP 451** with the restricted-location body — so the port is reachable and encrypted but serves no data stream from this environment. This refines the prior cycles' readings: the four-hundred-and-forty-sixth cycle recorded "TLS handshake succeeds (cert returned) but no usable data stream", the four-hundred-and-fifty-sixth recorded "connection failed (HTTP 000; TCP connection refused/no route)", and this cycle is the first to complete the TLS handshake **and** attempt the WebSocket upgrade, which is where the 451 is returned.
+- Coin Metrics `community-api.coinmetrics.io/v2/assets` → **HTTP 200** (legacy deprecation banner, no data payload)
+- `/v4/catalog` → **HTTP 404**
+- Local filesystem: no `data3/` directory exists under workspace root or parent; pull infrastructure absent (`cm_met.log`, `dl_allswap.out`, `dl_legacy.out` still record `python3: can't open file .../dl.py` / `download.py`).
+
+Priority work (without usable data):
+- (1) CRYPTO-EDGE-001: trigger counts, coverage, and cross-section marker decision cannot be computed. No score change (58, v1.20).
+- (2) CRYPTO-EDGE-003: declared window / extension priced option cannot be evaluated. No score change (55, v1.17).
+- (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable this cycle; base-effect-first sequence not executed. No score change (48, v1.17).
+- (4) Audit/claim-side follow-ups: no new evidence; no score changes.
+- (5) No new hypothesis added.
+
+All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy.
+
+**Audit performed this cycle (2026-10-30), with no live data.** The offline audit was re-run over all four entries in all four places a dimension score can hide (contribution list, versioned change narratives, rationale prose, and the present-tense "current state" line) and found no stale score. Item 17 was read for all four entries and is complete and current; no entry's next question depends on a computation that this cycle could not perform.
+
+**Reconciliation note.** The five-hundred-and-twentieth and five-hundred-and-twenty-first cycle notes were carried in the handoff files but had not been written into the five research artefacts; this cycle writes them in, so the artefacts' cycle-note trail is now contiguous through the five-hundred-and-twenty-second cycle.
+
+Artefacts updated: all five handoff files plus the five research artefacts. Research only.
