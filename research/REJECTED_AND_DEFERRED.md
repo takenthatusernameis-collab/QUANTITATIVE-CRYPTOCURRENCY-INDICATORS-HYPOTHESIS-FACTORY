@@ -987,3 +987,5 @@ Artefacts updated: all five handoff files plus the five research artefacts. Rese
 ---2026-10-30T20:45:01Z---
 
 Cycle 583: data-reach only; no computation; scores unchanged (001=58, 002=46 rej, 003=55, 004=48).
+
+Cycle 584 (2026-10-30T20:47:38Z): data-reach only; no computation; probes Binance REST 451, archive 200 (static only, /data/ 404), data-stream 404, stream:9443 HTTPS handshake 451, Coin Metrics v2 200 (legacy deprecation banner, no payload) / v4 404, no local data3/ or pull infrastructure. Scores unchanged (001=58, 002=46 rej, 003=55, 004=48). Offline audit re-run over all four entries in all four places a dimension score can hide — no stale score; Item 17 current.
