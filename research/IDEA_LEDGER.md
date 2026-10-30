@@ -1866,3 +1866,7 @@ All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-ED
 **Audit performed this cycle (2026-10-30), with no live data.** The offline audit was re-run over all four entries in all four places a dimension score can hide (contribution list, versioned change narratives, rationale prose, and the present-tense "current state" line) and found no stale score. Item 17 was read for all four entries and is complete and current; no entry's next question depends on a computation that this cycle could not perform.
 
 Artefacts updated: all five handoff files plus the five research artefacts. Research only.
+
+## Cycle 499 (2026-10-30T12:29:XXZ) — data-reach
+- Probes: Binance REST 451, archive /data/ 404, data-stream 404, stream:9443 451, CoinMetrics v2 banner-only 200 / v4 404, no local data3/pull infra.
+- Priorities 1-4 unexecuted; no new hypothesis. Scores unchanged (001 58 v1.20, 003 55 v1.17, 004 48 v1.17, 002 46 rejected). Offline audit clean; Item 17 current.

@@ -938,3 +938,7 @@ All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-ED
 **Reconciliation note.** The five-hundred-and-twentieth and five-hundred-and-twenty-first cycle notes were carried in the handoff files but had not been written into the five research artefacts; this cycle writes them in, so the artefacts' cycle-note trail is now contiguous through the five-hundred-and-twenty-second cycle.
 
 Artefacts updated: all five handoff files plus the five research artefacts. Research only.
+
+## Cycle 499 (2026-10-30T12:29:XXZ) — data-reach
+- Probes: Binance REST 451, archive /data/ 404, data-stream 404, stream:9443 451, CoinMetrics v2 banner-only 200 / v4 404, no local data3/pull infra.
+- Priorities 1-4 unexecuted; no new hypothesis. Scores unchanged (001 58 v1.20, 003 55 v1.17, 004 48 v1.17, 002 46 rejected). Offline audit clean; Item 17 current.
