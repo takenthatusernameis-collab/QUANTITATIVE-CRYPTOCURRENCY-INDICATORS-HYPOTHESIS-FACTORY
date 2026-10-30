@@ -440,3 +440,6 @@ Artefacts updated: all five handoff files plus the five research artefacts.
 
 === Four hundred and ninety-ninth research cycle (2026-10-30T01:55:06Z) ===
 Data-reach cycle. Probes showed Binance REST 451, data.binance.vision HTTP 200 (no usable datasets), data-stream 404, stream.binance.com:9443 451, Coin Metrics v2/assets 200 (legacy banner), v4/catalog 404; no local data3/. Totals unchanged (001 58/v1.20, 002 46/rejected/v1.6, 003 55/v1.17, 004 48/v1.17). No new hypothesis, no scores moved, no empirical validation/performance quantities computed. All five handoff files and all five research files updated.
+---
+=== Five hundred and ninth research cycle (2026-10-30T04:34:24Z) ===
+Data-reach cycle: probes show Binance REST 451, Binance archive 200 (no /data/ listing usable), data-stream 404, stream:9443 451, Coin Metrics assets 200 (deprecation banner/no payload), catalog 404; no data3/; no new evidence/scores/validation/performance quantities.
