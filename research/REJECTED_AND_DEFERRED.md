@@ -973,3 +973,5 @@ All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-ED
 **Audit performed this cycle (2026-10-30), with no live data.** The offline audit was re-run over all four entries in all four places a dimension score can hide (contribution list, versioned change narratives, rationale prose, and the present-tense "current state" line) and found no stale score. Item 17 was read for all four entries and is complete and current; no entry's next question depends on a computation that this cycle could not perform.
 
 Artefacts updated: all five handoff files plus the five research artefacts. Research only.
+
+<!-- 572nd cycle: data-reach cycle; no computation; probes HTTP 451/404/200/404; no score changes. -->
