@@ -1,3 +1,19 @@
+# DELAY-ELIMINATION OVERRIDE — 2026-10-30
+
+**Verified repeated blocker:** the same free-data probes have repeatedly returned Binance REST HTTP 451, Binance archive `/data/` HTTP 404 (front page HTTP 200 is not a usable dataset), data-stream HTTP 404, stream endpoint HTTP 451, Coin Metrics v2 deprecation/no data payload, Coin Metrics v4 HTTP 404, and missing local `data3/` / pull scripts. The latest recorded identical probe was 2026-10-30T20:45:12Z.
+
+**Stop paying the same discovery cost on every cycle.**
+1. Treat these exact endpoint/source outcomes as a recorded external constraint. Do not repeat the same probe set before 2026-10-31T20:45:12Z UTC unless there is a meaningful change: a newly discovered endpoint/provider, documented provider status change, changed network environment, restored local data/pull infrastructure, or a new cached dataset.
+2. On the next activation, read the recorded evidence first. If the state is unchanged, skip live probes and do not append another identical data-reach report.
+3. Do not increment the research-cycle number, refresh timestamps, or rewrite all five handoffs and five research artifacts when scores, evidence, sources, hypotheses and decisions are unchanged.
+4. `HANDOFF.md` is the canonical current handoff. Treat the other four handoff copies as archival/mirrored records; update them only on a material protocol or evidence change, not at every activation.
+5. If no admissible data is reachable, report a no-change state without writes. Do not fabricate trigger counts, coverage, scores, performance quantities or empirical results. Keep all work theory-only, free/open-source-only and within the existing no-empirical-validation scope.
+6. When a genuinely new data route becomes available, perform one bounded preflight, record endpoint/status/timing once, and proceed only if it returns usable, attributable data. Avoid serially retrying permanent 451/404 responses.
+
+This override reduces repeated blocked work; it does not relax any evidence or research-scope constraint.
+
+---
+
 ## Completed Task (four-hundred-and-thirty-ninth research cycle, 2026-10-29T16:54:58Z)
 The four-hundred-and-thirty-ninth research cycle is complete. It is a **data-reach cycle**: the five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-29T16:54:58Z (this session's first action):
 - Binance REST (api.binance.com/api/v3/time): HTTP 451
