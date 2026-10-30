@@ -939,3 +939,6 @@ Artefacts updated: all five handoff files plus the five research artefacts. Rese
 ## Cycle 499 (2026-10-30T12:29:XXZ) — data-reach
 - Probes: Binance REST 451, archive /data/ 404, data-stream 404, stream:9443 451, CoinMetrics v2 banner-only 200 / v4 404, no local data3/pull infra.
 - Priorities 1-4 unexecuted; no new hypothesis. Scores unchanged (001 58 v1.20, 003 55 v1.17, 004 48 v1.17, 002 46 rejected). Offline audit clean; Item 17 current.
+
+---
+Cycle 503 (2026-10-30T13:26:59Z) - data-reach: probes failed (Binance 451/404, CM legacy/deprecated, no local data3). Priorities 1-4 not executable; scores/totals unchanged (001 58 v1.20, 003 55 v1.17, 004 48 v1.17, 002 rejected 46 v1.6). No new hypothesis, no validation, no performance quantities. Artefacts audited for score staleness - none found.
