@@ -518,7 +518,7 @@ Probes performed at 2026-10-29T12:16:59Z (this session's first action):
 Priority work (without usable data):
 - (1) CRYPTO-EDGE-001: trigger counts, coverage, and cross-section marker decision cannot be computed. No score change (58, v1.20).
 - (2) CRYPTO-EDGE-003: declared window / extension priced option cannot be evaluated. No score change (55, v1.17).
-- (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable this cycle; base-effect-first sequence not executed. No score change (51, v1.17).
+- (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable this cycle; base-effect-first sequence not executed. No score change (48, v1.17).
 - (4) Audit/claim-side follow-ups: no new evidence; no score changes.
 - (5) No new hypothesis added.
 
