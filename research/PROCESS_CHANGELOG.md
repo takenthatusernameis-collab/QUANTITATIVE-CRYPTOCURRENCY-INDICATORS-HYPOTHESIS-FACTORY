@@ -944,3 +944,15 @@ Artefacts updated: all five handoff files plus the five research artefacts. Rese
 Cycle 505 (2026-10-30T13:31:49Z) - data-reach: probes failed (Binance REST 451; archive 200 static only, /data/ 404; data-stream 404; stream:9443 TLS+WS upgrade returns 451 restricted-location body; CM v2 legacy-deprecation banner only 200 / v4 404; no local data3/pull infra). Priorities 1-4 not executable; scores/totals unchanged (001 58 v1.20, 003 55 v1.17, 004 48 v1.17, 002 rejected 46 v1.6). No new hypothesis, no validation, no performance quantities. Offline audit re-run over all four entries in all four places a dimension score can hide - no stale score; Item 17 current.
 
 Cycle 508 (2026-10-30T13:42:00Z) - data-reach: probes failed (Binance REST 451; archive 200 static only, /data/ 404; data-stream 404; stream:9443 TLS+WS upgrade returns 451 restricted-location body; CM v2 legacy-deprecation banner only 200 / v4 404; no local data3/pull infra). Priorities 1-4 not executable; scores/totals unchanged (001 58 v1.20, 003 55 v1.17, 004 48 v1.17, 002 rejected 46 v1.6). No new hypothesis, no validation, no performance quantities. Offline audit re-run over all four entries in all four places a dimension score can hide - no stale score; Item 17 current.
+---
+
+## Cycle 458 (2026-10-30T15:35:07Z) — data-reach
+Probes: Binance REST 451; Binance archive front 200, /data/ 404; data-stream 404; stream:9443 451; CoinMetrics /v2/assets 200 (legacy banner, no data), /v4/catalog 404; no data3/; pull infra absent (cm_met.log/dl_*.out show missing dl.py).
+
+- (1) CRYPTO-EDGE-001: trigger counts/coverage/cross-section marker decision cannot be computed. No score change (58, v1.20).
+- (2) CRYPTO-EDGE-003: declared window/extension priced option cannot be evaluated. No score change (55, v1.17).
+- (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable; base-effect-first sequence not executed. No score change (48, v1.17).
+- (4) Audit/claim-side follow-ups: no new evidence; no score changes.
+- (5) No new hypothesis added.
+
+Totals unchanged: 001=58(v1.20), 002=46 rejected(v1.6), 003=55(v1.17), 004=48(v1.17); rank 001>003>004. No empirical validation/performance quantities. Artefacts updated (handoffs + research artefacts). Offline audit found no stale scores; item 17 complete/current for all entries.
