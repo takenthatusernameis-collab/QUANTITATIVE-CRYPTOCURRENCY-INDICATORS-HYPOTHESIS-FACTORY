@@ -1,3 +1,36 @@
+=== Four hundred and ninety-fourth research cycle (2026-10-30T00:56:05Z) ===
+
+A **data-reach cycle.** All five priorities could not be executed because the required live data is unreachable from this machine.
+
+Probes performed at 2026-10-30T00:56:05Z (this session's first action):
+- Binance REST `api.binance.com/api/v3/time` → **HTTP 451**
+- Binance archive `data.binance.vision` → **HTTP 200** (static front page only — "Binance Data Collection" HTML shell; `/data/` returns HTTP 404, no traversable usable datasets)
+- `data-stream.binance.vision` → **HTTP 404**
+- `stream.binance.com:9443` → **connection failed (HTTP 000; TCP connection refused/no route)** — status change from the four-hundred-and-ninetieth-third cycle, which recorded HTTP 451 (TCP port open; HTTPS handshake returns 451); the last confirmed-good application-layer reading remains the four-hundred-and-ninetieth cycle's "TLS handshake succeeds (cert returned) but no usable data stream"
+- Coin Metrics `community-api.coinmetrics.io/v2/assets` → **HTTP 200** (legacy deprecation banner, no data payload)
+- `/v4/catalog` → **HTTP 404**
+- Local filesystem: no `data3/` directory exists under workspace root or parent; pull infrastructure absent (`cm_met.log`, `dl_allswap.out`, `dl_legacy.out` still record `python3: can't open file .../dl.py` / `download.py`).
+
+Priority work (without usable data):
+- (1) CRYPTO-EDGE-001: trigger counts, coverage, and cross-section marker decision cannot be computed. No score change (58, v1.20).
+- (2) CRYPTO-EDGE-003: declared window / extension priced option cannot be evaluated. No score change (55, v1.17).
+- (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable this cycle; base-effect-first sequence not executed. No score change (48, v1.17).
+- (4) Audit/claim-side follow-ups: no new evidence; no score changes.
+- (5) No new hypothesis added.
+
+All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy.
+
+**Audit performed this cycle (2026-10-30), with no live data.** Because the cycle could not re-measure, its substantive work was an audit of the record as it stands, and it found the record **clean**:
+- **Totals re-derived from the seven dimension contributions in all four entries and checked against the shortlist table**: 001 = 16+6+3+15+6+8+4 = 58; 002 = 12+3+3+15+3+6+4 = 46 (rejected); 003 = 12+3+6+15+3+8+8 = 55; 004 = 12+6+3+12+3+8+4 = 48. Rank order 001 > 003 > 004 by **3** and **7** points. Every contribution equals score/5 x weight.
+- **Item 16 audited in all four places for all four entries** — the contribution list, the versioned change narratives, the unversioned rationale prose, and the present-tense "current state" line — with **no stale score remaining**: 001's list, prose and current-state line are clean and its fifty-seventh-cycle addendum states the current decomposition; 002 is clean and rejected; 003's list is the seventeenth-cycle decomposition (corrected in the twenty-third cycle) and its fifty-seventh-cycle addendum states it; 004's prose is version-stamped as of v1.1 with the current state stated alongside, and its fifty-seventh-cycle addendum states the current decomposition with the free-data move recorded, and its "current state" line reads 12+6+3+12+3+8+4 = 48.
+- **Item-3 status blocks** state the current total, confidence and version stamp for all four entries (001: 58/low/v1.20; 002: 46/rejected/low/v1.6; 003: 55/low/v1.17; 004: 48/low/v1.17).
+- **Version-stamp consistency**: each entry heading carries its item-14 plan-of-record stamp (001 v1.20, 003 v1.17, 004 v1.17), matching the fifty-seventh cycle's recorded versions; 002 carries v1.6, its item 14 having been superseded in v1.2 with no plan of record.
+- **The three carried disagreements are re-tested on their own terms and upheld**: 001 falsifiability **4/5** (the marker's cross-section decision is a design question, not a claim property, and no outcome has been read); 003 free-data **5/5** (both legs free and dated on the record); 004 free-data **4/5** (the free trailing-365-day market-cap route covers 366 of 2,850 dates and the remaining 2,484 are behind the reference screen, so the route is partial but the construct is free).
+- **No new hypothesis was added and no score moved.** The claim-side search and the public research ledger were **not** re-run, because both are reads of sources checked in the fifty-seventh cycle (2026-10-22) and nothing in this cycle is new evidence; re-running them would be a repetition, not a discovery, under the fifty-sixth cycle's "a read that is exhausted is closed" rule.
+- **No empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or forward relationship was computed for any strategy or any registered prediction.**
+
+Artefacts updated: all five research files and all five handoff files. Research only.
+
 === Four hundred and seventy-third research cycle (2026-10-29T21:57:19Z) ===
 
 A **data-reach cycle.** All five priorities could not be executed because the required live data is unreachable from this machine.
