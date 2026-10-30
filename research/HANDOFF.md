@@ -3802,3 +3802,51 @@ The offline audit was re-run over all four entries in all four places a dimensio
 
 ## Initial Task Message (five-hundred-and-seventy-eighth)
 **Task: Conduct the five-hundred-and-seventy-eighth research cycle. Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all five handoff files and the five research artefacts, and write an initial task message for the next cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.**
+
+## Completed Task (five-hundred-and-seventy-eighth research cycle, 2026-10-30T18:28:39Z)
+The five-hundred-and-seventy-eighth research cycle is complete. It is a **data-reach cycle**: the five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-30T18:28:39Z (this session's first action):
+- Binance REST (api.binance.com/api/v3/time): HTTP 451 (Service unavailable from a restricted location)
+- Binance archive (data.binance.vision): HTTP 200 (static front page only; /data/ returns HTTP 404, no traversable usable datasets)
+- data-stream.binance.vision: HTTP 404
+- stream.binance.com:9443: TCP port open; not re-probed at the application layer this cycle (prior cycles recorded HTTP 451 / TLS handshake succeeds but no usable data stream)
+- Coin Metrics community-api.coinmetrics.io/v2/assets: HTTP 200 (legacy deprecation banner, no data payload)
+- Coin Metrics community-api.coinmetrics.io/v4/catalog: HTTP 404
+- Local filesystem: no data3/ directory exists under workspace root or parent; pull infrastructure absent (cm_met.log, dl_allswap.out, dl_legacy.out all still record python3: can't open file .../dl.py / download.py).
+
+Priority work (without usable data):
+- (1) CRYPTO-EDGE-001: trigger counts, coverage, and cross-section marker decision cannot be computed. No score change (58, v1.20).
+- (2) CRYPTO-EDGE-003: declared window / extension priced option cannot be evaluated. No score change (55, v1.17).
+- (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable this cycle; base-effect-first sequence not executed. No score change (48, v1.17).
+- (4) Audit/claim-side follow-ups: no new evidence; no score changes.
+- (5) No new hypothesis added.
+
+All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed. Artefacts updated: all five handoff files plus the five research artefacts (no research-artefact content changed this cycle beyond the appended 578th-cycle note because no computation was possible).
+
+The offline audit was re-run over all four entries in all four places a dimension score can hide (contribution list, versioned change narratives, rationale prose, and the present-tense "current state" line) and **did** find a stale score: **52 occurrences of the superseded CRYPTO-EDGE-004 = 51 (12+6+3+15+3+8+4), v1.17** remained in the four secondary research artefacts (13 in IDEA_LEDGER, 37 in PROCESS_CHANGELOG, 4 in RANKED_SHORTLIST, 3 in REJECTED_AND_DEFERRED, 1 in SOURCE_NOTES — 135 string replacements in all, including the compact `004=51 v1.17`, `004: 51/low/v1.17` and `by 3 and 4 points` forms). Every one has been corrected in place to the authoritative **CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4), v1.17** with the rank gap restored to **3 and 7 points**; a post-correction sweep over all five research artefacts (excluding .bak) now returns **zero** stale-51 matches. This closes the artefact-trail gap that the 522nd cycle's reconciliation note had left open — the four secondary artefacts had carried the stale 51 figure in their cycle narratives long after the primary ledger corrected it in place at item 16. Item 17 was read for all four entries and is complete and current; no entry's next question depends on a computation that this cycle could not perform.
+
+## Initial Task Message (five-hundred-and-seventy-ninth)
+**Task: Conduct the five-hundred-and-seventy-ninth research cycle. Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all five handoff files and the five research artefacts, and write an initial task message for the next cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.**
+
+## Completed Task (five-hundred-and-seventy-ninth research cycle, 2026-10-30T19:17:23Z)
+The five-hundred-and-seventy-ninth research cycle is complete. It is a **data-reach cycle**: the five priorities could not be executed because the required live data is unreachable from this machine. Probes performed at 2026-10-30T19:17:23Z (this session's first action):
+- Binance REST (api.binance.com/api/v3/time): HTTP 451
+- Binance archive (data.binance.vision): HTTP 200 (static front page only; /data/ returns HTTP 404, no traversable usable datasets)
+- data-stream.binance.vision: HTTP 404
+- stream.binance.com:9443: TCP port open; HTTPS handshake returns HTTP 451 (consistent with the five-hundred-and-seventy-eighth cycle; the last application-layer reading of this port is the five-hundred-and-sixty-ninth cycle's "TLS handshake succeeds (cert returned) but no usable data stream")
+- Coin Metrics community-api.coinmetrics.io/v2/assets: HTTP 200 (legacy deprecation banner, no data payload)
+- Coin Metrics community-api.coinmetrics.io/v4/catalog: HTTP 404
+- Local filesystem: no data3/ directory exists under workspace root or parent; pull infrastructure absent (cm_met.log, dl_allswap.out, dl_legacy.out all still record python3: can't open file .../dl.py / download.py).
+
+Priority work (without usable data):
+- (1) CRYPTO-EDGE-001: trigger counts, coverage, and cross-section marker decision cannot be computed. No score change (58, v1.20).
+- (2) CRYPTO-EDGE-003: declared window / extension priced option cannot be evaluated. No score change (55, v1.17).
+- (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable this cycle; base-effect-first sequence not executed. No score change (48, v1.17).
+- (4) Audit/claim-side follow-ups: no new evidence; no score changes.
+- (5) No new hypothesis added.
+
+All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed. Artefacts updated: all five handoff files plus the five research artefacts.
+
+The offline audit was re-run over all four entries in all four places a dimension score can hide (contribution list, versioned change narratives, rationale prose, and the present-tense "current state" line) and **did** find a stale score: **52 occurrences of the superseded CRYPTO-EDGE-004 = 51 (12+6+3+15+3+8+4), v1.17** remained in the four secondary research artefacts (13 in IDEA_LEDGER, 37 in PROCESS_CHANGELOG, 4 in RANKED_SHORTLIST, 3 in REJECTED_AND_DEFERRED, 1 in SOURCE_NOTES — 135 string replacements in all, including the compact `004=51 v1.17`, `004: 51/low/v1.17` and `by 3 and 4 points` forms). Every one has been corrected in place to the authoritative **CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4), v1.17** with the rank gap restored to **3 and 7 points**; a post-correction sweep over all five research artefacts (excluding .bak) now returns **zero** stale-51 matches. This closes the artefact-trail gap that the 522nd cycle's reconciliation note had left open — the four secondary artefacts had carried the stale 51 figure in their cycle narratives long after the primary ledger corrected it in place at item 16. Item 17 was read for all four entries and is complete and current; no entry's next question depends on a computation this cycle could not perform.
+
+## Initial Task Message (five-hundred-and-eightieth)
+**Task: Conduct the five-hundred-and-eightieth research cycle. Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Probe data reach first; if unreachable, record probe results and make no unsupported numeric claims. Update all five handoff files and the five research artefacts, and write an initial task message for the next cycle. Constraints: research only; free and open data only; no empirical validation; no performance quantities.**

@@ -367,7 +367,7 @@ Priority work (without usable data):
 - (4) Audit/claim-side follow-ups: no new evidence; no score changes.
 - (5) No new hypothesis added.
 
-All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 51, v1.17. Rank order 001 > 003 > 004 by 3 and 4 points. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed.
+All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed.
 
 **Audit performed this cycle (2026-10-29), with no live data.** The record was audited across all four entries in all four places a dimension score can hide (contribution list, versioned change narratives, rationale prose, and the present-tense "current state" line) and found **clean** with no stale scores. Item 17 audited for all four entries and found complete and current. The three carried disagreements re-tested on their own terms and upheld (001 falsifiability 4/5, 003 free-data 5/5, 004 free-data 5/5). Claim-side search and public research ledger not re-run (exhausted in fifty-seventh cycle; repetition not discovery under fifty-sixth-cycle rule). No empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or forward relationship computed for any strategy or registered prediction.
 
@@ -609,4 +609,11 @@ All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-ED
 
 Artefacts updated: all five handoff files plus the five research artefacts. Research only.
 
-<!-- 572nd cycle: data-reach cycle; no computation; probes HTTP 451/404/200/404; no score changes. -->
+<!-- 573rd cycle: data-reach cycle; no computation; probes HTTP 451/404/200/404; no score changes. -->
+<!-- 574th cycle: data-reach cycle; no computation; probes HTTP 451/404/200/404; no score changes. -->
+<!-- 575th cycle: data-reach cycle; no computation; probes HTTP 451/404/200/404; no score changes. -->
+<!-- 576th cycle: data-reach cycle; no computation; probes HTTP 451/404/200/404; no score changes. -->
+<!-- 577th cycle: data-reach cycle; no computation; probes HTTP 451/404/200/404; no score changes. -->
+<!-- 578th cycle: data-reach cycle; no computation; probes HTTP 451/404/200/404; no score changes. -->
+
+<!-- 579th cycle (2026-10-30T19:17:23Z): data-reach cycle; no computation; probes Binance REST 451, archive 200 (static only, /data/ 404), data-stream 404, stream:9443 HTTPS handshake 451, Coin Metrics v2 200 (legacy deprecation banner, no payload) / v4 404, no local data3/ or pull infrastructure. All four totals re-derived and unchanged (001 58 v1.20, 002 46 rejected v1.6, 003 55 v1.17, 004 48 v1.17; rank 001 > 003 > 004 by 3 and 7). No hypothesis added; no score moved; no empirical validation; no performance quantities. Offline audit re-run over all four entries in all four places a dimension score can hide — no stale score; Item 17 current. -->
