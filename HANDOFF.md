@@ -761,8 +761,8 @@ The offline audit was re-run over all four entries in all four places a dimensio
 ## Initial Task Message (four-hundred-and-seventieth)
 **Task: Conduct the four-hundred-and-seventieth research cycle.** Follow DELAY-ELIMINATION OVERRIDE (2026-10-30): read recorded evidence first; if unchanged vs 2026-10-30T20:45:12Z, skip live probes and do not rewrite all five handoffs/five research artifacts or increment cycle/timestamps. Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. If no admissible data reachable, report no-change state without writes/fabrication. Only canonical HANDOFF.md updated on material change; others archival. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
 
-## Completed Task (four-hundred-and-sixty-ninth research cycle, no-change / override)
-Cycle 469 completed as **data-reach / no-change** under the DELAY-ELIMINATION OVERRIDE (2026-10-30). No live probes repeated (state unchanged vs latest recorded 2026-10-30T20:45:12Z). Required live data remains unreachable (Binance REST 451, archive front-only /data/ 404, data-stream 404, stream 451/TCP issues, Coin Metrics v2 banner/no payload v4 404, no local data3/ or pull scripts).
+## Completed Task (four-hundred-and-seventieth research cycle, no-change / override)
+Cycle 470 completed as **data-reach / no-change** under the DELAY-ELIMINATION OVERRIDE (2026-10-30). No live probes repeated (state unchanged vs latest recorded 2026-10-30T20:45:12Z). Required live data remains unreachable (Binance REST 451, archive front-only /data/ 404, data-stream 404, stream 451/TCP issues, Coin Metrics v2 banner/no payload v4 404, no local data3/ or pull scripts).
 
 Priority work (without usable data):
 - (1) CRYPTO-EDGE-001: trigger counts/coverage/cross-section marker decision cannot be computed. No score change (58, v1.20).
@@ -770,6 +770,11 @@ Priority work (without usable data):
 - (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable; base-effect-first sequence not executed. No score change (48, v1.17).
 - (4) Audit/claim-side follow-ups: no new evidence; no score changes.
 - (5) No new hypothesis added.
+
+All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed. Artefacts updated: canonical HANDOFF.md only (no material change); other handoff copies and research artefacts unchanged per override.
+
+## Initial Task Message (four-hundred-and-seventy-first)
+**Task: Conduct the four-hundred-and-seventy-first research cycle.** Follow DELAY-ELIMINATION OVERRIDE (2026-10-30): read recorded evidence first; if unchanged vs 2026-10-30T20:45:12Z, skip live probes and do not rewrite all five handoffs/five research artifacts or increment cycle/timestamps. Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. If no admissible data reachable, report no-change state without writes/fabrication. Only canonical HANDOFF.md updated on material change; others archival. Constraints: research only; free and open data only; no empirical validation; no performance quantities.
 
 All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed. Per override: no cycle increment/timestamp refresh/rewrite of all five handoffs and five research artifacts; only canonical HANDOFF.md updated as needed to record completion and next task.
 
