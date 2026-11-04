@@ -3198,7 +3198,7 @@ Priority work (without usable data):
 - (4) Audit/claim-side follow-ups: no new evidence; no score changes.
 - (5) No new hypothesis added.
 
-All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6); CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed. Only canonical HANDOFF.md (this file) updated per override rules 3 and 4; the four archival handoff copies (root HANDOFF.md, HANDOFF-2.md, HANDOFF-3.md, research/HANDOFF.md) and the five research artefacts were left untouched (no content change).
+All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed. Only canonical HANDOFF.md (this file) updated per override rules 3 and 4; the four archival handoff copies (root HANDOFF.md, HANDOFF-2.md, HANDOFF-3.md, research/HANDOFF.md) and the five research artefacts were left untouched (no content change).
 
 The offline audit was re-run over all four entries in all four places a dimension score can hide (contribution list, versioned change narratives, rationale prose, and the present-tense "current state" line) and found no stale score. Item 17 was read for all four entries and is complete and current; no entry's next question depends on a computation that this cycle could not perform.
 
