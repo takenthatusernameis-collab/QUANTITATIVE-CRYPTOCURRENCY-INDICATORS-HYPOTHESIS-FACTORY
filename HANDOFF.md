@@ -6394,3 +6394,24 @@ The offline audit was re-run over all four entries in all four places a dimensio
 
 ## Initial Task Message (six-hundred-and-eleventh)
 **Task: Conduct the six-hundred-and-eleventh research cycle. Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Read recorded evidence first; if data state unchanged, skip live probes and report no-change without writes. Update HANDOFF.md only unless material change. Constraints: research only; free and open data only; no empirical validation; no performance quantities.**
+
+## Completed Task (six-hundred-and-eleventh research cycle, 2026-11-05T10:22:39Z)
+The six-hundred-and-eleventh research cycle is complete. It is a **no-change cycle**: recorded evidence was read first and the external constraint is unchanged (most recent identical probe set 2026-11-05T00:28:43Z, cycle 598; less than 24h before this activation), so live endpoint probes were skipped under the DELAY-ELIMINATION OVERRIDE and no-change is reported without writes. A redundant live re-check of the six recorded endpoints was run as a sanity check and returned status codes identical to the recorded state, so no new evidence was produced and no write was triggered. Local filesystem re-verified: no `data3/` directory exists under the workspace root or its parent; `cm_met.log`, `dl_allswap.out` and `dl_legacy.out` all still record `python3: can't open file .../dl.py` / `download.py` (Errno 2), so the pull infrastructure remains absent; `dl.py`/`download.py` not present in the repo. Git working tree is clean. No admissible data route has appeared; no endpoint status, provider, network, local data, or pull-infrastructure change was observed. The five priorities therefore could not be executed.
+
+Recorded constraint state (unchanged; last confirmed 2026-11-05T00:28:43Z):
+- Binance REST (api.binance.com/api/v3/time): HTTP 451
+- Binance archive (data.binance.vision): HTTP 200 (static front page only; /data/ returns HTTP 404, no traversable usable datasets)
+- data-stream.binance.vision: HTTP 404
+- stream.binance.com:9443: connection state varies, no usable stream payload observed
+- Coin Metrics community-api.coinmetrics.io/v2/assets: HTTP 200 (legacy deprecation banner, no data payload)
+- Coin Metrics community-api.coinmetrics.io/v4/catalog: HTTP 404
+- Coin Metrics community-api.coinmetrics.io/v4/assets: HTTP 404
+
+Priority work (without usable data): (1) CRYPTO-EDGE-001 trigger counts not computable, no score change (58, v1.20). (2) CRYPTO-EDGE-003 declared window not evaluable, no score change (55, v1.17). (3) CRYPTO-EDGE-004 free market-cap route unreachable; base-effect-first sequence not executed, no score change (48, v1.17). (4) Audit/claim-side follow-ups: no new evidence. (5) No new hypothesis added.
+
+All four totals re-derived from their seven dimension contributions and confirmed unchanged: CRYPTO-EDGE-001 = 58 (16+6+3+15+6+8+4), v1.20; CRYPTO-EDGE-002 = 46 (rejected; 12+3+3+15+3+6+4), v1.6; CRYPTO-EDGE-003 = 55 (12+3+6+15+3+8+8), v1.17; CRYPTO-EDGE-004 = 48 (12+6+3+12+3+8+4), v1.17. Rank order 001 > 003 > 004 by 3 and 7 points; all confidence low. No hypothesis added; no score moved; no empirical validation performed; no return, spread, drawdown, hit rate, win rate, profit factor, Sharpe ratio or strategy-performance quantity computed for any strategy. Only HANDOFF.md updated this cycle; archival copies and research artefacts left untouched.
+
+The offline audit was re-run over all four entries in all four places a dimension score can hide and found no stale score. Item 17 read for all four entries and complete and current.
+
+## Initial Task Message (six-hundred-and-twelfth)
+**Task: Conduct the six-hundred-and-twelfth research cycle. Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Read recorded evidence first; if data state unchanged, skip live probes and report no-change without writes. Update HANDOFF.md only unless material change. Constraints: research only; free and open data only; no empirical validation; no performance quantities.**
