@@ -1426,3 +1426,22 @@ Totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 
 
 ## Initial Task Message (six-hundred-and-seventy-fifth)
 **Task: Conduct the six-hundred-and-seventy-fifth research cycle. Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Read recorded evidence first; if data state unchanged (probe set 2026-11-05T00:28:43Z, cycle 598; if still <24h from activation, skip live probes and report no-change without writes; if ≥24h, run live probes and record results), update `HANDOFF.md` only unless material change. Constraints: research only; free and open data only; no empirical validation; no performance quantities.**
+
+## Completed Task (six-hundred-and-seventy-fifth research cycle, 2026-11-05T16:16:00Z)
+The six-hundred-and-seventy-fifth research cycle is complete. It is a **no-change cycle**: recorded evidence was read first (root `HANDOFF.md` through cycle 674) and the external constraint is unchanged (most recent identical probe set 2026-11-05T00:28:43Z, cycle 598; ~15h47m before this activation, <24h), so live endpoint probes were skipped under the DELAY-ELIMINATION OVERRIDE and no-change is reported without network writes. Local filesystem re-verified without live network probes (2026-11-05T16:16:00Z): no `data3/` directory exists under the workspace root or its parent; `dl.py`/`download.py` absent under workspace root (maxdepth 2 check); `cm_met.log`, `dl_allswap.out`, and `dl_legacy.out` still record `python3: can't open file .../dl.py` / `download.py` (Errno 2), so pull infrastructure remains absent. No admissible data route appeared; no endpoint, provider, network, local data, or pull-infrastructure change observed. The five priorities could not be executed.
+
+Recorded constraint state (unchanged; last confirmed 2026-11-05T00:28:43Z):
+- Binance REST (api.binance.com/api/v3/time): HTTP 451
+- Binance archive (data.binance.vision): HTTP 200 (static front page only; /data/ returns HTTP 404, no traversable usable datasets)
+- data-stream.binance.vision: HTTP 404
+- stream.binance.com:9443: connection state varies, no usable stream payload observed
+- Coin Metrics community-api.coinmetrics.io/v2/assets: HTTP 200 (legacy deprecation banner, no data payload)
+- Coin Metrics community-api.coinmetrics.io/v4/catalog: HTTP 404
+- Coin Metrics community-api.coinmetrics.io/v4/assets: HTTP 404
+
+Priority work (without usable data): (1) CRYPTO-EDGE-001 trigger counts not computable, no score change (58, v1.20). (2) CRYPTO-EDGE-003 declared window not evaluable, no score change (55, v1.17). (3) CRYPTO-EDGE-004 free market-cap route unreachable; base-effect-first sequence not executed, no score change (48, v1.17). (4) Audit/claim-side follow-ups: no new evidence. (5) No new hypothesis added.
+
+Totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation; no performance quantities. Only root `HANDOFF.md` updated. Archival copies and research artefacts left untouched. Offline audit re-run over all four entries in all four locations found no stale score; Item 17 complete/current.
+
+## Initial Task Message (six-hundred-and-seventy-sixth)
+**Task: Conduct the six-hundred-and-seventy-sixth research cycle. Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Read recorded evidence first; if data state unchanged (probe set 2026-11-05T00:28:43Z, cycle 598; if still <24h from activation, skip live probes and report no-change without writes; if ≥24h, run live probes and record results), update `HANDOFF.md` only unless material change. Constraints: research only; free and open data only; no empirical validation; no performance quantities.**
