@@ -1888,3 +1888,30 @@ No-change/data-reach cycle. Probes: Binance REST 451; data.binance.vision 200 (f
 
 ## Initial Task Message (four-hundred-and-sixty-first)
 **Task: Conduct the four-hundred-and-sixty-first research cycle. Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Read recorded evidence first; if data state unchanged, skip live probes and report no-change without writes. Update HANDOFF.md only unless material change. Constraints: research only; free and open data only; no empirical validation; no performance quantities.**
+
+## Completed Task (five-hundred-and-forty-first research cycle, 2026-11-05T09:20:26Z)
+The five-hundred-and-forty-first research cycle is complete. It is a **no-change cycle**: recorded evidence was read first and the external/local constraint state is unchanged (most recent full probe set 2026-11-04T07:02:27Z, cycle 525; quick spot probes this cycle at 2026-11-05T09:20:26Z returned Binance REST HTTP 451, Binance archive `/data/` HTTP 404, and Coin Metrics v4 catalog HTTP 404 — all consistent with recorded state). No live full probe set was required; no admissible data route has appeared. The five priorities therefore could not be executed.
+
+Local filesystem re-verified at 2026-11-05T09:20:26Z: no `data3/` directory exists under the workspace root or its parent; `cm_met.log`, `dl_allswap.out`, and `dl_legacy.out` remain present and unchanged (missing `dl.py`/`download.py`), so pull infrastructure remains absent.
+
+Recorded constraint state (unchanged; last full probe 2026-11-04T07:02:27Z, spot-checked 2026-11-05T09:20:26Z):
+- Binance REST (api.binance.com/api/v3/time): HTTP 451
+- Binance archive (data.binance.vision): HTTP 200 front page only; `/data/` returns HTTP 404 (no traversable usable datasets)
+- data-stream.binance.vision: HTTP 404 (recorded)
+- stream.binance.com:9443: TLS handshake succeeds but no usable data stream (recorded; connection state varies)
+- Coin Metrics community-api.coinmetrics.io/v2/assets: HTTP 200 legacy deprecation banner, no data payload (recorded)
+- Coin Metrics community-api.coinmetrics.io/v4/catalog: HTTP 404
+- Coin Metrics community-api.coinmetrics.io/v4/assets: HTTP 404 (recorded)
+- Local filesystem: no `data3/`; pull infrastructure absent.
+
+Priority work (without usable data):
+- (1) CRYPTO-EDGE-001: trigger counts, coverage, and cross-section marker decision cannot be computed. No score change (58, v1.20).
+- (2) CRYPTO-EDGE-003: declared window / extension priced option cannot be evaluated. No score change (55, v1.17).
+- (3) CRYPTO-EDGE-004: free market-cap route catalog unreachable; base-effect-first sequence not executed. No score change (48, v1.17).
+- (4) Audit/claim-side follow-ups: no new evidence; no score changes.
+- (5) No new hypothesis added.
+
+All four totals re-derived and unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected, v1.6); CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004 by 3 and 7 points. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed. Only canonical `research/HANDOFF.md` updated (materially unchanged state recorded for cycle 541); archival handoff copies and the five research artefacts left untouched.
+
+## Initial Task Message (five-hundred-and-forty-second)
+**Task: Conduct the five-hundred-and-forty-second research cycle. Priorities carried forward unchanged: (1) CRYPTO-EDGE-001 trigger counts with coverage and cross-section marker decision; (2) CRYPTO-EDGE-003 declared window / extension priced option; (3) CRYPTO-EDGE-004 free market-cap route and base-effect-first sequence; (4) audit/claim-side follow-ups; (5) zero new hypothesis unless substantive value. Read recorded evidence first; if data state unchanged, skip live probes and report no-change without writes. Update HANDOFF.md only unless material change. Constraints: research only; free and open data only; no empirical validation; no performance quantities.**
