@@ -1,5 +1,37 @@
 
-=== Four hundred and eighty-second research cycle (2026-10-30T06:42:15Z) ===
+=== Nine-hundred-and-twentieth research cycle (2026-11-13T21:31:29Z) — MATERIAL ACCESS CHANGE ===
+
+**The recorded access state is superseded.** From the ninth cycle to the nine-hundred-and-nineteenth, this file and its siblings recorded that the Binance archive served "a static front page only" with "no traversable usable datasets", and that no admissible free data route existed. That conclusion was drawn from a 404 on the website path `/data/` and was never tested against a concrete object key or the S3 listing API. Tested on 2026-11-13, it is false.
+
+**Confirmed free, keyless, no registration, verified by direct fetch on 2026-11-13:**
+
+| Source | Endpoint used | Status | What it provides | Verified |
+|---|---|---|---|---|
+| Binance public archive (futures UM) | `data/futures/um/daily/klines/{SYM}/1d/{SYM}-1d-YYYY-MM-DD.zip` | 200 | daily OHLCV, 12-field schema | 2024-01-01 (353 B); current to 2026-11-10 |
+| Binance public archive (futures UM) | `data/futures/um/daily/premiumIndexKlines/{SYM}/1d/...` | 200 | premium index OHLC (basis input) | 2024-01-01 (326 B); current to 2026-11-10 |
+| Binance public archive (futures UM) | `data/futures/um/daily/metrics/{SYM}/{SYM}-metrics-YYYY-MM-DD.zip` | 200 | 5-min `sum_open_interest`, `sum_open_interest_value`, long/short ratios | 2024-01-01 (289 rows); current to 2026-11-10 |
+| Binance public archive (futures UM) | `data/futures/um/monthly/fundingRate/{SYM}/{SYM}-fundingRate-YYYY-MM.zip` | 200 | `calc_time`, `funding_interval_hours`, `last_funding_rate` | 2024-01 (94 rows) |
+| Binance public archive (spot) | `data/spot/daily/klines/{SYM}/1d/...` | 200 | spot daily OHLCV | 2024-01-01; current to 2026-11-10 |
+| Binance public archive (futures CM) | `data/futures/cm/daily/liquidationSnapshot/{SYM}/{SYM}-liquidationSnapshot-YYYY-MM-DD.zip` | 200 | per-event liquidation rows, 10-field schema | 2024-01-01 (189 rows); ends 2024-10-14 |
+| Binance public archive (relocated UM liquidations) | `data3/liquidationSnapshot/BTCUSDT/` via S3 listing | 200 | 281 daily zips + 281 sidecars | 2023-06-25..2024-03-31; 6,427,695 B |
+| Binance archive traversal | `https://s3-ap-northeast-1.amazonaws.com/data.binance.vision?list-type=2&prefix=data/&delimiter=/` | 200 | `data/futures/`, `data/spot/`, `data/option/` | root listing 17 keys |
+| OKX v5 | `/api/v5/public/funding-rate?instId=BTC-USDT-SWAP` | 200 | current 8-hour funding rate | real payload |
+| OKX v5 | `/api/v5/public/funding-rate-history?instId=...` | 200 | dated funding history (paged) | real payload; depth not yet enumerated |
+| OKX v5 | `/api/v5/public/open-interest?instType=SWAP&instId=...` | 200 | `oi`, `oiCcy`, `oiUsd` | real payload |
+| OKX v5 | `/api/v5/public/liquidation-orders?instType=SWAP&instFamily=BTC-USDT&state=filled` | 200 | per-event `side`/`posSide`/`sz`/`bkPx`/`ts` | real payload; retrospective depth not yet enumerated |
+| OKX v5 | `/api/v5/market/candles?instId=BTC-USDT&bar=1D` | 200 | daily OHLCV | real payload |
+| Kraken | `/0/public/OHLC?pair=XBTUSD&interval=1440` | 200 | daily OHLCV + volume | real payload |
+| Coinbase Exchange | `/products/BTC-USD/candles?granularity=86400` | 200 | daily OHLCV | real payload |
+| Bitstamp | `/api/v2/ohlc/btcusd/?step=86400` | 200 | daily OHLCV | real payload |
+| CoinGecko | `/api/v3/ping`, `/api/v3/coins/markets` | 200 | **current** market cap/rank/volume only | snapshot only; **no history** |
+
+**Still blocked (unchanged, re-confirmed 2026-11-13):** Binance REST `api.binance.com` `/api/v3/time` and `/api/v3/klines` → HTTP 451. `data-stream.binance.vision` → 404. Coin Metrics v2 `/v2/assets` → 200 legacy deprecation banner, no payload; v4 `/v4/catalog`, `/v4/assets`, `/v4/markets` → 404; `/v4/timeseries/market-candles` → 403. CoinGecko historical queries remain outside the free tier. No `data3/` locally; `dl.py`/`download.py` absent.
+
+**Two consequences that must not be blurred.**
+1. **Free and current is not the same as free and historical.** The archive's price, premium-index and metrics trees run to 2026-11-10, but the per-event liquidation trees stop at 2024-10-14 (COIN-M) and 2024-03-31 (relocated USDⓈ-M). A route being live does not extend any record backwards.
+2. **A 404 on a directory key is not a 404 on the data.** S3 has no directory objects; `data/` legitimately 404s while `data/futures/um/daily/klines/...` is public. Any future cycle that reads a directory-key 404 as an access verdict will reproduce this ~400-cycle false negative.
+
+**Process note.** The probe set used for roughly four hundred cycles consisted only of a REST host, a website front page, a directory path and Coin Metrics. It never requested a concrete archive object key, never used the S3 listing API, and never probed a venue other than Binance. The fix is recorded in PROCESS_CHANGELOG.md.
 
 A **data-reach cycle.** All five priorities could not be executed because the required live data is unreachable from this machine.
 

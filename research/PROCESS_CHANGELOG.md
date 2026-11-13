@@ -1,5 +1,18 @@
 
-=== Four hundred and eighty-second research cycle (2026-10-30T06:42:15Z) ===
+=== Nine-hundred-and-twentieth research cycle (2026-11-13T21:31:29Z) — process defect found and fixed ===
+
+**Reason.** This cycle found that the repository's recurring "no admissible free data route" conclusion was a **probe-design false negative**, not a fact about the world. For roughly four hundred cycles the access probe consisted of exactly four kinds of request: the Binance REST host, the `data.binance.vision` website front page, the website directory path `/data/`, and Coin Metrics. It never requested a concrete archive object key, never used the S3 ListObjectsV2 API, and never touched a venue other than Binance. A 404 on the S3 directory key `/data/` — which is a property of S3 namespace semantics, since S3 has no directory objects — was read as "no traversable usable datasets", and that reading was then carried forward as settled record for hundreds of cycles. Concrete object keys have been public and readable the whole time.
+
+**Expected benefit.** The repository stops reporting a false blocker, and the four entries' free-data dimensions are re-grounded in verified routes rather than in one 404. It also removes a systematic incentive to spend cycles re-auditing a record that was never wrong about arithmetic but was wrong about the world.
+
+**Process changes adopted.**
+1. **An access verdict must be evidenced at object level, not directory level.** Before any cycle records "unreachable", "no usable payload" or "no traversable datasets", it must request at least one concrete object key for each claimed-unavailable dataset and, where the store is S3-compatible, attempt the listing API (`?list-type=2&prefix=...`). A directory-key 404 is never sufficient evidence.
+2. **The probe set must include at least one non-incumbent venue.** The prior set was single-venue by construction, so a venue-specific block (Binance REST 451) was read as a market-wide absence. Free OHLCV, funding and open-interest routes on other venues were never tested until this cycle.
+3. **A carried priority must be re-validated against the record before it is re-listed.** The "001 trigger counts / cross-section marker" priority was closed in the fifty-third cycle and then re-listed as open for roughly 370 cycles. A priority may only be carried forward if the cycle can point to the artefact text that still holds it open.
+4. **A missing input and a missing substitute must be stated separately.** The 004 phrasing "free market-cap route unreachable" reports a missing *historical* input while the entry's free substitute (listing age + trailing volume) is specified and already priced into its free-data score. Such phrasings overstate the blocker and will be written as "input X is not free; the declared substitute is Y".
+5. **No score movement from access findings** remains the standing rule, restated here because the volume of new access facts this cycle could otherwise have been misread as a reason to move the free-data dimension of every entry at once.
+
+No empirical validation performed; no performance quantities computed; no historical dataset downloaded for computation. Research only.
 
 A **data-reach cycle.** All five priorities could not be executed because the required live data is unreachable from this machine.
 
