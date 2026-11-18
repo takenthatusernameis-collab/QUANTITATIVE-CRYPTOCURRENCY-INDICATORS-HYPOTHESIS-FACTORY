@@ -14,7 +14,7 @@
 | Binance public archive (spot) | `data/spot/daily/klines/{SYM}/1d/...` | 200 | spot daily OHLCV | 2024-01-01; current to 2026-11-10 |
 | Binance public archive (futures CM) | `data/futures/cm/daily/liquidationSnapshot/{SYM}/{SYM}-liquidationSnapshot-YYYY-MM-DD.zip` | 200 | per-event liquidation rows, 10-field schema | 2024-01-01 (189 rows); ends 2024-10-14 |
 | Binance public archive (relocated UM liquidations) | `data3/liquidationSnapshot/BTCUSDT/` via S3 listing | 200 | 281 daily zips + 281 sidecars | 2023-06-25..2024-03-31; 6,427,695 B |
-| Binance archive traversal | `https://s3-ap-northeast-1.amazonaws.com/data.binance.vision?list-type=2&prefix=data/&delimiter=/` | 200 | `data/futures/`, `data/spot/`, `data/option/` | root listing 17 keys |
+| Binance archive traversal | `https://s3-ap-northeast-1.amazonaws.com/data.binance.vision?list-type=2&prefix=data/&delimiter=/` | 200 | `data/futures/`, `data/spot/`, `data/option/` | 3 prefixes / 1,000 keys truncated (delimiter omitted) |
 | OKX v5 | `/api/v5/public/funding-rate?instId=BTC-USDT-SWAP` | 200 | current 8-hour funding rate | real payload |
 | OKX v5 | `/api/v5/public/funding-rate-history?instId=...` | 200 | dated funding history (paged) | real payload; depth not yet enumerated |
 | OKX v5 | `/api/v5/public/open-interest?instType=SWAP&instId=...` | 200 | `oi`, `oiCcy`, `oiUsd` | real payload |
