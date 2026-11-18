@@ -33,6 +33,38 @@
 
 **Process note.** The probe set used for roughly four hundred cycles consisted only of a REST host, a website front page, a directory path and Coin Metrics. It never requested a concrete archive object key, never used the S3 listing API, and never probed a venue other than Binance. The fix is recorded in PROCESS_CHANGELOG.md.
 
+=== Re-verification and depth enumeration (2026-11-18T23:05Z) — the 920th-cycle access finding is confirmed live, and the 920th cycle's open question is answered ===
+
+The four activations of 2026-11-18 (00:15, 23:00, 23:02, 23:03) re-ran the **retired** probe set (REST host, front page, `/data/`, Coin Metrics) and re-recorded "no admissible free data route". That verdict is **false** and is superseded by this section. The corrected probe set was run once, status codes and payload sizes only, on 2026-11-18T23:05:20Z:
+
+| Probe | Status | Size |
+|---|---|---|
+| `data/futures/um/daily/klines/BTCUSDT/1d/BTCUSDT-1d-2024-01-01.zip` | 200 | 353 B |
+| `data/spot/daily/klines/BTCUSDT/1d/BTCUSDT-1d-2024-01-01.zip` | 200 | 240 B |
+| `data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2024-01.zip` | 200 | 696 B |
+| S3 ListObjectsV2 `prefix=data/futures/um/daily/klines/BTCUSDT/1d/` | 200 | 990 B XML |
+| OKX `/api/v5/market/candles?instId=BTC-USDT&bar=1D` | 200 | 274 B |
+| Coinbase `/products/BTC-USD/candles?granularity=86400` | 200 | 21,426 B |
+| Kraken `/0/public/OHLC?pair=XBTUSD&interval=1440` | 200 | 62,329 B |
+| Bitstamp `/api/v2/ohlc/btcusd/?step=86400` | 200 | 311 B |
+| CoinGecko `/api/v3/coins/markets` | 200 | 1,645 B (snapshot only) |
+
+**Measured coverage of the Binance archive (S3 listing boundaries, 2026-11-18):**
+- UM daily `klines` 1d, BTCUSDT: **earliest object 2019-12-31**, latest **2026-11-17** (2026-11-18 returns 404 — archive lags one day).
+- UM daily `premiumIndexKlines` 1d, BTCUSDT: earliest **2019-12-24**.
+- UM daily `metrics` (5-min open interest, long/short ratios), BTCUSDT: earliest **2020-09-01**; 2025-06-01 object verified 200, 11,099 B.
+- UM monthly `fundingRate`: continuous; latest monthly object 2026-10.
+- UM daily `liquidationSnapshot/`: prefix lists **HTTP 200 with zero keys** — the tree is empty. Per-event liquidations remain only under the relocated `data3/liquidationSnapshot/{SYM}/` tree, first object **2023-06-25**.
+
+**The 920th cycle's open question — retrospective depth of OKX per-event and funding endpoints — is answered, and the answer is negative:**
+- OKX `/api/v5/public/funding-rate-history?instId=BTC-USDT-SWAP&limit=100`: 100 rows, **2026-10-16T16:00Z to 2026-11-18T16:00Z** (≈33 days). No deep history by REST.
+- OKX `/api/v5/public/liquidation-orders?...&state=filled&limit=100`: **100 events spanning 2026-11-18T22:48Z to 22:57Z — nine minutes.** It is a real-time firehose with no retrospective depth, so it cannot reach the post-2024 regime and does not extend the per-event record.
+- OKX `/api/v5/market/history-candles?bar=1D&limit=100`: 100 rows, 2026-08-11 to 2026-11-18 (~3 months per page); deep history is reachable only by `after`-pagination and is not needed, because the Binance archive covers 1d OHLCV from 2019-12-31.
+
+**Consequence for CRYPTO-EDGE-001.** The primary arm's per-event effective sample remains bounded at **281 days ending 2024-03-31** and is **unmeasurable beyond that on free native data**; this is now a measured determination rather than an assumption, and no free route closes it. The registered **open-interest-clearing fallback is fully computable** from free and current inputs: UM 5-min `metrics` + 1d `premiumIndexKlines` + monthly `fundingRate`, joined over **2020-09-01 → 2026-11-17**. That is the executable next step and it needs no new access determination.
+
+=== Archived below: four-hundred-and-seventy-second research cycle (2026-10-29), retained verbatim ===
+
 A **data-reach cycle.** All five priorities could not be executed because the required live data is unreachable from this machine.
 
 Probes performed at 2026-10-30T06:42:15Z (this session's first action):
