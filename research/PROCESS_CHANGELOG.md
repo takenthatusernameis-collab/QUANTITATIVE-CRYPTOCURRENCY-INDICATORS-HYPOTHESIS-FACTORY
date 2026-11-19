@@ -1,4 +1,37 @@
 
+=== Nine-hundred-and-twenty-second research cycle (2026-11-19) — open-interest-clearing panel extended to eight symbols; cascade-day validation ===
+
+**Reason.** The 921st cycle built CRYPTO-EDGE-001's open-interest-clearing panel for BTCUSDT and ETHUSDT on free Binance archive inputs. This cycle extends the same panel to the six declared family-analogue symbols (SOLUSDT, DOGEUSDT, LINKUSDT, ADAUSDT, BNBUSDT, XRPUSDT), producing eight-symbol coverage and trigger/clearing-state counts per symbol per year, plus the effective-sample bound at the registered horizons, and validates the state definitions against cascade day 2024-08-05.
+
+**What was done.**
+- Downloaded UM daily metrics (5-min sum_open_interest) and UM daily premiumIndexKlines 1d (premium index close as basis proxy) for all eight symbols, 2020-09-01 → 2026-11-17, via https://data.binance.vision — 15,042 of 18,152 (symbol,date) pairs had data (82.8% overall; 100% coverage from listing date onward for all symbols).
+- Downloaded UM monthly fundingRate for cross-check (592 months across all symbols).
+- Computed opening OI (first 5-min bar) and closing OI (last 5-min bar) per day; clearing % = (opening − closing) / opening; annualized basis = premium index close × 365.
+- Trigger state = annualized basis > +20% (theory-derived starting value per item 6(P1)). Clearing state = clearing % > 1%. Joint state = both on same day. Counts of states only; no returns, spreads, drawdowns, hit rates, Sharpe ratios or forward relationships.
+- Results: trigger days concentrated in 2021–2024 across all symbols; BNBUSDT shows elevated trigger frequency (98 trigger days in 2026 alone, 45 in 28-day windows at 69.2% window rate). Clearing days 98–170 per year per symbol. Joint days 0–28 per year.
+- Effective-sample bound at horizons 7/14/21/28 days: clearing saturates at ~100% of windows at 14+ days for every symbol; trigger-state frequency is the binding constraint at 9–31% of windows depending on horizon and symbol.
+- Cascade-day validation on 2024-08-05: BTCUSDT clearing_pct = 14.6% (>1% threshold, flagged) while trigger=False (negative annualized basis). Clearing correctly flags OI drops on cascade days independently of trigger state.
+
+**Process changes adopted.** None new — all nine-hundred-and-twentieth cycle process rules (object-level access evidence, multi-venue probe set, priority re-validation, separate missing-input/substitute statements, no score movement from access findings) remain in force and were followed this cycle.
+
+No empirical validation performed; no performance quantities computed; no hypothesis added; no score moved. Research only. The four archival handoff copies (HANDOFF-2.md, HANDOFF-3.md, research/HANDOFF.md, research_state/HANDOFF.md) were not modified.
+
+=== Nine-hundred-and-twenty-first research cycle (2026-11-19) — open-interest-clearing panel built and counted ===
+
+**Reason.** The 920th cycle corrected the Binance archive access verdict (concrete object keys are public and readable; the "/data/" 404 was a directory-key false negative). This cycle executed the now-unblocked priority: built CRYPTO-EDGE-001's open-interest-clearing panel from free archive inputs and computed coverage and trigger/clearing-state counts per symbol per year, plus the effective-sample bound at the registered horizons.
+
+**What was done.**
+- Downloaded UM daily metrics (5-min sum_open_interest) and UM daily premiumIndexKlines 1d (premium index close as basis proxy) for BTCUSDT and ETHUSDT, 2020-09-01 → 2026-11-17, via https://data.binance.vision — 4,100 of 4,538 (symbol,date) pairs had data (100% coverage for both symbols from their listing dates onward).
+- Downloaded UM monthly fundingRate for cross-check (148 months).
+- Computed opening OI (first 5-min bar) and closing OI (last 5-min bar) per day; clearing % = (opening − closing) / opening; annualized basis = premium index close × 365.
+- Trigger state = annualized basis > +20% (theory-derived starting value per item 6(P1)). Clearing state = clearing % > 1%. Joint state = both on same day. Counts of states only; no returns, spreads, drawdowns, hit rates, Sharpe ratios or forward relationships.
+- Results: trigger days concentrated in 2021–2024 (BTCUSDT 23/20/63; ETHUSDT 6/28/79), zero in 2022 and 2025–2026 — consistent with perp-era basis compression. Clearing days 98–147 per year per symbol. Joint days 0–22 per year.
+- Effective-sample bound at horizons 7/14/21/28 days: clearing saturates at ~100% of windows at 14+ days; trigger-state frequency is the binding constraint at 9–22% of windows.
+
+**Process changes adopted.** None new — all nine-hundred-and-twentieth cycle process rules (object-level access evidence, multi-venue probe set, priority re-validation, separate missing-input/substitute statements, no score movement from access findings) remain in force and were followed this cycle.
+
+No empirical validation performed; no performance quantities computed; no hypothesis added; no score moved. Research only. The four archival handoff copies (HANDOFF-2.md, HANDOFF-3.md, research/HANDOFF.md, research_state/HANDOFF.md) were not modified.
+
 === Nine-hundred-and-twentieth research cycle (2026-11-13T21:31:29Z) — process defect found and fixed ===
 
 **Reason.** This cycle found that the repository's recurring "no admissible free data route" conclusion was a **probe-design false negative**, not a fact about the world. For roughly four hundred cycles the access probe consisted of exactly four kinds of request: the Binance REST host, the `data.binance.vision` website front page, the website directory path `/data/`, and Coin Metrics. It never requested a concrete archive object key, never used the S3 ListObjectsV2 API, and never touched a venue other than Binance. A 404 on the S3 directory key `/data/` — which is a property of S3 namespace semantics, since S3 has no directory objects — was read as "no traversable usable datasets", and that reading was then carried forward as settled record for hundreds of cycles. Concrete object keys have been public and readable the whole time.

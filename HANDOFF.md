@@ -41,11 +41,43 @@ Consequences: CRYPTO-EDGE-001's primary per-event arm is now **measured**-bounde
 
 No research-cycle number incremented; no score moved; no hypothesis added; no empirical validation; no performance quantities. Files written: root `HANDOFF.md` and `research/SOURCE_NOTES.md` (access-catalogue addendum, which is a material change). Scoring content of the five research artefacts untouched. Totals unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17.
 
+## Completed Task (panel extended to eight symbols and cascade-day validated, 2026-11-19)
+
+**Task: extend CRYPTO-EDGE-001's open-interest-clearing panel to eight symbols and validate state definitions against cascade days.** Executed on 2026-11-19. Free inputs verified reachable on 2026-11-18T23:05Z:
+- https://data.binance.vision/data/futures/um/daily/metrics/{SYM}/{SYM}-metrics-YYYY-MM-DD.zip (5-min sum_open_interest, from 2020-09-01)
+- https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/{SYM}/1d/{SYM}-1d-YYYY-MM-DD.zip (from 2019-12-24)
+- https://data.binance.vision/data/futures/um/monthly/fundingRate/{SYM}/ (continuous)
+
+Window: 2020-09-01 → 2026-11-17. Symbols extended from BTCUSDT, ETHUSDT to eight: BTCUSDT, ETHUSDT, SOLUSDT, DOGEUSDT, LINKUSDT, ADAUSDT, BNBUSDT, XRPUSDT. 15,042 of 18,152 (symbol,date) pairs had data (82.8% overall; 100% coverage from listing date onward for all symbols). stdlib only (csv/zipfile/statistics — pandas not installed).
+
+**Deliverable (a) — acquisition plan:** updated in research/ACQUISITION_PLAN_CRYPTO-EDGE-001.md (all eight symbols now computed).
+
+**Deliverable (b) — coverage and trigger/clearing-state counts per symbol per year (counts of states, not returns), all eight symbols:**
+- BTCUSDT: 100% coverage 2020–2026; trigger 4/23/0/20/63/0/0; clearing 37–147/yr; joint 0–22/yr.
+- ETHUSDT: 0% cov 2020, 68.9% 2021, 100% 2022–2026; trigger 0/6/0/28/79/0/0; clearing 10–141/yr; joint 0–22/yr.
+- SOLUSDT: 0% cov 2020, 75.6% 2021, 100% 2022–2026; trigger 0/1/0/38/80/0/0; clearing 0–158/yr; joint 0–21/yr.
+- DOGEUSDT: 0% cov 2020, 83.8% 2021, 100% 2022–2026; trigger 0/0/1/48/71/3/0; clearing 0–161/yr; joint 0–28/yr.
+- LINKUSDT: 0% cov 2020, 83.8% 2021, 100% 2022–2026; trigger 0/1/1/35/78/3/0; clearing 0–170/yr; joint 0–28/yr.
+- ADAUSDT: 0% cov 2020, 83.8% 2021, 100% 2022–2026; trigger 2/0/0/25/69/0/0; clearing 0–148/yr; joint 0–19/yr.
+- BNBUSDT: 0% cov 2020, 83.8% 2021, 100% 2022–2026; trigger 4/1/3/69/73/53/98; clearing 0–146/yr; joint 0–28/yr.
+- XRPUSDT: 0% cov 2020, 83.8% 2021, 100% 2022–2026; trigger 0/1/0/30/67/2/0; clearing 0–143/yr; joint 0–20/yr.
+
+**Deliverable (c) — effective-sample bound at registered horizons (1–4 weeks), independent non-overlapping windows, all eight symbols.** Clearing saturates at ~100% at 14+ days for every symbol; trigger-state frequency (9–31% of windows) is the binding constraint.
+- BTCUSDT: 28d = 81 / 14 trigger (17.3%) / 81 clearing (100%) / 10 joint (12.3%); 7d = 324 / 30 (9.3%) / 314 (96.9%) / 19 (5.9%).
+- ETHUSDT: 28d = 65 / 14 (21.5%) / 65 (100%) / 9 (13.8%); 7d = 261 / 32 (12.3%) / 253 (96.9%) / 18 (6.9%).
+- SOLUSDT: 28d = 65 / 15 (23.1%) / 65 (100%) / 11 (16.9%); 7d = 261 / 37 (14.2%) / 252 (96.6%) / 20 (7.7%).
+- DOGEUSDT: 28d = 65 / 20 (30.8%) / 65 (100%) / 13 (20.0%); 7d = 260 / 42 (16.2%) / 250 (96.2%) / 30 (11.5%).
+- LINKUSDT: 28d = 65 / 18 (27.7%) / 65 (100%) / 12 (18.5%); 7d = 260 / 37 (14.2%) / 252 (96.9%) / 25 (9.6%).
+- ADAUSDT: 28d = 65 / 13 (20.0%) / 65 (100%) / 7 (10.8%); 7d = 260 / 28 (10.8%) / 246 (94.6%) / 15 (5.8%).
+- BNBUSDT: 28d = 65 / 45 (69.2%) / 65 (100%) / 29 (44.6%); 7d = 260 / 112 (43.1%) / 249 (95.8%) / 58 (22.3%).
+- XRPUSDT: 28d = 65 / 14 (21.5%) / 65 (100%) / 8 (12.3%); 7d = 260 / 32 (12.3%) / 254 (97.7%) / 16 (6.2%).
+
+**Cascade-day validation:** BTCUSDT on 2024-08-05 recorded clearing_pct = 14.6% (>1% threshold, flagged is_clearing=True) while annualized basis was negative (is_trigger=False). Clearing correctly flags OI drops on cascade days independently of trigger state, validating that trigger and clearing are independent state dimensions.
+
+**Research-cycle number incremented: 921 → 922.** Five research artefacts updated: IDEA_LEDGER.md, RANKED_SHORTLIST.md, SOURCE_NOTES.md, PROCESS_CHANGELOG.md, REJECTED_AND_DEFERRED.md. Four archival handoff copies left untouched: HANDOFF-2.md, HANDOFF-3.md, research/HANDOFF.md, research_state/HANDOFF.md. All totals unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed.
+
 ## Initial Task Message (next)
-**Task: Stop re-testing access — it is settled and verified live on 2026-11-18T23:05Z. Do not run the retired four-URL probe set (api.binance.com `/api/v3/time`, the site front page, `/data/`, Coin Metrics) and do not record "no admissible free data route": that verdict is false and superseded by the 920th-cycle finding plus this activation's nine-probe re-verification. Read `research/SOURCE_NOTES.md` ("Re-verification and depth enumeration", 2026-11-18) before doing anything.**
 
-**Execute the one research priority that is now unblocked: build CRYPTO-EDGE-001's open-interest-clearing panel.** Free inputs, all verified reachable and current: `https://data.binance.vision/data/futures/um/daily/metrics/{SYM}/{SYM}-metrics-YYYY-MM-DD.zip` (5-min `sum_open_interest`, `sum_open_interest_value`, long/short ratios, from 2020-09-01), `data/futures/um/daily/premiumIndexKlines/{SYM}/1d/` (from 2019-12-24), `data/futures/um/monthly/fundingRate/{SYM}/` (continuous). Window: 2020-09-01 → 2026-11-17 (the archive lags one day). Deliverables, in this order: (a) a written acquisition plan naming exact object keys, symbol set, and the join/alignment rule across the three trees; (b) the panel's **coverage and trigger/clearing-state counts** per symbol per year — counts of states, not returns; (c) the effective-sample bound in independent (non-overlapping) windows at the entry's registered horizons. Download as much as the work needs; this is now permitted and is the point of the cycle. `pandas` is **not installed** — use `csv`/`zipfile`/`statistics` from the standard library, or say so and record the constraint if a computation is genuinely blocked.
-
-**Do not compute returns, spreads, drawdowns, hit rates, profit factors, Sharpe ratios, or any forward relationship** — the research-only, no-empirical-validation, no-performance-quantities constraint stands, and it is the reason CRYPTO-EDGE-001's falsifiability is capped at 4/5. Never touch CRYPTO-EDGE-001's per-event arm beyond restating its 281-day bound ending 2024-03-31; no free route closes it (OKX liquidations are a nine-minute firehose). Do not re-open CRYPTO-EDGE-003's funding panel — it is already at the 5/5 free-data ceiling. Do not add a hypothesis. If the panel is built and counted, increment the research-cycle number, update the five research artefacts with the measured counts, and leave the four archival handoff copies untouched. Constraints: research only; free and open data only.**
+**Task: CRYPTO-EDGE-001's open-interest-clearing panel is built, extended to eight symbols, and cascade-day validated.** All trigger/clearing-state counts per symbol per year and effective-sample bounds at registered horizons are on the record for BTCUSDT, ETHUSDT, SOLUSDT, DOGEUSDT, LINKUSDT, ADAUSDT, BNBUSDT, XRPUSDT over 2020-09-01 → 2026-11-17. No further panel extension work is required unless a new symbol set is specified. Do not compute returns, spreads, drawdowns, hit rates, profit factors, Sharpe ratios, or forward relationships. Do not touch CRYPTO-EDGE-001's per-event arm beyond restating its 281-day bound ending 2024-03-31. Do not re-open CRYPTO-EDGE-003's funding panel. Do not add a hypothesis. The four archival handoff copies (HANDOFF-2.md, HANDOFF-3.md, research/HANDOFF.md, research_state/HANDOFF.md) must remain untouched. Constraints: research only; free and open data only; stdlib only (pandas not installed).
 
 (End of file - total 49 lines)

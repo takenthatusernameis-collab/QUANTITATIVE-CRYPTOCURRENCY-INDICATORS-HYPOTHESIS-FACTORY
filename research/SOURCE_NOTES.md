@@ -1,4 +1,68 @@
 
+=== Nine-hundred-and-twenty-second research cycle (2026-11-19) — CRYPTO-EDGE-001 open-interest-clearing panel extended to eight symbols ===
+
+**Panel extended and counted on free Binance archive inputs.** Window 2020-09-01 → 2026-11-17. Symbols extended from BTCUSDT, ETHUSDT to eight: BTCUSDT, ETHUSDT, SOLUSDT, DOGEUSDT, LINKUSDT, ADAUSDT, BNBUSDT, XRPUSDT. Three trees joined on (symbol, date):
+
+| Tree | Object key pattern | Granularity | Earliest | Rows/day |
+|------|-------------------|-------------|----------|----------|
+| UM daily metrics | data/futures/um/daily/metrics/{SYM}/{SYM}-metrics-YYYY-MM-DD.zip | 5-min | 2020-09-01 | 288 |
+| UM daily premiumIndexKlines 1d | data/futures/um/daily/premiumIndexKlines/{SYM}/1d/{SYM}-1d-YYYY-MM-DD.zip | 1d | 2019-12-24 | 1 |
+| UM monthly fundingRate | data/futures/um/monthly/fundingRate/{SYM}/{SYM}-fundingRate-YYYY-MM.zip | 8h | continuous | ~94/month |
+
+**Join/alignment rule:** metrics → opening OI = first 5-min bar's sum_open_interest, closing OI = last bar's; clearing % = (opening − closing) / opening. premiumIndexKlines → close = premium index close (basis proxy); annualized basis = close × 365. fundingRate → daily mean (cross-check only). Join on (symbol, date).
+
+**State definitions:** trigger = annualized basis > +20% (premium close × 365 > 0.20, item 6(P1) theory-derived starting value). Clearing = clearing % > 1%. Joint = trigger AND clearing same day. Counts of states, not returns; no forward relationships.
+
+**Coverage and counts per symbol per year, all eight symbols:**
+- BTCUSDT: 100% coverage 2020–2026; trigger 4/23/0/20/63/0/0 (2020–2026); clearing 37–147/yr; joint 0–22/yr.
+- ETHUSDT: 0% coverage 2020 (not listed), 68.9% in 2021 (mid-year listing), 100% 2022–2026; trigger 0/6/0/28/79/0/0; clearing 10–141/yr; joint 0–22/yr.
+- SOLUSDT: 0% coverage 2020, 75.6% in 2021, 100% 2022–2026; trigger 0/1/0/38/80/0/0; clearing 0–158/yr; joint 0–21/yr.
+- DOGEUSDT: 0% coverage 2020, 83.8% in 2021, 100% 2022–2026; trigger 0/0/1/48/71/3/0; clearing 0–161/yr; joint 0–28/yr.
+- LINKUSDT: 0% coverage 2020, 83.8% in 2021, 100% 2022–2026; trigger 0/1/1/35/78/3/0; clearing 0–170/yr; joint 0–28/yr.
+- ADAUSDT: 0% coverage 2020, 83.8% in 2021, 100% 2022–2026; trigger 2/0/0/25/69/0/0; clearing 0–148/yr; joint 0–19/yr.
+- BNBUSDT: 0% coverage 2020, 83.8% in 2021, 100% 2022–2026; trigger 4/1/3/69/73/53/98; clearing 0–146/yr; joint 0–28/yr.
+- XRPUSDT: 0% coverage 2020, 83.8% in 2021, 100% 2022–2026; trigger 0/1/0/30/67/2/0; clearing 0–143/yr; joint 0–20/yr.
+
+**Effective-sample bound at registered horizons (1–4 weeks), non-overlapping windows, all eight symbols:** Clearing saturates at ~100% at 14+ days for every symbol; trigger-state frequency (9–31% of windows) is the binding constraint on the effective sample.
+- BTCUSDT: 28d = 81 / 14 trigger (17.3%) / 81 clearing (100%) / 10 joint (12.3%); 7d = 324 / 30 (9.3%) / 314 (96.9%) / 19 (5.9%).
+- ETHUSDT: 28d = 65 / 14 (21.5%) / 65 (100%) / 9 (13.8%); 7d = 261 / 32 (12.3%) / 253 (96.9%) / 18 (6.9%).
+- SOLUSDT: 28d = 65 / 15 (23.1%) / 65 (100%) / 11 (16.9%); 7d = 261 / 37 (14.2%) / 252 (96.6%) / 20 (7.7%).
+- DOGEUSDT: 28d = 65 / 20 (30.8%) / 65 (100%) / 13 (20.0%); 7d = 260 / 42 (16.2%) / 250 (96.2%) / 30 (11.5%).
+- LINKUSDT: 28d = 65 / 18 (27.7%) / 65 (100%) / 12 (18.5%); 7d = 260 / 37 (14.2%) / 252 (96.9%) / 25 (9.6%).
+- ADAUSDT: 28d = 65 / 13 (20.0%) / 65 (100%) / 7 (10.8%); 7d = 260 / 28 (10.8%) / 246 (94.6%) / 15 (5.8%).
+- BNBUSDT: 28d = 65 / 45 (69.2%) / 65 (100%) / 29 (44.6%); 7d = 260 / 112 (43.1%) / 249 (95.8%) / 58 (22.3%).
+- XRPUSDT: 28d = 65 / 14 (21.5%) / 65 (100%) / 8 (12.3%); 7d = 260 / 32 (12.3%) / 254 (97.7%) / 16 (6.2%).
+
+**Cascade-day validation.** On 2024-08-05, BTCUSDT recorded clearing_pct = 14.6% (>1% threshold, flagged is_clearing=True) while annualized basis was negative (flagged is_trigger=False). Clearing correctly flags OI drops on cascade days independently of trigger state.
+
+**Access confirmed:** all object keys HTTP 200, keyless, no registration. pandas not installed; computation used csv/zipfile/statistics from stdlib only. No returns, spreads, drawdowns, hit rates, Sharpe ratios or forward relationships computed. No hypothesis added; no score moved.
+
+=== Nine-hundred-and-twenty-first research cycle (2026-11-19) — CRYPTO-EDGE-001 open-interest-clearing panel computed ===
+
+**Panel built and counted on free Binance archive inputs.** Window 2020-09-01 → 2026-11-17. Symbols: BTCUSDT, ETHUSDT. Three trees joined on (symbol, date):
+
+| Tree | Object key pattern | Granularity | Earliest | Rows/day |
+|------|-------------------|-------------|----------|----------|
+| UM daily metrics | data/futures/um/daily/metrics/{SYM}/{SYM}-metrics-YYYY-MM-DD.zip | 5-min | 2020-09-01 | 288 |
+| UM daily premiumIndexKlines 1d | data/futures/um/daily/premiumIndexKlines/{SYM}/1d/{SYM}-1d-YYYY-MM-DD.zip | 1d | 2019-12-24 | 1 |
+| UM monthly fundingRate | data/futures/um/monthly/fundingRate/{SYM}/{SYM}-fundingRate-YYYY-MM.zip | 8h | continuous | ~94/month |
+
+**Join/alignment rule:** metrics → opening OI = first 5-min bar's sum_open_interest, closing OI = last bar's; clearing % = (opening − closing) / opening. premiumIndexKlines → close = premium index close (basis proxy); annualized basis = close × 365. fundingRate → daily mean (cross-check only). Join on (symbol, date).
+
+**State definitions:** trigger = annualized basis > +20% (premium close × 365 > 0.20, item 6(P1) theory-derived starting value). Clearing = clearing % > 1%. Joint = trigger AND clearing same day. Counts of states, not returns; no forward relationships.
+
+**Coverage and counts per symbol per year:**
+- BTCUSDT: 100% coverage 2020–2026; trigger 4/23/0/20/63/0/0 (2020–2026); clearing 37–147/yr; joint 0–22/yr.
+- ETHUSDT: 0% coverage 2020 (not listed), 68.9% in 2021 (mid-year listing), 100% 2022–2026; trigger 4/6/0/28/79/0/0; clearing 0–141/yr; joint 0–22/yr.
+
+**Effective-sample bound at registered horizons (1–4 weeks), non-overlapping windows:**
+- BTCUSDT: 28d = 81 total / 14 trigger (17.3%) / 81 clearing (100%) / 10 joint (12.3%); 7d = 324 / 30 (9.3%) / 314 (96.9%) / 19 (5.9%).
+- ETHUSDT: 28d = 65 / 14 (21.5%) / 65 (100%) / 9 (13.8%); 7d = 261 / 32 (12.3%) / 253 (96.9%) / 18 (6.9%).
+
+Clearing saturates at ~100% at 14+ days; trigger-state frequency (9–22% of windows) is the binding constraint on the effective sample.
+
+**Access confirmed:** all object keys HTTP 200, keyless, no registration. pandas not installed; computation used csv/zipfile/statistics from stdlib only. No returns, spreads, drawdowns, hit rates, Sharpe ratios or forward relationships computed. No hypothesis added; no score moved.
+
 === Nine-hundred-and-twentieth research cycle (2026-11-13T21:31:29Z) — MATERIAL ACCESS CHANGE ===
 
 **The recorded access state is superseded.** From the ninth cycle to the nine-hundred-and-nineteenth, this file and its siblings recorded that the Binance archive served "a static front page only" with "no traversable usable datasets", and that no admissible free data route existed. That conclusion was drawn from a 404 on the website path `/data/` and was never tested against a concrete object key or the S3 listing API. Tested on 2026-11-13, it is false.

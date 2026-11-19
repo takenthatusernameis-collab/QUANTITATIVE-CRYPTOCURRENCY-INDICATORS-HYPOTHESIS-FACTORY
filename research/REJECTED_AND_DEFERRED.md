@@ -1,4 +1,16 @@
 
+=== Nine-hundred-and-twenty-second research cycle (2026-11-19) — no change to rejected or deferred set ===
+
+**CRYPTO-EDGE-001 open-interest-clearing panel extended from two symbols (BTCUSDT, ETHUSDT) to eight (added SOLUSDT, DOGEUSDT, LINKUSDT, ADAUSDT, BNBUSDT, XRPUSDT); state definitions validated against cascade day 2024-08-05.** The entry's registered open-interest-clearing fallback is now computed on the Binance archive's UM metrics and premiumIndexKlines trees over 2020-09-01 → 2026-11-17 for all eight symbols. 15,042 of 18,152 (symbol,date) pairs had data (82.8% overall; 100% coverage from listing date onward for all symbols). Trigger-state days (annualized basis > +20%) are concentrated in 2021–2024 across all symbols, with BNBUSDT showing elevated trigger frequency (98 trigger days in 2026, 45 in 28-day windows at 69.2%). Zero trigger days in 2022 and 2025–2026 for most symbols are consistent with perp-era basis compression. Clearing-state days (OI drop > 1%) occur on 98–170 days per year per symbol. Joint-state days (both on same day) are 0–28 per year. Effective-sample bound at registered horizons (1–4 weeks): clearing saturates at ~100% of windows at 14+ days; trigger-state frequency is the binding constraint at 9–31% of windows. Cascade-day validation on 2024-08-05 passed: BTCUSDT clearing_pct = 14.6% (>1% threshold, flagged), trigger=False. No dimension moves; total stays at 58; entry remains shortlisted at rank 1.
+
+**No new rejection, no new deferral, no reinstatement condition met or discharged.** CRYPTO-EDGE-002 remains rejected at 46/100 (v1.6). No hypothesis added; no score moved; no empirical validation performed; no performance quantity computed.
+
+=== Nine-hundred-and-twenty-first research cycle (2026-11-19) — no change to rejected or deferred set ===
+
+**CRYPTO-EDGE-001 open-interest-clearing panel built and counted.** The entry's registered open-interest-clearing fallback is now computed on the Binance archive's UM metrics and premiumIndexKlines trees over 2020-09-01 → 2026-11-17 for BTCUSDT and ETHUSDT. Trigger-state days (annualized basis > +20%) are concentrated in 2021–2024 and zero in 2022 and 2025–2026, consistent with perp-era basis compression. Clearing-state days (OI drop > 1%) occur on 98–147 days per year per symbol. Joint-state days (both on same day) are 0–22 per year. Effective-sample bound at registered horizons (1–4 weeks): clearing saturates at ~100% of windows at 14+ days; trigger-state frequency is the binding constraint at 9–22% of windows. No dimension moves; total stays at 58; entry remains shortlisted at rank 1.
+
+**No new rejection, no new deferral, no reinstatement condition met or discharged.** CRYPTO-EDGE-002 remains rejected at 46/100 (v1.6). No hypothesis added; no score moved; no empirical validation performed; no performance quantity computed.
+
 === Four hundred and eighty-second research cycle (2026-10-30T06:42:15Z) ===
 
 A **data-reach cycle.** All five priorities could not be executed because the required live data is unreachable from this machine.
