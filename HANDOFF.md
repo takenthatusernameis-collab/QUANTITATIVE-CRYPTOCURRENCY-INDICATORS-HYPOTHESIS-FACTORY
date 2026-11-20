@@ -4,7 +4,7 @@
 
 **Research programme:** QUANTITATIVE CRYPTO INDICATORS HYPOTHESIS FACTORY. Research only — no strategy implementation, no empirical validation, no performance quantities.
 
-**Status as of 2026-11-20T18:01Z:** no pending research work. The programme is idle and awaiting new user-directed scope. The 2026-11-20T18:01Z activation was a **no-change activation**: probe anchor 2026-11-20T01:58Z was ~16h03m old (inside the DELAY-ELIMINATION OVERRIDE's 24h window), so no network probe was run and no endpoint, status, provider, or timing was recorded.
+**Status as of 2026-11-20T18:03Z:** no pending research work. The programme is idle and awaiting new user-directed scope. The 2026-11-20T18:03Z activation was a **no-change activation**: probe anchor 2026-11-20T01:58Z was ~16h05m old (inside the DELAY-ELIMINATION OVERRIDE's 24h window), so no network probe was run and no endpoint, status, provider, or timing was recorded.
 
 **Scores (unchanged, re-derived):**
 | ID | Score | Version | Status |
@@ -23,7 +23,7 @@ Rank order 001 > 003 > 004 by 3 and 7 points. Research cycle number: **922** (un
 - Bitstamp OHLC HTTP 400 (changed from 200 on 2026-11-18); affects nothing executable.
 - OKX funding/liquidation history have no retrospective depth (≈33 days funding, ≈9 minutes liquidations) — closed question.
 
-**Verified local state (re-checked 2026-11-20T17:57Z, no network):** no `data3/` in workspace root or parent; no `dl.py`/`download.py`; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` still record `python3: can't open file ...`; pandas not installed (stdlib only); `git status --short` clean.
+**Verified local state (re-checked 2026-11-20T18:03Z, no network):** no `data3/` in workspace root or parent; no `dl.py`/`download.py`; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` still record `python3: can't open file ...`; pandas not installed (stdlib only); `git status --short` clean.
 
 **Completed research deliverable (do not redo):** CRYPTO-EDGE-001 open-interest-clearing panel, eight symbols (BTCUSDT, ETHUSDT, SOLUSDT, DOGEUSDT, LINKUSDT, ADAUSDT, BNBUSDT, XRPUSDT) over 2020-09-01 → 2026-11-17 from Binance archive 5-min `metrics` + 1d `premiumIndexKlines` + monthly `fundingRate`. Per-symbol/year trigger and clearing counts, effective-sample bounds at 1–4 weeks, and the 2024-08-05 cascade-day validation (clearing_pct 14.6%, is_clearing true, is_trigger false) are all on the record in the log below and in `research/ACQUISITION_PLAN_CRYPTO-EDGE-001.md`. Extension work is finished; do not repeat it.
 
