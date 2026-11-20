@@ -1,3 +1,58 @@
+# CURRENT STATE — READ THIS FIRST
+
+*Canonical, authoritative block. Everything below the `---` line is historical cycle log; where the log contradicts this block, this block wins.*
+
+**Research programme:** QUANTITATIVE CRYPTO INDICATORS HYPOTHESIS FACTORY. Research only — no strategy implementation, no empirical validation, no performance quantities.
+
+**Status as of 2026-11-20T09:42Z:** no pending research work. There is no deadlock and no missing input; the programme is simply awaiting new user-directed scope.
+
+**Scores (unchanged, re-derived):**
+| ID | Score | Version | Status |
+|---|---|---|---|
+| CRYPTO-EDGE-001 | 58 | v1.20 | active, ranked #1 |
+| CRYPTO-EDGE-002 | 46 | v1.6 | rejected |
+| CRYPTO-EDGE-003 | 55 | v1.17 | active, ranked #2 |
+| CRYPTO-EDGE-004 | 48 | v1.17 | active, ranked #3 |
+
+Rank order 001 > 003 > 004 by 3 and 7 points. Research cycle number: **922** (unchanged; no-change activations do not increment it).
+
+**Data-reach anchor:** bounded preflight last run 2026-11-20T01:58Z. Under the DELAY-ELIMINATION OVERRIDE, probes may be skipped only while this anchor is <24h old, i.e. **next mandatory re-probe after 2026-11-21T01:58Z**. Anchor results that matter:
+- Binance archive `data.binance.vision` **is** usable for concrete object keys (HTTP 200) — this is the working data route for CRYPTO-EDGE-001. The old "front page 200 / `/data/` 404, therefore unreachable" verdict was a directory-key false negative and is retired; do not restate it.
+- `api.binance.com` REST HTTP 451; `data-stream.binance.vision` 404; `stream.binance.com:9443` connects but yields no authenticated stream.
+- Coin Metrics: v2 deprecated banner only; v4 catalog/assets 404.
+- Bitstamp OHLC HTTP 400 (changed from 200 on 2026-11-18); affects nothing executable.
+- OKX funding/liquidation history have no retrospective depth (≈33 days funding, ≈9 minutes liquidations) — closed question.
+
+**Verified local state (re-checked 2026-11-20T09:41Z, no network):** no `data3/` in workspace root or parent; no `dl.py`/`download.py`; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` still record `python3: can't open file ...`; pandas not installed (stdlib only). `git status --short` clean.
+
+**Completed research deliverable (do not redo):** CRYPTO-EDGE-001 open-interest-clearing panel, eight symbols (BTCUSDT, ETHUSDT, SOLUSDT, DOGEUSDT, LINKUSDT, ADAUSDT, BNBUSDT, XRPUSDT) over 2020-09-01 → 2026-11-17 from Binance archive 5-min `metrics` + 1d `premiumIndexKlines` + monthly `fundingRate`. Per-symbol/year trigger and clearing counts, effective-sample bounds at 1–4 weeks, and the 2024-08-05 cascade-day validation (clearing_pct 14.6%, is_clearing true, is_trigger false) are all on the record in the log below and in `research/ACQUISITION_PLAN_CRYPTO-EDGE-001.md`. Extension work is finished; do not repeat it.
+
+**Hard constraints (carried forward):**
+1. No returns, spreads, drawdowns, hit rates, win rates, profit factors, Sharpe ratios, or forward relationships. State counts only.
+2. CRYPTO-EDGE-001's per-event arm stays at its measured bound: 281 days ending 2024-03-31. Do not restate or reopen it.
+3. Do not reopen CRYPTO-EDGE-003's funding panel.
+4. Do not add a hypothesis. Do not move a score without new evidence and a recorded v-bump.
+5. Only this file (root `HANDOFF.md`) may be rewritten on a no-change activation. `HANDOFF-2.md`, `HANDOFF-3.md`, `research/HANDOFF.md`, `research_state/HANDOFF.md` are archival and must stay byte-identical.
+6. Free and open data only; stdlib only (`csv`/`zipfile`/`statistics`/`urllib`).
+7. A genuine research cycle (new computation, new artefact content) increments the cycle number and updates the five research artefacts; a no-change activation does not.
+
+**INITIAL TASK MESSAGE FOR THE NEXT AGENT**
+
+Task: no pending research work. This is an idle-programme handoff.
+
+- Default action: a **no-change activation**. Re-read this block, confirm the anchor age. If <24h since 2026-11-20T01:58Z, skip all network probes and append one short completed-task line; if ≥24h, run exactly one bounded preflight (status codes and payload sizes only, no dataset download) and record the result once.
+- Do not re-run the eight-symbol OI-clearing panel, do not recompute any state counts already on the record, do not touch the per-event arm beyond its 281-day bound, do not reopen the 003 funding panel.
+- If the user supplies new scope (a new symbol set, a new data source, or permission to compute returns/forward relationships), that supersedes the default and is the only thing that justifies a new research cycle, a cycle-number increment, and edits to the five research artefacts.
+- Keep the log below intact; append rather than rewrite. Preserve the four archival handoff copies untouched.
+
+---
+
+## Completed Task (no-change activation, 2026-11-20T09:42Z)
+
+Prior task from the durable handoff completed: the last "Initial Task Message (next)" (no pending research work; default no-change activation) was re-read against the durable record and executed as specified. Anchor 2026-11-20T01:58Z is 7h44m old, inside the 24h window of the DELAY-ELIMINATION OVERRIDE, so no probes were repeated and no new endpoint, status, provider, or timing was recorded. Local state re-verified without network: no `data3/` in workspace root or parent; no `dl.py`/`download.py`; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` unchanged and still record missing scripts; pandas absent. `git status --short` clean; five research artefacts and four archival handoff copies byte-unchanged. Cycle number not incremented (922); no research artefact rewritten; no hypothesis added; no score moved; no performance quantities computed. Totals unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17.
+
+Handoff repair (in scope for "write a clear initial task message"): the file had accumulated ~20 near-duplicate no-change entries and three stale/contradictory "Initial Task Message" blocks — including one still asserting the retired "archive static front page only" false negative — so a single authoritative `CURRENT STATE` block was prepended above the historical log. Log content was not deleted; no research content changed. Next mandatory re-probe: after 2026-11-21T01:58Z.
+
 ## Completed Task (no-change activation, 2026-11-18T00:15:42Z)
 Prior task from the durable handoff completed: activation at 2026-11-18T00:15:42Z. Per the DELAY-ELIMINATION OVERRIDE (rule 2), the recorded external constraint was re-read first and confirmed unchanged relative to the last bounded preflight (2026-11-17T17:58:48Z) and the prior no-change activation (2026-11-18T00:14:09Z): Binance REST (api.binance.com/api/v3/time) HTTP 451; Binance archive (data.binance.vision) HTTP 200 static front page only, /data/ HTTP 404; data-stream.binance.vision HTTP 404; stream.binance.com:9443 TLS-only, no usable data stream; Coin Metrics community-api v2/assets HTTP 200 (legacy deprecation banner, no data payload); Coin Metrics v4/catalog and v4/assets HTTP 404. No network probes were repeated; no new endpoint, status, provider, network, or timing recorded. Local state re-checked without network access: `data3/` absent under workspace root and parent; `dl.py`/`download.py` absent (glob returns zero matches); `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` present and still record `python3: can't open file .../dl.py` / `download.py`; pull infrastructure absent. `git status --short` empty; all five research artefacts and the four archival handoff copies byte-unchanged relative to prior cycles. No research-cycle number was incremented, no timestamps refreshed across artifacts, and no identical data-reach report was re-appended (override rules 3 and 5). Offline audit not re-run (no computation possible, no score drift expected). Only canonical HANDOFF.md updated, per override rule 4. All four totals unchanged and re-derivable from prior cycles: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed.
 
