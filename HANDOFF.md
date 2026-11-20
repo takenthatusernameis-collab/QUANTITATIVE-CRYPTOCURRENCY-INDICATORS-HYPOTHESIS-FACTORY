@@ -205,3 +205,5 @@ Thirteen activations produced no change. Each re-read the recorded constraint, c
 | 13 | 2026-11-20T09:37Z | skipped probe, anchor 2026-11-20T01:58Z (fresh) |
 
 Drift note carried forward: the two 2026-11-18 activations that skipped probing against a 15-day-old anchor were outside the override's 24h window. Recorded state is authoritative only while fresh.
+
+No-change activation 2026-11-20T17:59Z: anchor 2026-11-20T01:58Z (~16h01m old, inside the 24h DELAY-ELIMINATION OVERRIDE window) — no network probe run; offline re-check clean (`data3/` absent root+parent, `dl.py`/`download.py` absent, `.log`/`.out` unchanged, pandas absent, `git status --short` clean); cycle stays 922, scores unchanged (001=58 v1.20, 002=46 rejected v1.6, 003=55 v1.17, 004=48 v1.17), rank order 001>003>004.
