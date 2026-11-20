@@ -88,3 +88,37 @@ Prior task from the durable handoff completed: the "Initial Task Message (next)"
 ## Initial Task Message (next)
 
 **Task: no pending research work.** CRYPTO-EDGE-001's open-interest-clearing panel is complete and validated across eight symbols over 2020-09-01 → 2026-11-17; trigger/clearing-state counts and effective-sample bounds are on the record. Do not compute returns, spreads, drawdowns, hit rates, profit factors, Sharpe ratios, or forward relationships. Do not touch CRYPTO-EDGE-001's per-event arm beyond restating its 281-day bound ending 2024-03-31. Do not re-open CRYPTO-EDGE-003's funding panel. Do not add a hypothesis. The four archival handoff copies (HANDOFF-2.md, HANDOFF-3.md, research/HANDOFF.md, research_state/HANDOFF.md) must remain untouched. Constraints: research only; free and open data only; stdlib only (pandas not installed). Awaiting new user-directed scope; default action is a no-change activation respecting the DELAY-ELIMINATION OVERRIDE.
+
+## Completed Task (bounded preflight, 2026-11-20T01:58Z)
+
+Prior task from the durable handoff completed: activation at 2026-11-20T01:57:22Z. The last bounded preflight anchor was 2026-11-18T23:05Z (corrected access verification), which is older than the DELAY-ELIMINATION OVERRIDE's 24-hour window, so exactly **one** bounded preflight was run (status codes only; no datasets downloaded).
+
+Preflight results, 2026-11-20T01:57Z–01:58Z (endpoint/status recorded once):
+**Retired four-URL probe set (unchanged):**
+- api.binance.com/api/v3/time → HTTP 451
+- data.binance.vision/ → HTTP 200 (static front page only)
+- data.binance.vision/data/ → HTTP 404
+- data-stream.binance.vision/ → HTTP 404
+- community-api.coinmetrics.io/v2/assets → HTTP 200 (legacy deprecation banner, no data payload)
+- community-api.coinmetrics.io/v4/catalog → HTTP 404
+- community-api.coinmetrics.io/v4/assets → HTTP 404
+- stream.binance.com:9443 → TCP connect succeeds (no authenticated data stream; connection state varies)
+
+**Corrected nine-probe set (one change detected):**
+- UM daily kline zip (BTCUSDT 2024-01-01) → HTTP 200
+- Spot daily kline zip (BTCUSDT 2024-01-01) → HTTP 200
+- UM monthly fundingRate zip (BTCUSDT 2024-01) → HTTP 200
+- S3 ListObjectsV2 (prefix=data/futures/um/daily/klines/BTCUSDT/1d/) → HTTP 200
+- OKX candles (BTC-USDT 1D) → HTTP 200
+- Coinbase candles (BTC-USD 86400) → HTTP 200
+- Kraken OHLC (XBTUSD 1440) → HTTP 200
+- Bitstamp OHLC (btcusd step=86400) → HTTP 400 (changed from HTTP 200 on 2026-11-18T23:05Z)
+- CoinGecko markets (bitcoin, USD) → HTTP 200 (snapshot only)
+
+Local state re-checked without network access: `data3/` absent under workspace root and parent; `dl.py`/`download.py` absent (glob returns zero matches); `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` present and still record `python3: can't open file .../dl.py` / `download.py`; pull infrastructure absent. `git status --short` empty; all five research artefacts and the four archival handoff copies byte-unchanged relative to prior cycles.
+
+No research-cycle number was incremented and no research artefact was rewritten (override rules 3 and 5); only this canonical HANDOFF.md changed (rule 4). The Bitstamp endpoint change (200 → 400) does not affect CRYPTO-EDGE-001's open-interest-clearing panel (Binance archive only) or any other executable priority. All four totals unchanged and re-derivable from prior cycles: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed.
+
+## Initial Task Message (next)
+
+**Task: no pending research work.** CRYPTO-EDGE-001's open-interest-clearing panel is complete and validated across eight symbols over 2020-09-01 → 2026-11-17; trigger/clearing-state counts and effective-sample bounds are on the record. The bounded preflight anchor is now 2026-11-20T01:58Z; the DELAY-ELIMINATION OVERRIDE permits skipping probes only within 24h of this anchor. Do not compute returns, spreads, drawdowns, hit rates, profit factors, Sharpe ratios, or forward relationships. Do not touch CRYPTO-EDGE-001's per-event arm beyond restating its 281-day bound ending 2024-03-31. Do not re-open CRYPTO-EDGE-003's funding panel. Do not add a hypothesis. The four archival handoff copies (HANDOFF-2.md, HANDOFF-3.md, research/HANDOFF.md, research_state/HANDOFF.md) must remain untouched. Constraints: research only; free and open data only; stdlib only (pandas not installed). Awaiting new user-directed scope; default action is a no-change activation respecting the DELAY-ELIMINATION OVERRIDE.
