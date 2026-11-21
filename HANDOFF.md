@@ -4,7 +4,7 @@
 
 **Research programme:** QUANTITATIVE CRYPTO INDICATORS HYPOTHESIS FACTORY. Research only — no strategy implementation, no empirical validation, no performance quantities.
 
-**Status as of 2026-11-21T04:22:45Z:** no pending research work. The programme is idle and awaiting new user-directed scope. This activation was a no-change activation: the probe anchor 2026-11-21T04:15:35Z measured ~5m51s old, inside the DELAY-ELIMINATION OVERRIDE's 24h window, so no network probe was run and no endpoint, status, provider, or timing was recorded. Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.
+**Status as of 2026-11-21T04:23:12Z:** no pending research work. The programme is idle and awaiting new user-directed scope. This activation was a no-change activation: the probe anchor 2026-11-21T04:15:35Z measured ~7m37s old, inside the DELAY-ELIMINATION OVERRIDE's 24h window, so no network probe was run and no endpoint, status, provider, or timing was recorded. Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.
 **Scores (unchanged, re-derived):**
 | ID | Score | Version | Status |
 |---|---|---|---|
@@ -22,7 +22,7 @@ Rank order 001 > 003 > 004 by 3 and 7 points. Research cycle number: **922** (un
 - Bitstamp OHLC HTTP 200 (changed from 400 on 2026-11-20T01:58Z); affects nothing executable.
 - OKX funding/liquidation history have no retrospective depth (≈33 days funding, ≈9 minutes liquidations) — closed question.
 
-**Verified local state (re-checked 2026-11-21T04:22:45Z):** no `data3/` in workspace root or parent; no `dl.py`/`download.py`; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` still record `python3: can't open file ...`; pandas not installed (stdlib only); this no-change activation ran no network probe (stdlib only; no dataset downloaded); `git status --short` clean at verification except this `HANDOFF.md` update. Archival files were not modified: `HANDOFF-2.md`, `HANDOFF-3.md`, and `research/HANDOFF.md` still match the md5 values recorded above; `research_state/HANDOFF.md` retains the recorded parallel-lineage drift (`56067cfca09d0462a589f317f271bc78`).
+**Verified local state (re-checked 2026-11-21T04:23:12Z):** no `data3/` in workspace root or parent; no `dl.py`/`download.py`; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` still record `python3: can't open file ...`; pandas not installed (stdlib only); this no-change activation ran no network probe (stdlib only; no dataset downloaded); `git status --short` clean at verification except this `HANDOFF.md` update. Archival files were not modified: `HANDOFF-2.md`, `HANDOFF-3.md`, and `research/HANDOFF.md` still match the md5 values recorded above; `research_state/HANDOFF.md` retains the recorded parallel-lineage drift (`56067cfca09d0462a589f317f271bc78`).
 
 **Completed research deliverable (do not redo):** CRYPTO-EDGE-001 open-interest-clearing panel, eight symbols (BTCUSDT, ETHUSDT, SOLUSDT, DOGEUSDT, LINKUSDT, ADAUSDT, BNBUSDT, XRPUSDT) over 2020-09-01 → 2026-11-17 from Binance archive 5-min `metrics` + 1d `premiumIndexKlines` + monthly `fundingRate`. Per-symbol/year trigger and clearing counts, effective-sample bounds at 1–4 weeks, and the 2024-08-05 cascade-day validation (clearing_pct 14.6%, is_clearing true, is_trigger false) are all on the record in the log below and in `research/ACQUISITION_PLAN_CRYPTO-EDGE-001.md`. Extension work is finished; do not repeat it.
 
