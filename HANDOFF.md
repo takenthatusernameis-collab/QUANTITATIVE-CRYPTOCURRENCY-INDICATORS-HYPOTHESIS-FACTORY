@@ -4,7 +4,7 @@
 
 **Research programme:** QUANTITATIVE CRYPTO INDICATORS HYPOTHESIS FACTORY. Research only — no strategy implementation, no empirical validation, no performance quantities.
 
-**Status as of 2026-11-24T15:18:14Z:** no pending research work. Probe anchor moved to 2026-11-24T15:18:14Z after one bounded preflight (anchor was ~31h11m old, past the 24h window). All nine probes HTTP 200. Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
+**Status as of 2026-11-24T15:19:04Z:** no pending research work. Probe anchor moved to 2026-11-24T15:18:14Z after one bounded preflight (anchor was ~31h11m old, past the 24h window). All nine probes HTTP 200. Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
 | ID | Score | Version | Status |
 |---|---|---|---|
 | CRYPTO-EDGE-001 | 58 | v1.20 | active, ranked #1 |
