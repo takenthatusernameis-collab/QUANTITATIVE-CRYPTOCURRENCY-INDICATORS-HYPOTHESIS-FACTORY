@@ -4,7 +4,7 @@
 
 **Research programme:** QUANTITATIVE CRYPTO INDICATORS HYPOTHESIS FACTORY. Research only — no strategy implementation, no empirical validation, no performance quantities.
 
-**Status as of 2026-11-24T04:55:58Z:** no pending research work. Probe anchor 2026-11-23T08:07:29Z measured ~20h48m old at activation time, inside the DELAY-ELIMINATION OVERRIDE's 24h window, so **no** bounded preflight was run and the anchor remains at 2026-11-23T08:07:29Z. Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
+**Status as of 2026-11-24T04:57:16Z:** no pending research work. Probe anchor 2026-11-23T08:07:29Z measured ~20h49m old at activation time, inside the DELAY-ELIMINATION OVERRIDE's 24h window, so **no** bounded preflight was run and the anchor remains at 2026-11-23T08:07:29Z. Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
 | ID | Score | Version | Status |
 |---|---|---|---|
 | CRYPTO-EDGE-001 | 58 | v1.20 | active, ranked #1 |
@@ -38,7 +38,7 @@ Rank order 001 > 003 > 004 by 3 and 7 points. Research cycle number: **922** (un
 
 **INITIAL TASK MESSAGE FOR THE NEXT AGENT**
 
-Task: no pending research work. This is an idle-programme handoff, last verified 2026-11-24T04:55:58Z. Probe anchor: 2026-11-23T08:07:29Z (last bounded preflight; ~20h48m old at this activation). Next mandatory re-probe: after 2026-11-24T08:07:29Z.
+Task: no pending research work. This is an idle-programme handoff, last verified 2026-11-24T04:57:16Z. Probe anchor: 2026-11-23T08:07:29Z (last bounded preflight; ~20h49m old at this activation). Next mandatory re-probe: after 2026-11-24T08:07:29Z.
 
 1. Default action is a **no-change activation**. Read this block first, then compute the probe-anchor age from 2026-11-23T08:07:29Z.
 2. If the anchor is <24h old (i.e. before 2026-11-24T08:07:29Z): skip **every** network probe. Do the offline re-check only — confirm `data3/` absent in workspace root and parent, `dl.py`/`download.py` absent, the three `.log`/`.out` files still show `can't open file`, pandas absent (stdlib only), and no unrelated worktree changes (this root `HANDOFF.md` update may be the only diff) — then append exactly **one** short completed-task entry and refresh the status timestamp.
