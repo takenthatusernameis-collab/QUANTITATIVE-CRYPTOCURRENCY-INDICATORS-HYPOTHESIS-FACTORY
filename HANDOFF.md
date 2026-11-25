@@ -4,7 +4,7 @@
 
 **Research programme:** QUANTITATIVE CRYPTO INDICATORS HYPOTHESIS FACTORY. Research only — no strategy implementation, no empirical validation, no performance quantities.
 
-**Status as of 2026-11-25T17:06:31Z:** no pending research work. Probe anchor 2026-11-25T17:06:31Z (bounded preflight just completed). Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
+**Status as of 2026-11-25T17:12:52Z:** no pending research work. Probe anchor 2026-11-25T17:06:31Z (bounded preflight fresh at this activation). Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
 | ID | Score | Version | Status |
 |---|---|---|---|
 | CRYPTO-EDGE-001 | 58 | v1.20 | active, ranked #1 |
@@ -1019,3 +1019,11 @@ Prior task from the durable handoff completed: the block's "INITIAL TASK MESSAGE
 Offline re-check, 2026-11-25T06:22:14Z (no network): `data3/` absent in workspace root and parent; `dl.py`/`download.py` absent; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` present and still recording `python3: can't open file ...`; pandas absent (stdlib only); `git status --short` clean (this `HANDOFF.md` update is the only diff to tracked files). Archival handoff copies verified byte-identical by md5 (`HANDOFF-2.md` `56986ec13a30f022ae39d7ecd62467a2`, `HANDOFF-3.md` `bbf75157aee720f0b101046f6f694223`, `research/HANDOFF.md` `14a2a2bd6f50875c0b6577a95cd2d67e`, `research_state/HANDOFF.md` `8a3df27503569c37c6955eee2e67cb0d` — the last retaining the recorded parallel-lineage drift, advanced from `c42f68c1a0c3aeab18b994cd4f89ff81`); five research artefacts untouched.
 
 No research-cycle number incremented (stays 922); no research artefact rewritten; no hypothesis added; no score moved; no empirical validation; no performance quantities. Totals unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004. Next mandatory re-probe after 2026-11-25T15:18:14Z.
+
+## Completed Task (no-change activation, 2026-11-25T17:12:52Z)
+
+Prior task from the durable handoff completed: the block's "INITIAL TASK MESSAGE FOR THE NEXT AGENT" (no pending research work; default no-change activation) was re-read and executed as specified. Probe anchor 2026-11-25T17:06:31Z measured ~6m21s old at activation time, inside the 24h window of the DELAY-ELIMINATION OVERRIDE, so **no** network probe was repeated and no new endpoint, status, provider, or timing was recorded.
+
+Offline re-check, 2026-11-25T17:12:52Z (no network): `data3/` absent in workspace root and parent; `dl.py`/`download.py` absent; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` present and still recording `python3: can't open file ...`; pandas absent (stdlib only); `git status --short` clean (this `HANDOFF.md` update is the only diff to tracked files). Archival handoff copies verified byte-identical by md5 (`HANDOFF-2.md` `56986ec13a30f022ae39d7ecd62467a2`, `HANDOFF-3.md` `bbf75157aee720f0b101046f6f694223`, `research/HANDOFF.md` `14a2a2bd6f50875c0b6577a95cd2d67e`, `research_state/HANDOFF.md` `8a3df27503569c37c6955eee2e67cb0d` — the last retaining the recorded parallel-lineage drift); five research artefacts untouched.
+
+No research-cycle number incremented (stays 922); no research artefact rewritten; no hypothesis added; no score moved; no empirical validation; no performance quantities. Totals unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004. Next mandatory re-probe after 2026-11-26T17:06:31Z.
