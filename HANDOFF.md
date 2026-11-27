@@ -4,7 +4,7 @@
 
 **Research programme:** QUANTITATIVE CRYPTO INDICATORS HYPOTHESIS FACTORY. Research only — no strategy implementation, no empirical validation, no performance quantities.
 
-**Status as of 2026-11-27T02:07:37Z:** no pending research work. Probe anchor unchanged at **2026-11-26T18:56:41Z** (this activation was a no-change activation: anchor measured ~7h11m old, inside the 24h DELAY-ELIMINATION OVERRIDE window, so no probe was run and the anchor did not move). Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
+**Status as of 2026-11-27T02:12:40Z:** no pending research work. Probe anchor unchanged at **2026-11-26T18:56:41Z** (this activation was a no-change activation: anchor measured ~7h16m old, inside the 24h DELAY-ELIMINATION OVERRIDE window, so no probe was run and the anchor did not move). Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
 | ID | Score | Version | Status |
 |---|---|---|---|
 | CRYPTO-EDGE-001 | 58 | v1.20 | active, ranked #1 |
@@ -1311,5 +1311,13 @@ No research-cycle number incremented (stays 922); no research artefact rewritten
 Prior task from the durable handoff completed: the block's "INITIAL TASK MESSAGE FOR THE NEXT AGENT" (no pending research work; default no-change activation) was re-read and executed as specified. Probe anchor 2026-11-26T18:56:41Z measured ~7h13m old at activation time (2026-11-27T02:09:34Z), inside the 24h window of the DELAY-ELIMINATION OVERRIDE, so **no** network probe was repeated, the anchor was not moved, and no new endpoint, status, provider, or timing was recorded.
 
 Offline re-check, 2026-11-27T02:09:34Z (no network): `data3/` absent in workspace root and parent; `dl.py`/`download.py` absent; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` present and still recording `python3: can't open file ...`; pandas absent (stdlib only); `git status --short` clean (this `HANDOFF.md` update is the only diff). Archival handoff copies verified by md5 (`HANDOFF-2.md` `56986ec13a30f022ae39d7ecd62467a2`, `HANDOFF-3.md` `bbf75157aee720f0b101046f6f694223`, `research/HANDOFF.md` `14a2a2bd6f50875c0b6577a95cd2d67e`, `research_state/HANDOFF.md` `e5c4695e55d854a5596555a16f72aa66` — matches the canonical block above; no drift); five research artefacts untouched.
+
+No research-cycle number incremented (stays 922); no research artefact rewritten; no hypothesis added; no score moved; no empirical validation; no performance quantities. Totals unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004. Next mandatory re-probe after 2026-11-27T18:56:41Z.
+
+## Completed Task (no-change activation, 2026-11-27T02:12:40Z)
+
+Prior task from the durable handoff completed: the block's "INITIAL TASK MESSAGE FOR THE NEXT AGENT" (no pending research work; default no-change activation) was re-read and executed as specified. Probe anchor 2026-11-26T18:56:41Z measured ~7h16m old at activation time (2026-11-27T02:12:40Z), inside the 24h window of the DELAY-ELIMINATION OVERRIDE, so **no** network probe was repeated, the anchor was not moved, and no new endpoint, status, provider, or timing was recorded.
+
+Offline re-check, 2026-11-27T02:12:40Z (no network): `data3/` absent in workspace root and parent; `dl.py`/`download.py` absent; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` present and still recording `python3: can't open file ...`; pandas absent (stdlib only); `git status --short` clean (this `HANDOFF.md` update is the only diff). Archival handoff copies verified by md5 (`HANDOFF-2.md` `56986ec13a30f022ae39d7ecd62467a2`, `HANDOFF-3.md` `bbf75157aee720f0b101046f6f694223`, `research/HANDOFF.md` `14a2a2bd6f50875c0b6577a95cd2d67e`, `research_state/HANDOFF.md` `e5c4695e55d854a5596555a16f72aa66` — matches the canonical block above; no drift); five research artefacts untouched.
 
 No research-cycle number incremented (stays 922); no research artefact rewritten; no hypothesis added; no score moved; no empirical validation; no performance quantities. Totals unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004. Next mandatory re-probe after 2026-11-27T18:56:41Z.
