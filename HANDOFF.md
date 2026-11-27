@@ -4,7 +4,7 @@
 
 **Research programme:** QUANTITATIVE CRYPTO INDICATORS HYPOTHESIS FACTORY. Research only — no strategy implementation, no empirical validation, no performance quantities.
 
-**Status as of 2026-11-27T10:48:28Z:** no pending research work. Probe anchor unchanged at **2026-11-26T18:56:41Z** (this activation was a no-change activation: anchor measured ~15h52m old, inside the 24h DELAY-ELIMINATION OVERRIDE window, so no probe was run and the anchor did not move). Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
+**Status as of 2026-11-27T19:41:30Z:** no pending research work. Probe anchor moved to **2026-11-27T19:41:30Z** (bounded preflight run: anchor 2026-11-26T18:56:41Z measured ~24h45m old, past the 24h DELAY-ELIMINATION OVERRIDE window, so exactly one nine-probe bounded preflight was executed and the anchor advanced; all nine statuses unchanged from the prior anchor). Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
 | ID | Score | Version | Status |
 |---|---|---|---|
 | CRYPTO-EDGE-001 | 58 | v1.20 | active, ranked #1 |
@@ -14,7 +14,7 @@
 
 Rank order 001 > 003 > 004 by 3 and 7 points. Research cycle number: **922** (unchanged; no-change activations do not increment it).
 
-**Data-reach anchor:** bounded preflight last run 2026-11-26T18:56:41Z (status codes and payload sizes only; no dataset downloaded). Under the DELAY-ELIMINATION OVERRIDE, probes may be skipped only while this anchor is <24h old, i.e. **next mandatory re-probe after 2026-11-27T18:56:41Z**. Anchor results that matter (all nine statuses unchanged from the 2026-11-25T17:06:31Z anchor):
+**Data-reach anchor:** bounded preflight last run 2026-11-27T19:41:30Z (status codes and payload sizes only; no dataset downloaded). Under the DELAY-ELIMINATION OVERRIDE, probes may be skipped only while this anchor is <24h old, i.e. **next mandatory re-probe after 2026-11-28T19:41:30Z**. Anchor results that matter (all nine statuses unchanged from the 2026-11-25T17:06:31Z anchor):
 - Binance archive `data.binance.vision` **is** usable for concrete object keys (HTTP 200) — the working data route for CRYPTO-EDGE-001. The old "front page 200 / `/data/` 404, therefore unreachable" verdict was a directory-key false negative and is retired; do not restate it.
 - `api.binance.com` REST HTTP 451; `data-stream.binance.vision` 404; `stream.binance.com:9443` connects but yields no authenticated stream.
 - Coin Metrics: v2 deprecated banner only; v4 catalog/assets 404.
@@ -38,15 +38,15 @@ Rank order 001 > 003 > 004 by 3 and 7 points. Research cycle number: **922** (un
 
 **INITIAL TASK MESSAGE FOR THE NEXT AGENT**
 
-Task: no pending research work. This is an idle-programme handoff, last verified 2026-11-27T10:48:28Z. Probe anchor: 2026-11-26T18:56:41Z (last bounded preflight; fresh, <24h old). Next mandatory re-probe: after 2026-11-27T18:56:41Z.
+Task: no pending research work. This is an idle-programme handoff, last verified 2026-11-27T19:41:30Z. Probe anchor: 2026-11-27T19:41:30Z (last bounded preflight; fresh, <24h old). Next mandatory re-probe: after 2026-11-28T19:41:30Z.
 
-1. Default action is a **no-change activation**. Read this block first, then compute the probe-anchor age from 2026-11-26T18:56:41Z against the current UTC time.
-2. If the anchor is <24h old (i.e. before 2026-11-27T18:56:41Z): skip **every** network probe. Do the offline re-check only — confirm `data3/` absent in workspace root and parent, `dl.py`/`download.py` absent, the three `.log`/`.out` files (`cm_met.log`, `dl_allswap.out`, `dl_legacy.out`) still show `can't open file`, pandas absent (stdlib only), and no unrelated worktree changes (this root `HANDOFF.md` update may be the only diff) — then append exactly **one** short completed-task entry and refresh the status timestamp. Also re-verify the four archival md5s and record any `research_state/HANDOFF.md` drift without touching that file.
-3. If the anchor is ≥24h old (at or after 2026-11-27T18:56:41Z): run exactly **one** bounded preflight of the nine-probe corrected set (UM daily kline zip, spot daily kline zip, UM monthly `fundingRate` zip, S3 ListObjectsV2, OKX candles, Coinbase candles, Kraken OHLC, Bitstamp OHLC, CoinGecko markets) — status codes and payload sizes only, no dataset download — record the result once, and move the anchor to the probe time.
+1. Default action is a **no-change activation**. Read this block first, then compute the probe-anchor age from 2026-11-27T19:41:30Z against the current UTC time.
+2. If the anchor is <24h old (i.e. before 2026-11-28T19:41:30Z): skip **every** network probe. Do the offline re-check only — confirm `data3/` absent in workspace root and parent, `dl.py`/`download.py` absent, the three `.log`/`.out` files (`cm_met.log`, `dl_allswap.out`, `dl_legacy.out`) still show `can't open file`, pandas absent (stdlib only), and no unrelated worktree changes (this root `HANDOFF.md` update may be the only diff) — then append exactly **one** short completed-task entry and refresh the status timestamp. Also re-verify the four archival md5s and record any `research_state/HANDOFF.md` drift without touching that file.
+3. If the anchor is ≥24h old (at or after 2026-11-28T19:41:30Z): run exactly **one** bounded preflight of the nine-probe corrected set (UM daily kline zip, spot daily kline zip, UM monthly `fundingRate` zip, S3 ListObjectsV2, OKX candles, Coinbase candles, Kraken OHLC, Bitstamp OHLC, CoinGecko markets) — status codes and payload sizes only, no dataset download — record the result once, and move the anchor to the probe time.
 4. Do not re-run the eight-symbol OI-clearing panel; do not recompute counts already on the record; do not touch the per-event arm beyond its 281-day bound; do not reopen the CRYPTO-EDGE-003 funding panel; do not add a hypothesis; do not move a score.
 5. If the user supplies new scope (a new symbol set, a new data source, or permission to compute returns/forward relationships), that supersedes this default and is the only thing that justifies a new research cycle, a cycle-number increment, and edits to the five research artefacts.
 6. Append to the log; never rewrite or reorder historical entries. Only root `HANDOFF.md` is writable — leave the four archival copies (`HANDOFF-2.md`, `HANDOFF-3.md`, `research/HANDOFF.md`, `research_state/HANDOFF.md`) untouched.
-7. `research_state/HANDOFF.md` is being appended by a separate parallel lineage (md5 `e5c4695e55d854a5596555a16f72aa66` as of 2026-11-26T19:07:07Z; drift originally recorded 2026-11-20T18:05Z). Do not merge, edit, or treat its cycle counter as this lineage's; this programme's research cycle is **922**.
+7. `research_state/HANDOFF.md` is being appended by a separate parallel lineage (drift recorded at this cycle: md5 `b096a8143917218508c212c01365e1b3`, vs canonical `e5c4695e55d854a5596555a16f72aa66`). Do not merge, edit, or treat its cycle counter as this lineage's; this programme's research cycle is **922**.
 
 ## Completed Task (no-change activation, 2026-11-27T10:36:33Z)
 
@@ -1393,3 +1393,26 @@ Prior task from the durable handoff completed: the block's "INITIAL TASK MESSAGE
 Offline re-check, 2026-11-27T10:47:14Z (no network): `data3/` absent in workspace root and parent; `dl.py`/`download.py` absent; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` present and still recording `python3: can't open file ...`; pandas absent (stdlib only); `git status --short` clean (this `HANDOFF.md` update is the only diff). Archival handoff copies verified by md5 (`HANDOFF-2.md` `56986ec13a30f022ae39d7ecd62467a2`, `HANDOFF-3.md` `bbf75157aee720f0b101046f6f694223`, `research/HANDOFF.md` `14a2a2bd6f50875c0b6577a95cd2d67e`, `research_state/HANDOFF.md` `e5c4695e55d854a5596555a16f72aa66` — matches the canonical block above; no drift); five research artefacts untouched.
 
 No research-cycle number incremented (stays 922); no research artefact rewritten; no hypothesis added; no score moved; no empirical validation; no performance quantities. Totals unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004. Next mandatory re-probe after 2026-11-27T18:56:41Z.
+
+## Completed Task (bounded preflight, 2026-11-27T19:41:30Z)
+
+Prior task from the durable handoff completed: the block's "INITIAL TASK MESSAGE FOR THE NEXT AGENT" specified a bounded preflight whenever the probe anchor was ≥24h old. Anchor 2026-11-26T18:56:41Z measured ~24h45m old at activation time (2026-11-27T19:41:30Z), past the DELAY-ELIMINATION OVERRIDE's 24-hour window, so exactly **one** bounded preflight was run (status codes and payload sizes only; no dataset downloaded) and the anchor was moved to 2026-11-27T19:41:30Z.
+
+Preflight results, 2026-11-27T19:41:30Z (endpoint/status/payload size recorded once):
+| Probe | Status | Size |
+|---|---|---|
+| UM daily kline zip (BTCUSDT 2024-01-01) | 200 | 353 B |
+| Spot daily kline zip (BTCUSDT 2024-01-01) | 200 | 240 B |
+| UM monthly fundingRate zip (BTCUSDT 2024-01) | 200 | 696 B |
+| S3 ListObjectsV2 prefix=data/futures/um/daily/klines/BTCUSDT/1d/ | 200 | 2712 B |
+| OKX candles (BTC-USDT 1D, limit=1) | 200 | 149 B |
+| Coinbase candles (BTC-USD 86400) | 200 | 21440 B |
+| Kraken OHLC (XBTUSD 1440) | 200 | 62336 B |
+| Bitstamp OHLC (btcusd step=86400) | 400 | 135 B |
+| CoinGecko markets (bitcoin, USD) | 200 | 778 B |
+
+No endpoint status, provider, or reachability changed versus the 2026-11-26T18:56:41Z anchor (all nine statuses unchanged; Bitstamp remains HTTP 400). No new admissible data route appeared; the five priorities therefore remain unexecutable.
+
+Offline re-check, 2026-11-27T19:41:30Z (no network): `data3/` absent in workspace root and parent; `dl.py`/`download.py` absent; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` present and still recording `python3: can't open file ...`; pandas absent (stdlib only); the preflight used stdlib `urllib` only and downloaded no dataset; `git status --short` clean (this `HANDOFF.md` update is the only diff). Archival handoff copies verified by md5 (`HANDOFF-2.md` `56986ec13a30f022ae39d7ecd62467a2`, `HANDOFF-3.md` `bbf75157aee720f0b101046f6f694223`, `research/HANDOFF.md` `14a2a2bd6f50875c0b6577a95cd2d67e` — all byte-identical to the canonical block; `research_state/HANDOFF.md` `b096a8143917218508c212c01365e1b3` — **drift**, the separate parallel lineage has appended again (canonical block records `e5c4695e55d854a5596555a16f72aa66`); this archival file was left untouched); five research artefacts untouched.
+
+No research-cycle number was incremented and no research artefact was rewritten; only this canonical `HANDOFF.md` changed. All four totals unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004. No hypothesis added; no score moved; no empirical validation performed; no performance quantities computed. Next mandatory re-probe after 2026-11-28T19:41:30Z.
