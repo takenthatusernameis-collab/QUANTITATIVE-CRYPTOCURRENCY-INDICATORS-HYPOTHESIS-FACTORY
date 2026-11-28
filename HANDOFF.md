@@ -4,7 +4,7 @@
 
 **Research programme:** QUANTITATIVE CRYPTO INDICATORS HYPOTHESIS FACTORY. Research only — no strategy implementation, no empirical validation, no performance quantities.
 
-**Status as of 2026-11-28T02:20:08Z:** no pending research work. Probe anchor unchanged at **2026-11-27T19:41:30Z** (no-change activation; anchor <24h old so no network probe repeated; next mandatory re-probe after 2026-11-28T19:41:30Z). Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
+**Status as of 2026-11-28T02:22:36Z:** no pending research work. Probe anchor unchanged at **2026-11-27T19:41:30Z** (no-change activation; anchor <24h old so no network probe repeated; next mandatory re-probe after 2026-11-28T19:41:30Z). Offline re-check clean. Cycle number unchanged at 922; no research artefact rewritten; no hypothesis added; no score moved.**Scores (unchanged, re-derived):**
 | ID | Score | Version | Status |
 |---|---|---|---|
 | CRYPTO-EDGE-001 | 58 | v1.20 | active, ranked #1 |
@@ -21,7 +21,7 @@ Rank order 001 > 003 > 004 by 3 and 7 points. Research cycle number: **922** (un
 - Bitstamp OHLC HTTP 400 (changed from 200); affects nothing executable.
 - OKX funding/liquidation history have no retrospective depth (≈33 days funding, ≈9 minutes liquidations) — closed question.
 
-**Verified local state (re-checked 2026-11-28T02:20:08Z):** no `data3/` in workspace root or parent; no `dl.py`/`download.py`; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` still record `python3: can't open file ...`; pandas not installed (stdlib only); `git status --short` clean (this `HANDOFF.md` update is the only diff to tracked files). Archival files were not modified: `HANDOFF-2.md`, `HANDOFF-3.md`, and `research/HANDOFF.md` still match the md5 values recorded above; `research_state/HANDOFF.md` retains the parallel-lineage drift, now `69bc96fd8894346da29811d147a472fb` (parallel lineage appended again since the last canonical check; this archival file was left untouched).
+**Verified local state (re-checked 2026-11-28T02:22:36Z):** no `data3/` in workspace root or parent; no `dl.py`/`download.py`; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` still record `python3: can't open file ...`; pandas not installed (stdlib only); `git status --short` clean (this `HANDOFF.md` update is the only diff to tracked files). Archival files were not modified: `HANDOFF-2.md`, `HANDOFF-3.md`, and `research/HANDOFF.md` still match the md5 values recorded above; `research_state/HANDOFF.md` retains the parallel-lineage drift, now `69bc96fd8894346da29811d147a472fb` (parallel lineage appended again since the last canonical check; this archival file was left untouched).
 
 **Completed research deliverable (do not redo):** CRYPTO-EDGE-001 open-interest-clearing panel, eight symbols (BTCUSDT, ETHUSDT, SOLUSDT, DOGEUSDT, LINKUSDT, ADAUSDT, BNBUSDT, XRPUSDT) over 2020-09-01 → 2026-11-17 from Binance archive 5-min `metrics` + 1d `premiumIndexKlines` + monthly `fundingRate`. Per-symbol/year trigger and clearing counts, effective-sample bounds at 1–4 weeks, and the 2024-08-05 cascade-day validation (clearing_pct 14.6%, is_clearing true, is_trigger false) are all on the record in the log below and in `research/ACQUISITION_PLAN_CRYPTO-EDGE-001.md`. Extension work is finished; do not repeat it.
 
@@ -1508,3 +1508,11 @@ Task: no pending research work. This is an idle-programme handoff, last verified
 5. If the user supplies new scope (a new symbol set, a new data source, or permission to compute returns/forward relationships), that supersedes this default and is the only thing that justifies a new research cycle, a cycle-number increment, and edits to the five research artefacts.
 6. Append to the log; never rewrite or reorder historical entries. Only root `HANDOFF.md` is writable — leave the four archival copies (`HANDOFF-2.md`, `HANDOFF-3.md`, `research/HANDOFF.md`, `research_state/HANDOFF.md`) untouched.
 7. `research_state/HANDOFF.md` is being appended by a separate parallel lineage (drift recorded at this cycle: md5 `69bc96fd8894346da29811d147a472fb`). Do not merge, edit, or treat its cycle counter as this lineage's; this programme's research cycle is **922**.
+
+## Completed Task (no-change activation, 2026-11-28T02:22:36Z)
+
+Prior task from the durable handoff completed: the block's "INITIAL TASK MESSAGE FOR THE NEXT AGENT" (no pending research work; default no-change activation) was re-read and executed as specified. Probe anchor 2026-11-27T19:41:30Z measured ~6h41m old at activation time (2026-11-28T02:22:36Z), inside the 24h window of the DELAY-ELIMINATION OVERRIDE, so **no** network probe was repeated, the anchor was not moved, and no new endpoint, status, provider, or timing was recorded.
+
+Offline re-check, 2026-11-28T02:22:36Z (no network): `data3/` absent in workspace root and parent; `dl.py`/`download.py` absent; `cm_met.log`, `dl_allswap.out`, `dl_legacy.out` present and still recording `python3: can't open file ...`; pandas absent (stdlib only); `git status --short` clean (this root `HANDOFF.md` update is the only diff). Archival handoff copies verified by md5 (`HANDOFF-2.md` `56986ec13a30f022ae39d7ecd62467a2`, `HANDOFF-3.md` `bbf75157aee720f0b101046f6f694223`, `research/HANDOFF.md` `14a2a2bd6f50875c0b6577a95cd2d67e`, `research_state/HANDOFF.md` `69bc96fd8894346da29811d147a472fb` — matches the canonical block above; no drift); five research artefacts untouched.
+
+No research-cycle number incremented (stays 922); no research artefact rewritten; no hypothesis added; no score moved; no empirical validation; no performance quantities. Totals unchanged: CRYPTO-EDGE-001 = 58, v1.20; CRYPTO-EDGE-002 = 46 (rejected), v1.6; CRYPTO-EDGE-003 = 55, v1.17; CRYPTO-EDGE-004 = 48, v1.17. Rank order 001 > 003 > 004. Next mandatory re-probe after 2026-11-28T19:41:30Z.
